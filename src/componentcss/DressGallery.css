@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    flex-direction: column;
+    background-color: #1C1C1C;
+    color: #fff;
+
+}
+
+.gallery__img {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 30px 0px 30px;
+}
+
+.gallery__img > img {
+    border: 5px solid #977350;
+    padding: 10px;
+}
+
+.alternate {
+    text-align: right;
+}
+
+.img-caption {
+    font-family:fantasy;
+    text-align: center;
+    align-self: center 
+}
