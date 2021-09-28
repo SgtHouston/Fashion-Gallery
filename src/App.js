@@ -1,5 +1,7 @@
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
-// import "bootstrap/dist/css/bootstrap.min.css";
+// npm install bootstrap
+import "bootstrap/dist/css/bootstrap.min.css";
+import Home from "./components/Home";
 
 
 function App() {
@@ -10,7 +12,7 @@ function App() {
 
           {/* Page 1  */}
           <Route exact path="/">
-            SLR Couture Future Web Page 
+            <Home /> 
           </Route>
 
           {/* Page 2  */}
@@ -30,7 +32,7 @@ function App() {
 
           {/* Redirect */}
           <Route exact path="*">
-            <Redirect to="/">{/* Redirect to homepage like so */}</Redirect>
+            <Redirect to="/">{/* Redirect to homepage */}</Redirect>
           </Route>
 
 

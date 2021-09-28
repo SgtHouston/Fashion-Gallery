@@ -1,0 +1,26 @@
+.header {
+    margin: 0;
+    min-width: 100vw;
+    border-bottom: 5px solid #977350;
+}
+
+.navlinks{
+    justify-content: space-around;
+}
+
+.header__links{
+    flex-grow: 1;
+    justify-content: space-around;
+}
+
+.header__link{
+    text-decoration: none;
+    color: black;
+    font-family: fantasy;
+    
+    
+}
+
+.header__link:hover {
+    color: #977350;
+}
