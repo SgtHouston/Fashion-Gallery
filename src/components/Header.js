@@ -13,9 +13,9 @@ import '../componentcss/Header.css'
 function Header() {
     return (
 
-            <Navbar className="d-flex header" bg="light" variant="light">
+            <Navbar className="d-flex header fixed-top" bg="light" variant="light">
                 <Container className="d-flex">
-                    <Navbar.Brand className="header__brand d-flex" href="#home">
+                    <Navbar.Brand className="header__brand d-flex col-4" href="#home">
                         <img
                             alt="brand logo"
                             src={Logo}
@@ -24,10 +24,10 @@ function Header() {
                         />{' '}
                         
                     </Navbar.Brand>
-                    <Nav className="d-flex header__links">
-                        <Link className="header__link" href="#about">About Us  </Link>
-                        <Link className="header__link" href="#gallery">Gallery  </Link>
-                        <Link className="header__link" href="#contact">Contact Us  </Link>
+                    <Nav className="d-flex header__links col-8">
+                        <Link className="header__link col-3" href="#about">About Us  </Link>
+                        <Link className="header__link col-3" href="#gallery">Gallery  </Link>
+                        <Link className="header__link col-3" href="#contact">Contact Us  </Link>
                     </Nav>
                 </Container>
             </Navbar>

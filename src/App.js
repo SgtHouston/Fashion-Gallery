@@ -1,7 +1,7 @@
 import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
-import Home from "./components/Home";
+import Home from "./Pages/Home";
 
 
 function App() {

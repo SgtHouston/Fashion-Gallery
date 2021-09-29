@@ -1,12 +1,13 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
+import Group from '../images/BG.jpeg'
 
 
 function LandingPane() {
     return (
         <div className="landingpane">
-            Landing Pane Here
-            There will be words up here in this square and maybe an svg
+            <h1 className="landing__header">Welcome To SLR Couture</h1>
+            <img className="landing-img" src={Group} alt=''></img>
         </div>
     )
 }

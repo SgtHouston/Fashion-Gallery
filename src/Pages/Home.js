@@ -1,16 +1,16 @@
 import React from 'react'
-import Header from './Header'
-import LandingPane from './LandingPane'
-import DressGallery from './DressGallery'
+import Header from '../components/Header'
+import LandingPane from '../components/LandingPane'
+import DressGallery from '../components/DressGallery'
+import Footer from '../components/Footer'
 
 function Home() {
     return (
         <div className="homepage">
             <Header />
-
             <LandingPane />
-
             <DressGallery />
+            <Footer/>
         </div>
     )
 }
