@@ -11,7 +11,7 @@ function DressGallery() {
 
             <div className="gallery__img">
                 <img src={Formal} alt="" ></img>
-                <h4 className="img-caption">Formalwear fitted just for you.<br/>View  our formal designs here.</h4>
+                <h4 className="img-caption">Formalwear fitted just for you.<br/>View our formal designs here.</h4>
             </div>
             <br />
 
@@ -23,7 +23,7 @@ function DressGallery() {
 
             <div className="gallery__img">
                 <img src={Wedding} alt="" ></img>
-                <h4 className="img-caption">A dress for the occasion of a lifetime. <br/>View our wedding designs here.</h4>
+                <h4 className="img-caption">A dress for the occasion of a lifetime. <br/>View our custom wedding designs here.</h4>
             </div>
         </div>
     )
