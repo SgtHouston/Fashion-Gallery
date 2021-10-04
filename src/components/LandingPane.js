@@ -17,9 +17,16 @@ function LandingPane() {
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
             <div className="dressdisplay">
-                <img className='img-fluid'src={dress} alt=""></img>
-                <img className='img-fluid' src={dress} alt=""></img>
-                <img className='img-fluid' src={dress} alt=""></img>
+                <div className="landing__img">
+                    <img className='img-fluid' src={dress} alt=""></img>
+                </div>
+                <div className="landing__img">
+                    <img className='img-fluid' src={dress} alt=""></img>
+                </div>
+                <div className="landing__img">
+                    <img className='img-fluid' src={dress} alt=""></img>
+                </div>
+                
             </div>
         </div>
     )
