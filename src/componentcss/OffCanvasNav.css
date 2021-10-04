@@ -36,5 +36,22 @@
 .OffCanvasChannels {
     display: flex;
     align-content: space-around;
-
 }
+
+.Channel {
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+}
+
+.Channel:hover {
+    text-decoration: none;
+    color: black;
+    opacity: 0.5;
+}
+
+.Channelname:hover {
+    opacity: 0.5
+}
+
+

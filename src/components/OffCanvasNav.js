@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React, { useState } from 'react';
 // npm install react-bootstrap@next bootstrap@5.1.1
-import { ListGroup, Offcanvas, Button } from 'react-bootstrap';
+import { Offcanvas } from 'react-bootstrap';
 // import { useSelector } from 'react-redux';
 // npm install @mui/material
 // import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
@@ -24,19 +24,29 @@ function OffCanvasNav() {
 
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header closeButton>
-                    <Offcanvas.Title className="Offcanvas-Title">Channels</Offcanvas.Title>
+                    <Offcanvas.Title className="Offcanvas-Title"></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    <div className="Channels">{
-                        
-                        /* <ListGroup>
-                        {channels.map((channel, id) => {
-                            return  <Link key={id} className="Channel"
-                                    to={`/chat/${channel.id}`}>
-                                    <p className="ChannelName"><SupervisedUserCircleIcon className="SupervisedUserCircleIcon"/> {channel.name}</p>
-                                    </Link>
-                                })}
-                        </ListGroup> */}
+                    <div className="Channels">
+
+                    <Link className="Channel"
+                            to={'/'}>
+                            <p className="Channelname" onClick={handleClose}>Home</p>
+                    </Link>
+                    <div style={{ borderTop: "2px solid lightgray", marginLeft: 3, marginRight: 3 }}></div>
+                    <br/>
+                    <Link className="Channel"
+                            to={'/about'}>
+                            <p className="Channelname"  onClick={handleClose}>About</p>
+                    </Link>
+                    <div style={{ borderTop: "2px solid lightgray", marginLeft: 3, marginRight: 3 }}></div>
+                    <br/>
+                    <Link className="Channel"
+                            to={'/gallery'}>
+                            <p className="Channelname" onClick={handleClose}>Gallery</p>
+                    </Link>
+                    
+                    
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>

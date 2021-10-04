@@ -2,6 +2,8 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
+import About from "./Pages/About";
+import Gallery from "./Pages/Gallery";
 
 
 function App() {
@@ -17,12 +19,12 @@ function App() {
 
           {/* Page 2  */}
           <Route exact path="/about">
-            
+            <About />
           </Route>
 
           {/* Page 3  */}
           <Route exact path="/gallery">
-            
+            <Gallery />
           </Route>
 
           {/* Page 3:  */}
