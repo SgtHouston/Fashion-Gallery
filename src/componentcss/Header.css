@@ -3,9 +3,10 @@
     min-width: 100vw;
     text-align: center;
     border-bottom: 5px solid #DCC8C8;
-    height: 128px;
+    height: 158px;
     padding: 0px;
     justify-content: space-between;
+    height: auto;
 }
 
 .spacerdiv {
@@ -14,4 +15,6 @@
 
 .logo {
     margin: 16px 0px 16px 0px;
+    height: auto;
+    max-height: 128px;
 }

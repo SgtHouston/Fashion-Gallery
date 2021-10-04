@@ -16,16 +16,15 @@ function DressGallery() {
             <br />
 
             <div className="gallery__img">
-                <img src={Wedding} alt="" ></img>
-                <h4 className="alternate">A dress for the occasion of a lifetime.</h4>
+                <h4 className="img-caption">Shut down prom with a dress like no other. </h4>
+                <img className="alternate" src={Prom} alt="" ></img>
             </div>
             <br />
 
             <div className="gallery__img">
-                <h4 className="img-caption"> prom with a dress like no other. </h4>
-                <img className="img-caption" src={Prom} alt=""></img>
+                <img src={Wedding} alt="" ></img>
+                <h4 className="img-caption">A dress for the occasion of a lifetime.</h4>
             </div>
-            <br />
         </div>
     )
 }

@@ -23,7 +23,7 @@ function OffCanvasNav() {
     
 
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
-                <Offcanvas.Header closeButton>
+                <Offcanvas.Header className="closeBtn" closeButton>
                     <Offcanvas.Title className="Offcanvas-Title"></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
@@ -31,19 +31,28 @@ function OffCanvasNav() {
 
                     <Link className="Channel"
                             to={'/'}>
-                            <p className="Channelname" onClick={handleClose}>Home</p>
+                            <p className="Channelname text-center" onClick={handleClose}>Home</p>
                     </Link>
-                    <div style={{ borderTop: "2px solid lightgray", marginLeft: 3, marginRight: 3 }}></div>
+                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
                     <br/>
+
                     <Link className="Channel"
                             to={'/about'}>
-                            <p className="Channelname"  onClick={handleClose}>About</p>
+                            <p className="Channelname text-center"  onClick={handleClose}>About</p>
                     </Link>
-                    <div style={{ borderTop: "2px solid lightgray", marginLeft: 3, marginRight: 3 }}></div>
+                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
                     <br/>
+
                     <Link className="Channel"
                             to={'/gallery'}>
-                            <p className="Channelname" onClick={handleClose}>Gallery</p>
+                            <p className="Channelname text-center" onClick={handleClose}>Gallery</p>
+                    </Link>
+                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
+                    <br/>
+
+                    <Link className="Channel"
+                            to={'/contact'}>
+                            <p className="Channelname text-center" onClick={handleClose}>Contact Us</p>
                     </Link>
                     
                     

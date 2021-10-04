@@ -1,12 +1,26 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
-import Group from '../images/BG.jpeg'
+// import Group from '../images/BG.jpeg'
+import backgroundVid from '../video/DressVid.mp4'
+import dress from '../images/Dress.jpeg'
+
+
+
 
 
 function LandingPane() {
+
+
     return (
         <div className="landingpane">
-            <img className="landing-img" src={Group} alt=''></img>
+            <video className='videoTag' autoPlay loop muted>
+                <source className='video' src={backgroundVid} type='video/mp4' />
+            </video>
+            <div className="dressdisplay">
+                <img className='img-fluid'src={dress} alt=""></img>
+                <img className='img-fluid' src={dress} alt=""></img>
+                <img className='img-fluid' src={dress} alt=""></img>
+            </div>
         </div>
     )
 }

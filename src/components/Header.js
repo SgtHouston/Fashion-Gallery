@@ -18,8 +18,8 @@ function Header() {
             <img
                 alt="brand logo"
                 src={Logo}
-                height="96"
-                className="d-inline-block logo"
+                height="128"
+                className="d-inline-block logo img-fluid"
             />{' '}
             <div className="spacerdiv">
 

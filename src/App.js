@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Gallery from "./Pages/Gallery";
+import Contact from "./Pages/Contact";
 
 
 function App() {
@@ -30,6 +31,11 @@ function App() {
           {/* Page 3:  */}
           <Route exact path="/gallery/:galleryId">
             
+          </Route>
+
+          {/* Page 3  */}
+          <Route exact path="/contact">
+            <Contact />
           </Route>
 
           {/* Redirect */}
