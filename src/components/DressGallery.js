@@ -11,20 +11,21 @@ function DressGallery() {
 
             <div className="gallery__img">
                 <img src={Formal} alt="" ></img>
-                <h4 className="img-caption">Formalwear fitted just for you.<br/>View our formal designs here.</h4>
-            </div>
-            <br />
-
-            <div className="gallery__img">
-                <h4 className="img-caption">Shut down prom with a dress like no other. <br/>View our prom designs here.</h4>
-                <img className="alternate" src={Prom} alt="" ></img>
+                <h4 className="img-caption">Formalwear fitted just for you.</h4>
             </div>
             <br />
 
             <div className="gallery__img">
                 <img src={Wedding} alt="" ></img>
-                <h4 className="img-caption">A dress for the occasion of a lifetime. <br/>View our custom wedding designs here.</h4>
+                <h4 className="alternate">A dress for the occasion of a lifetime.</h4>
             </div>
+            <br />
+
+            <div className="gallery__img">
+                <h4 className="img-caption"> prom with a dress like no other. </h4>
+                <img className="img-caption" src={Prom} alt=""></img>
+            </div>
+            <br />
         </div>
     )
 }

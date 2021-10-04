@@ -3,7 +3,6 @@
     flex-direction: column;
     background-color: #1C1C1C;
     color: #fff;
-    margin-top: 100px;
 }
 
 .landing__header {
@@ -16,7 +15,7 @@
 
 .landing-img{
     margin: 30px 30px 30px 30px;
-    border: 5px solid #B4B4B4;
+    border: 5px solid #DCC8C8;
     padding: 0px;
     border-radius: 10px;
     max-width: 100%;

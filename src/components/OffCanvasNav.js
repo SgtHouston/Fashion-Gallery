@@ -1,0 +1,47 @@
+import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+// npm install react-bootstrap@next bootstrap@5.1.1
+import { ListGroup, Offcanvas, Button } from 'react-bootstrap';
+// import { useSelector } from 'react-redux';
+// npm install @mui/material
+// import SupervisedUserCircleIcon from '@material-ui/icons/SupervisedUserCircle';
+import MenuIcon from '@mui/icons-material/Menu';
+
+import '../componentcss/OffCanvasNav.css';
+
+function OffCanvasNav() {
+    // const channels = useSelector(state => state.channels)
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+    return (
+        <div className='OffCanvasChannels'>
+
+            
+            <MenuIcon className='LaunchBtn'   style={{ backgroundColor: 'rgba(255, 255, 255, 0.357)'}} variant='primary' onClick={handleShow}/>
+    
+
+            <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
+                <Offcanvas.Header closeButton>
+                    <Offcanvas.Title className="Offcanvas-Title">Channels</Offcanvas.Title>
+                </Offcanvas.Header>
+                <Offcanvas.Body>
+                    <div className="Channels">{
+                        
+                        /* <ListGroup>
+                        {channels.map((channel, id) => {
+                            return  <Link key={id} className="Channel"
+                                    to={`/chat/${channel.id}`}>
+                                    <p className="ChannelName"><SupervisedUserCircleIcon className="SupervisedUserCircleIcon"/> {channel.name}</p>
+                                    </Link>
+                                })}
+                        </ListGroup> */}
+                    </div>
+                </Offcanvas.Body>
+            </Offcanvas>
+        </div>
+    )
+}
+
+export default OffCanvasNav

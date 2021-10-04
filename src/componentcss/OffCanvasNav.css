@@ -1,0 +1,40 @@
+.LaunchBtn {
+    color: black;
+    outline: none;
+    border-color: #fff;
+    background-color: #fff;
+    min-width: 40px;
+    min-height: 40px;
+    margin:44px 25px 44px 25px;
+    align-content: space-around;
+}
+
+.LaunchBtn:hover {
+    color:black;
+    outline: none;
+    border-color: #DCC8C8;
+    border-width: 5px;
+    background-color: #fff;
+}
+
+.LaunchBtn:active {
+    color:black;
+    outline: none;
+    border-color: #DCC8C8;
+    border-width: 5px;
+    background-color: #fff;
+}
+
+.LaunchBtn:after{
+    color:black;
+    outline: none;
+    border-color: #DCC8C8;
+    border-width: 5px;
+    background-color: #fff;
+}
+
+.OffCanvasChannels {
+    display: flex;
+    align-content: space-around;
+
+}

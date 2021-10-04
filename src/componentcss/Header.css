@@ -1,23 +1,17 @@
 .header {
+    display: flex;
     min-width: 100vw;
-    border-bottom: 5px solid #B4B4B4;
-    height: 100px;
-    padding: 0px 20px 0px 0px;
-}
-
-.header__links{
-    flex-grow: 1;
-    justify-content: space-around;
-}
-
-.header__link{
-    text-decoration: none;
-    color: black;
-    
-    font-size: 14pt;
     text-align: center;
+    border-bottom: 5px solid #DCC8C8;
+    height: 128px;
+    padding: 0px;
+    justify-content: space-between;
 }
 
-.header__link:hover {
-    color: #B4B4B4;
+.spacerdiv {
+    margin: 0px 50px 0px 50px;
+}
+
+.logo {
+    margin: 16px 0px 16px 0px;
 }

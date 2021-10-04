@@ -1,9 +1,9 @@
 import React from 'react'
 // npm i react-bootstrap
-import { Navbar, Container, Nav} from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { Navbar, Container } from 'react-bootstrap'
 import Logo from '../images/LogoNoBG.png'
 import '../componentcss/Header.css'
+import OffCanvasNav from './OffCanvasNav'
 // npm install @mui/icons-material
 // import Email from '@mui/icons-material/EmailOutlined';
 // import Burst from '@mui/icons-material/BurstModeOutlined';
@@ -12,26 +12,20 @@ import '../componentcss/Header.css'
 
 function Header() {
     return (
+        <div className="header">
 
-            <Navbar className="d-flex header fixed-top" bg="light" variant="light">
-                <Container className="d-flex">
-                    <Navbar.Brand className="header__brand d-flex col-4" href="#home">
-                        <img
-                            alt="brand logo"
-                            src={Logo}
-                            height="80"
-                            className="d-inline-block align-top"
-                        />{' '}
-                        
-                    </Navbar.Brand>
-                    <Nav className="d-flex header__links col-8">
-                        <Link className="header__link col-3" href="#about">About Us  </Link>
-                        <Link className="header__link col-3" href="#gallery">Gallery  </Link>
-                        <Link className="header__link col-3" href="#contact">Contact Us  </Link>
-                    </Nav>
-                </Container>
-            </Navbar>
+            <OffCanvasNav />
+            <img
+                alt="brand logo"
+                src={Logo}
+                height="96"
+                className="d-inline-block logo"
+            />{' '}
+            <div className="spacerdiv">
 
+            </div>
+    
+        </div>
     )
 }
 
