@@ -5,7 +5,7 @@ function Gallery() {
     return (
         <div>
             <Header />
-            Gallery Page
+            Gallery Page Coming Soon...
         </div>
     )
 }

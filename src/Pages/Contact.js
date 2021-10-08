@@ -5,7 +5,7 @@ function Contact() {
     return (
         <div>
             < Header/>
-            Contact Us Page
+            Contact Us Page Coming Soon...
         </div>
     )
 }

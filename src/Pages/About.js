@@ -5,7 +5,7 @@ function About() {
     return (
         <div>
             <Header />
-            About Page
+            About Page COming Soon...
         </div>
     )
 }
