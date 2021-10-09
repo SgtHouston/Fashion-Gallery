@@ -2,7 +2,7 @@ import React from 'react'
 import '../componentcss/LandingPane.css'
 // import Group from '../images/BG.jpeg'
 import backgroundVid from '../video/DressVid.mp4'
-import dress from '../images/Dress.jpeg'
+import dress from '../images/Twins.jpg'
 
 
 
