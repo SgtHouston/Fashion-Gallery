@@ -27,9 +27,9 @@
 
 .landing__img img {
     transition: transform .5s ease;
-    padding: 5px;
+    /* padding: 5px;
     background-color: #dcc8c8;
-    border-radius: 10px;
+    border-radius: 10px; */
 }
 
 .landing__img:hover img {

@@ -7,9 +7,9 @@ import Footer from '../components/Footer'
 function Home() {
     return (
         <div className="homepage">
-            <Header />
-            <LandingPane />
-            <Footer/>
+            < Header />
+            < LandingPane />
+            < Footer/>
         </div>
     )
 }

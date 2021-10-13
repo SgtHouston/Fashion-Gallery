@@ -4,7 +4,7 @@ import Header from '../components/Header'
 function About() {
     return (
         <div>
-            <Header />
+            < Header />
             About Page Coming Soon...
         </div>
     )
