@@ -18,10 +18,8 @@ function OffCanvasNav() {
     return (
         <div className='OffCanvasChannels'>
 
-            
             <MenuIcon className='LaunchBtn'   style={{ backgroundColor: 'rgba(255, 255, 255, 0.357)'}} variant='primary' onClick={handleShow}/>
     
-
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header className="closeBtn" closeButton>
                     <Offcanvas.Title className="Offcanvas-Title"></Offcanvas.Title>
@@ -29,36 +27,38 @@ function OffCanvasNav() {
                 <Offcanvas.Body>
                     <div className="Channels">
 
-                    <Link className="Channel"
-                            to={'/'}>
-                            <p className="Channelname text-center" onClick={handleClose}>Home</p>
-                    </Link>
-                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
-                    <br/>
+                        <Link className="Channel"
+                                to={'/'}>
+                                <p className="Channelname text-center" onClick={handleClose}> Home</p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
+                        <br/>
 
-                    <Link className="Channel"
-                            to={'/about'}>
-                            <p className="Channelname text-center"  onClick={handleClose}>About</p>
-                    </Link>
-                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
-                    <br/>
+                        <Link className="Channel"
+                                to={'/about'}>
+                                <p className="Channelname text-center"  onClick={handleClose}> About</p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
+                        <br/>
 
-                    <Link className="Channel"
-                            to={'/gallery'}>
-                            <p className="Channelname text-center" onClick={handleClose}>Gallery</p>
-                    </Link>
-                    <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
-                    <br/>
+                        <Link className="Channel"
+                                to={'/gallery'}>
+                                <p className="Channelname text-center" onClick={handleClose}> Gallery</p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
+                        <br/>
 
-                    <Link className="Channel"
-                            to={'/contact'}>
-                            <p className="Channelname text-center" onClick={handleClose}>Contact Us</p>
-                    </Link>
-                    
-                    
+                        <Link className="Channel"
+                                to={'/contact'}>
+                                <p className="Channelname text-center" onClick={handleClose}> Contact Us</p>
+                        </Link>
+                        {/* <div style={{ borderTop: "3px solid #DCC8C8", marginLeft: 3, marginRight: 3 }}></div>
+                        <br/> */}
+
                     </div>
                 </Offcanvas.Body>
             </Offcanvas>
+            
         </div>
     )
 }

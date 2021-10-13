@@ -3,8 +3,8 @@
     outline: none;
     border-color: #fff;
     background-color: #fff;
-    min-width: 60px;
-    min-height: 60px;
+    min-width: 50px;
+    min-height: 50px;
     margin: 49px 25px 49px 25px;
     align-content: space-around;
 }
@@ -58,6 +58,16 @@
     margin-right: 110px;
 }
 
+.btn-close {
+    background-color: #dcc8c8;
+    opacity: .8;
+    
+}
+
+.btn-close:focus {
+    outline: black solid 3px !important; 
+}
+
 .btn-close:active {
-    outline-color: #dcc8c8;
+    outline: black solid 3px!important;
 }

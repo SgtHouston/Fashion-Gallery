@@ -7,6 +7,11 @@
     
 }
 
+.main__img {
+    min-width: 100%;
+    text-align: center;
+}
+
 .dressdisplay {
     margin-top: 50px;
     display: flex;
@@ -18,11 +23,9 @@
     display: flex;
     justify-content: space-around;
     margin: 0px 10px 10px 10px;
-    max-width: 100%;
-    height: max-content; /* [1.1] Set it as per your need */
+    height: 100%; 
     width:max-content;
-    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
-
+    overflow: hidden; 
 }
 
 .landing__img img {
@@ -34,4 +37,5 @@
 
 .landing__img:hover img {
     transform: scale(1.1);
+    opacity: 0.9;
 }
