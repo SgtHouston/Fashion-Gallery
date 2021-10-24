@@ -1,10 +1,10 @@
+
 .landingpane {
     display: flex;
     flex-direction: column;
     background-color: #fff;
     /* border-radius: 10px; */
     height: fit-content;
-    
 }
 
 .videoTag {
