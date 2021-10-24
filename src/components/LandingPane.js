@@ -1,11 +1,12 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
 // import Group from '../images/BG.jpeg'
-import backgroundVid from '../video/DressVid.mp4'
+import backgroundVid from '../video/Mikayla-Edited.mov'
 import Silver from '../images/Silvercopy.jpg'
-import SilverClose from '../images/SilverClose.jpg'
-import GoldClose from '../images/GoldClose.jpg'
-import SpiderClose from '../images/SpiderBodiceClose.jpg'
+import CustomerWorn1 from '../images/IMG_6976.png'
+import CustomerWorn2 from '../images/IMG_6993.png'
+import CustomerWorn3 from '../images/IMG_6994.png'
+
 
 
 
@@ -16,21 +17,19 @@ function LandingPane() {
 
     return (
         <div className="landingpane">
-            {/* <video className='videoTag' autoPlay loop muted>
+            <video className='videoTag' autoPlay loop muted>
                 <source className='video' src={backgroundVid} type='video/mp4' />
-            </video> */}
-            <div className="main__img">
-                <img className='img-fluid' src={Silver} alt=""></img>
-            </div>
+            </video>
+            <br/>
             <div className="dressdisplay">
                 <div className="landing__img">
-                    <img className='img-fluid' src={SilverClose} alt=""></img>
+                    <img className='img-fluid' src={CustomerWorn1} alt="Customer Worn Dress 1"></img>
                 </div>
                 <div className="landing__img">
-                    <img className='img-fluid' src={GoldClose} alt=""></img>
+                    <img className='img-fluid' src={CustomerWorn2} alt="Customer Worn Dress 2"></img>
                 </div>
                 <div className="landing__img">
-                    <img className='img-fluid' src={SpiderClose} alt=""></img>
+                    <img className='img-fluid' src={CustomerWorn3} alt="Customer Worn Dress 3"></img>
                 </div>
                 
                 

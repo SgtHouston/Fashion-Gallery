@@ -12,7 +12,7 @@
 .LaunchBtn:hover {
     color: black;
     outline: none;
-    border-color: #dcc8c8;
+    border-color: #e9baba;
     border-width: 5px;
     background-color: #fff;
 }
@@ -20,7 +20,7 @@
 .LaunchBtn:active {
     color: black;
     outline: none;
-    border-color: #dcc8c8;
+    border-color: #e9baba;
     border-width: 5px;
     background-color: #fff;
 }
@@ -28,7 +28,7 @@
 .LaunchBtn:after {
     color: black;
     outline: none;
-    border-color: #dcc8c8;
+    border-color: #e9baba;
     border-width: 5px;
     background-color: #fff;
 }
@@ -52,14 +52,14 @@
 
 .Channelname:hover {
     opacity: 0.7;
-    background-color: #dcc8c8;
+    background-color: #e9baba;
     border-radius: 20px;
     margin-left: 110px;
     margin-right: 110px;
 }
 
 .btn-close {
-    background-color: #dcc8c8;
+    background-color: #e9baba;
     opacity: .8;
     
 }

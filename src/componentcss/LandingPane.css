@@ -8,6 +8,7 @@
 }
 
 .main__img {
+
     min-width: 100%;
     text-align: center;
 }
@@ -31,7 +32,7 @@
 .landing__img img {
     transition: transform .5s ease;
     /* padding: 5px;
-    background-color: #dcc8c8;
+    background-color: #e9baba;
     border-radius: 10px; */
 }
 

@@ -9,6 +9,7 @@ function Home() {
         <div className="homepage">
             < Header />
             < LandingPane />
+            <DressGallery/>
             < Footer/>
         </div>
     )
