@@ -7,10 +7,9 @@
     
 }
 
-.main__img {
-
-    min-width: 100%;
-    text-align: center;
+.videoTag {
+    min-width: 100vw;
+    
 }
 
 .dressdisplay {
@@ -27,13 +26,11 @@
     height: 100%; 
     width:max-content;
     overflow: hidden; 
+    background-color: #e9baba;
 }
 
 .landing__img img {
-    transition: transform .5s ease;
-    /* padding: 5px;
-    background-color: #e9baba;
-    border-radius: 10px; */
+    transition: transform 1s ease;
 }
 
 .landing__img:hover img {

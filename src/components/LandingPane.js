@@ -1,8 +1,6 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
-// import Group from '../images/BG.jpeg'
 import backgroundVid from '../video/Mikayla-Edited.mov'
-import Silver from '../images/Silvercopy.jpg'
 import CustomerWorn1 from '../images/IMG_6976.png'
 import CustomerWorn2 from '../images/IMG_6993.png'
 import CustomerWorn3 from '../images/IMG_6994.png'
