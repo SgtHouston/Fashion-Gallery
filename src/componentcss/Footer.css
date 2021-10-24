@@ -4,6 +4,25 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 0%;
+    background-color: #e9baba;
+    position:static;
+    bottom: 0;
+    width: 100%;
+}
 
+.footerlink {
+    text-decoration: none;
+    color: black;
+    font-weight:900;
+    font-size: 20px;
+}
+
+.footerlink:hover {
+    color:#fff;
+}
+
+.footerlinks {
+    justify-content: space-around;
+    
 }
 
