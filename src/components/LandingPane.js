@@ -18,9 +18,6 @@ import RightRibbon from '../images/ribbon2.png'
 
 
 
-
-
-
 function LandingPane() {
 
 
