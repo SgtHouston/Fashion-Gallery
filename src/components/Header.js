@@ -1,6 +1,6 @@
 import React from 'react'
 // npm i react-bootstrap
-import { Navbar, Container } from 'react-bootstrap'
+
 import Logo from '../images/LogoNoBG.png'
 import '../componentcss/Header.css'
 import OffCanvasNav from './OffCanvasNav'
@@ -15,12 +15,12 @@ function Header() {
         <div className="header">
 
             <OffCanvasNav />
-            <img
+            <a href="/" alt=""><img
                 alt="brand logo"
                 src={Logo}
                 height="128"
                 className="d-inline-block logo img-fluid"
-            />{' '}
+            /></a>
             <div className="spacerdiv">
 
             </div>

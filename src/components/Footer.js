@@ -5,7 +5,7 @@ import Logo from '../images/LogoNoBG.png'
 function Footer() {
     return (
         <nav className="navbar navbar-dark text-center">
-            <div className="col-6">
+            <div className="col-12">
                 <div className="footerlinks text-center d-flex">
                     <div className="my-3">
                         <a className="footerlink" href="/" alt=''>Home</a>

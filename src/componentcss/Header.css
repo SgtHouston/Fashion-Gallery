@@ -2,11 +2,12 @@
     display: flex;
     min-width: 100vw;
     text-align: center;
-    border-bottom: 5px solid #e9baba;
+    border-bottom: 5px solid #aaa8a8;
     height: 158px;
     padding: 0px;
     justify-content: space-between;
-    height: auto;
+    background-color: #fff;
+    
 }
 
 .spacerdiv {

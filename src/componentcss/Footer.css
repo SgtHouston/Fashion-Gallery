@@ -4,10 +4,10 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 0%;
-    background-color: #e9baba;
+    background-color: #aaa8a8;
     position:static;
-    bottom: 0;
-    width: 100%;
+    bottom: 0%;
+    min-width: 100vw;
 }
 
 .footerlink {

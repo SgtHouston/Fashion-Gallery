@@ -31,28 +31,28 @@ function OffCanvasNav() {
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> Home</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #e9baba", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/about'}>
                                 <p className="Channelname text-center"  onClick={handleClose}> About</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #e9baba", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/gallery'}>
                                 <p className="Channelname text-center" onClick={handleClose}> Gallery</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #e9baba", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/contact'}>
                                 <p className="Channelname text-center" onClick={handleClose}> Contact Us</p>
                         </Link>
-                        {/* <div style={{ borderTop: "3px solid #e9baba", marginLeft: 3, marginRight: 3 }}></div>
+                        {/* <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
                         <br/> */}
 
                     </div>
