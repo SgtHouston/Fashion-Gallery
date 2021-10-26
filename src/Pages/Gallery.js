@@ -25,7 +25,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <a href="/gallery/greengold"><img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress1}
                         alt="First slide"
                         
@@ -34,7 +34,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className= "w-66 img-fluid carousel-img"
                         src={dress2}
                         alt="Second slide"
                     />
@@ -42,7 +42,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress3}
                         alt="Third slide"
                     />
@@ -50,7 +50,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress4}
                         alt="Fourth slide"
                     />
@@ -58,7 +58,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress5}
                         alt="Fifth slide"
                     />
@@ -66,7 +66,7 @@ function Gallery() {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress6}
                         alt="Sixth slide"
                     />
@@ -75,7 +75,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress7}
                         alt="Seventh slide"
                     />
@@ -83,7 +83,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress8}
                         alt="Eighth slide"
                     />
@@ -91,7 +91,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress9}
                         alt="Ninth slide"
                     />
@@ -99,7 +99,7 @@ function Gallery() {
 
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 img-fluid carousel-img"
+                        className="w-66 img-fluid carousel-img"
                         src={dress10}
                         alt="Tenth slide"
                     />

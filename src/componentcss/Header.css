@@ -2,8 +2,8 @@
     display: flex;
     min-width: 100vw;
     text-align: center;
-    border-bottom: 5px solid #aaa8a8;
-    height: 158px;
+    /* border-bottom: 5px solid #aaa8a8; */
+    height: 74px;
     padding: 0px;
     justify-content: space-between;
     background-color: #fff;
@@ -15,7 +15,7 @@
 }
 
 .logo {
-    margin: 10px 0px 0px 0px;
+    margin: 5px 0px 0px 0px;
     height: auto;
-    max-height: 128px;
+    max-height: 64px;
 }

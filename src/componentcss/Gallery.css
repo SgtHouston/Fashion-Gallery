@@ -3,10 +3,12 @@
     flex-direction: column;
     align-items: center;
     background-color: #aaa8a8;
+    min-height: 100vh;
 }
 
 .Carousel {
-    max-width:100vw;
+    min-width:75vw;
+    max-width:75vw;
 }
 
 .carousel-control {

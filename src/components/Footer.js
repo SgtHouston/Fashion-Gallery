@@ -1,27 +1,26 @@
 import React from 'react'
 import '../componentcss/Footer.css'
-import Logo from '../images/LogoNoBG.png'
+
 
 function Footer() {
     return (
         <nav className="navbar navbar-dark text-center">
             <div className="col-12">
                 <div className="footerlinks text-center d-flex">
-                    <div className="my-3">
-                        <a className="footerlink" href="/" alt=''>Home</a>
+                    <div className="my-1">
+                        <a className="footerlink" href="/" alt=''>HOME</a>
                     </div>
-                    <div className="my-3">
-                        <a className="footerlink" href="/about" alt=''>About</a>
+                    <div className="my-1">
+                        <a className="footerlink" href="/about" alt=''>ABOUT</a>
                     </div>
-                    <div className="my-3">
-                        <a className="footerlink" href="/gallery" alt=''>Gallery</a>
+                    <div className="my-1">
+                        <a className="footerlink" href="/gallery" alt=''>LOOKBOOK</a>
                     </div>
-                    <div className="my-3">
-                        <a className="footerlink" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com">Contact Us</a>
+                    <div className="my-1">
+                        <a className="footerlink" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com">CONTACT US</a>
                     </div>
                 </div>
             </div>
-            <a href="/"><img src={Logo} width="256" alt="" /></a>
             <h5 className="footer__text">&#169; 2021  SLR Couture.  All Rights Reserved </h5>
         </nav>
     )

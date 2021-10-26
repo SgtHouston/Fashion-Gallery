@@ -13,8 +13,7 @@ import CustomerWorn9 from '../images/Couple1.JPG'
 import CustomerWorn10 from '../images/Couple2.JPG'
 import CustomerWorn11 from '../images/Couple3.JPG'
 import CustomerWorn12 from '../images/PinkFlower.JPG'
-import LeftRibbon from '../images/ribbon1.png'
-import RightRibbon from '../images/ribbon2.png'
+
 
 
 
@@ -27,9 +26,9 @@ function LandingPane() {
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="32"></img>
+                
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
-                <img src={RightRibbon} alt="" width="32"></img>
+
             </div>
             <div className="dressdisplay">
                 <div className="landing__img">
@@ -43,15 +42,15 @@ function LandingPane() {
                 </div>
             </div>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="32"></img>
+                
                 <span className="text-center landing_text"> Look And Feel Your Best With SLR Couture </span>
-                <img src={RightRibbon} alt="" width="32"></img>
+
             </div>
             <img className='img-fluid large-img' src={CustomerWorn4} alt="Customer Worn Dress 4" ></img>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="30"></img>
+                
                 <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
-                <img src={RightRibbon} alt="" width="30"></img>
+                
             </div>
             <div className="dressdisplay">
                 <div className="landing__img">
@@ -65,15 +64,15 @@ function LandingPane() {
                 </div>
             </div>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="30"></img>
+                
                 <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
-                <img src={RightRibbon} alt="" width="30"></img>
+
             </div>
             <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="30"></img>
-                <span className="text-center landing_text"> Collaborate With Our Designers To Create A Work Of Art </span>
-                <img src={RightRibbon} alt="" width="30"></img>
+                
+                <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
+
             </div>
             <div className="dressdisplay">
                 <div className="landing__img">
@@ -87,11 +86,11 @@ function LandingPane() {
                 </div>
             </div>
             <div className="text-center">
-                <img src={LeftRibbon} alt="" width="30"></img>
+                
                 <span className="text-center landing_text"> Make Your Special Occasion One To Remember </span>
-                <img src={RightRibbon} alt="" width="30"></img>
+
             </div>
-            <img className='img-fluid large-img' src={CustomerWorn12} alt="Customer Worn Dress 12" ></img>
+            <img className='img-fluid large-img-last' src={CustomerWorn12} alt="Customer Worn Dress 12" ></img>
         </div>
     )
 }
