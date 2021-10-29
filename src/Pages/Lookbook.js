@@ -1,30 +1,31 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import '../componentcss/Gallery.css'
+import '../componentcss/Lookbook.css'
 import { Carousel } from 'react-bootstrap'
-import dress1 from '../images/DressLogo Pics/1.JPG'
-import dress2 from '../images/DressLogo Pics/2.JPG'
-import dress3 from '../images/DressLogo Pics/3.JPG'
-import dress4 from '../images/DressLogo Pics/4.JPG'
-import dress5 from '../images/DressLogo Pics/5.JPG'
-import dress6 from '../images/DressLogo Pics/6.JPG'
-import dress7 from '../images/DressLogo Pics/7.JPG'
-import dress8 from '../images/DressLogo Pics/8.JPG'
-import dress9 from '../images/DressLogo Pics/9.JPG'
-import dress10 from '../images/DressLogo Pics/10.JPG'
+import dress1 from '../images/DressLogo Pics/11.png'
+import dress2 from '../images/DressLogo Pics/2.png'
+import dress3 from '../images/DressLogo Pics/3.png'
+import dress4 from '../images/DressLogo Pics/4.png'
+import dress5 from '../images/DressLogo Pics/5.png'
+import dress6 from '../images/DressLogo Pics/6.png'
+import dress7 from '../images/DressLogo Pics/7.png'
+import dress8 from '../images/DressLogo Pics/8.png'
+import dress9 from '../images/DressLogo Pics/9.png'
+import dress10 from '../images/DressLogo Pics/10.png'
+import dress11 from '../images/DressLogo Pics/1.png'
 
 
 
-function Gallery() {
+function Lookbook() {
     return (
-        <div className="Gallery">
+        <div className="Lookbook">
             < Header />
             <Carousel className="Carousel text-center" fade>
 
 
                 <Carousel.Item>
-                    <a href="/gallery/greengold"><img
+                    <a href="/lookbook/greengold"><img
                         className="w-66 img-fluid carousel-img"
                         src={dress1}
                         alt="First slide"
@@ -105,6 +106,15 @@ function Gallery() {
                     />
                 </Carousel.Item>
 
+                <Carousel.Item>
+                    <img
+                        className="w-66 img-fluid carousel-img"
+                        src={dress11}
+                        alt="Eleventh slide"
+                    />
+                </Carousel.Item>
+
+
             </Carousel>
             
             < Footer />
@@ -112,4 +122,4 @@ function Gallery() {
     )
 }
 
-export default Gallery
+export default Lookbook

@@ -14,7 +14,7 @@ function Footer() {
                         <a className="footerlink" href="/about" alt=''>ABOUT</a>
                     </div>
                     <div className="my-1">
-                        <a className="footerlink" href="/gallery" alt=''>LOOKBOOK</a>
+                        <a className="footerlink" href="/lookbook" alt=''>LOOKBOOK</a>
                     </div>
                     <div className="my-1">
                         <a className="footerlink" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com">CONTACT US</a>

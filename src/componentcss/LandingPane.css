@@ -20,7 +20,7 @@
 }
 
 .dressdisplay {
-    margin: 0px 35px 0px 20px;
+    margin: 0px 5px 0px 20px;
     display: flex;
     justify-content: space-around;
 }
@@ -28,7 +28,7 @@
 .landing__img {
     display: flex;
     justify-content: space-around;
-    margin: 20px 5px 20px 5px;
+    margin: 20px 35px 20px 5px;
     height: 100%; 
     width:max-content;
     overflow: hidden; 
@@ -41,7 +41,7 @@
 }
 
 .landing__img:hover img {
-    transform: scale(1.3);
+    transform: scale(1.25);
     opacity: 0.9;
 }
 

@@ -42,7 +42,7 @@ function OffCanvasNav() {
                         <br/>
 
                         <Link className="Channel"
-                                to={'/gallery'}>
+                                to={'/lookbook'}>
                                 <p className="Channelname text-center" onClick={handleClose}> LOOKBOOK</p>
                         </Link>
                         <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-d
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Gallery from "./Pages/Gallery";
+import Lookbook from "./Pages/Lookbook";
 import Contact from "./Pages/Contact";
 
 
@@ -24,12 +24,12 @@ function App() {
           </ Route>
 
           {/* Page 3  */}
-          < Route exact path="/gallery">
-            < Gallery />
+          < Route exact path="/lookbook">
+            < Lookbook />
           </ Route>
 
           {/* Page 3:  */}
-          < Route exact path="/gallery/:galleryId">
+          < Route exact path="/lookbook/:lookbookId">
             
           </ Route>
 
