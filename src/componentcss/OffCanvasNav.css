@@ -2,7 +2,7 @@
     color: black;
     outline: none;
     border-color: #fff;
-    background-color: #fff;
+    
     min-width: 40px;
     min-height: 40px;
     margin: 17px 25px 17px 25px;
@@ -12,24 +12,24 @@
 .LaunchBtn:hover {
     color: black;
     outline: none;
-    border-color: #aaa8a8;
+    border-color: #D3D1CD;
     border-width: 5px;
-    background-color: #fff;
+    
     
 }
 
 .LaunchBtn:active {
     color: black;
     outline: none;
-    border-color: #aaa8a8;
+    border-color: #D3D1CD;
     border-width: 5px;
-    background-color: #fff;
+    
 }
 
 .LaunchBtn:after {
     color: black;
     outline: none;
-    border-color: #aaa8a8;
+    border-color: #D3D1CD;
     border-width: 5px;
     background-color: #fff;
 }
@@ -54,7 +54,7 @@
 
 .Channelname:hover {
     opacity: 0.7;
-    background-color: #aaa8a8;
+    background-color: #D3D1CD;
     border-radius: 20px;
     margin-left: 110px;
     margin-right: 110px;
@@ -62,7 +62,7 @@
 }
 
 .btn-close {
-    background-color: #aaa8a8;
+    background-color: #D3D1CD;
     opacity: .8;
     
 }

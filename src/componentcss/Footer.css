@@ -4,10 +4,11 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 0%;
-    background-color: #aaa8a8;
+    background-color: #D3D1CD;
     position:static;
     bottom: 0%;
     min-width: 100vw;
+    min-height: 30rem;
 }
 
 @font-face {

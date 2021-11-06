@@ -2,11 +2,11 @@
     display: flex;
     min-width: 100vw;
     text-align: center;
-    /* border-bottom: 5px solid #aaa8a8; */
+    /* border-bottom: 5px solid #D3D1CD; */
     height: 74px;
     padding: 0px;
     justify-content: space-between;
-    background-color: #fff;
+    background-color: #D3D1CD;
     
 }
 

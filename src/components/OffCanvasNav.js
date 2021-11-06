@@ -18,7 +18,7 @@ function OffCanvasNav() {
     return (
         <div className='OffCanvasChannels'>
 
-            <MenuIcon className='LaunchBtn'   style={{ backgroundColor: 'rgba(255, 255, 255, 0.357)'}} variant='primary' onClick={handleShow}/>
+            <MenuIcon className='LaunchBtn' variant='primary' onClick={handleShow}/>
     
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header className="closeBtn" closeButton>
@@ -31,28 +31,28 @@ function OffCanvasNav() {
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #D3D1CD", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/about'}>
                                 <p className="Channelname text-center"  onClick={handleClose}> ABOUT</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #D3D1CD", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/lookbook'}>
                                 <p className="Channelname text-center" onClick={handleClose}> LOOKBOOK</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid #D3D1CD", marginLeft: 3, marginRight: 3 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/contact'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONTACT US</p>
                         </Link>
-                        {/* <div style={{ borderTop: "3px solid #aaa8a8", marginLeft: 3, marginRight: 3 }}></div>
+                        {/* <div style={{ borderTop: "3px solid #D3D1CD", marginLeft: 3, marginRight: 3 }}></div>
                         <br/> */}
 
                     </div>

@@ -6,17 +6,17 @@ function Footer() {
     return (
         <nav className="navbar navbar-dark text-center">
             <div className="col-12">
-                <div className="footerlinks text-center d-flex">
-                    <div className="my-1">
+                <div className="footerlinks text-center ">
+                    <div className="my-3">
                         <a className="footerlink" href="/" alt=''>HOME</a>
                     </div>
-                    <div className="my-1">
+                    <div className="my-3">
                         <a className="footerlink" href="/about" alt=''>ABOUT</a>
                     </div>
-                    <div className="my-1">
+                    <div className="my-3">
                         <a className="footerlink" href="/lookbook" alt=''>LOOKBOOK</a>
                     </div>
-                    <div className="my-1">
+                    <div className="my-3">
                         <a className="footerlink" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com">CONTACT US</a>
                     </div>
                 </div>

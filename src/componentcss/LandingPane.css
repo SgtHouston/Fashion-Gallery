@@ -6,7 +6,7 @@
 .landingpane {
     display: flex;
     flex-direction: column;
-    background-color: #aaa8a8;
+    background-color: black;
     height: fit-content;
     font-family: SLRScript;
     font-size: 3.5vw;
@@ -16,11 +16,11 @@
 }
 
 .videoTag {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 7.5px 0px;
 }
 
 .dressdisplay {
-    margin: 0px 5px 0px 20px;
+    margin: 0px 0px 0px 0px;
     display: flex;
     justify-content: space-around;
 }
@@ -28,12 +28,13 @@
 .landing__img {
     display: flex;
     justify-content: space-around;
-    margin: 20px 35px 20px 5px;
+    margin: 7.5px 7.5px 7.5px 7.5px;
     height: 100%; 
     width:max-content;
     overflow: hidden; 
-    background-color: #fff;
-    border-radius: 5px;
+    
+    
+    /* border-radius: 5px; */
 }
 
 .landing__img img {
@@ -46,19 +47,18 @@
 }
 
 .large-img {
-    margin: 20px 40px 20px 25px;
-    border-radius: 5px;
+    margin: 7.5px 0px 7.5px 0px;
+    /* border-radius: 5px; */
 }
 
 .large-img-last {
-    margin: 20px 40px 0px 25px;
-    border-radius: 5px;
+    margin: 0px 0px 0px 0px;
+    /* border-radius: 5px; */
 }
 
-.landing_text {
-    /* background-color: black; */
-    border-radius: 20px;
-    padding: 0px 10px 0px 10px;
-    /* color: #fff; */
-    
+.vidpic-div {
+    display: flex;
+    margin: 7.5px 0px 7.5px 0px;
 }
+
+
