@@ -30,9 +30,9 @@ function LandingPane() {
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
 
-            {/* <div className="text-center">
+            <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
-            </div> */}
+            </div>
             <div className="dressdisplay">
                 <div className="landing__img">
                     <img className='img-fluid' src={CustomerWorn1} alt="Customer Worn Dress 1"></img>
@@ -45,13 +45,10 @@ function LandingPane() {
                 </div>
             </div>
 
-            {/* <div className="text-center">
+            <div className="text-center">
                 <span className="text-center landing_text"> Look And Feel Your Best With SLR Couture </span>
-            </div> */}
+            </div>
             
-            {/* <div className="text-center">
-                <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
-            </div> */}
             <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn13} alt="Customer Worn Dress 13" ></img>
@@ -60,13 +57,13 @@ function LandingPane() {
                     <img className='img-fluid' src={CustomerWorn15} alt="Customer Worn Dress 15" ></img>
                 </div>
             </div>
-            {/* <div className="text-center">
-                <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
-            </div> */}
+            <div className="text-center">
+                <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
+            </div>
             <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
-            {/* <div className="text-center">
-                <span className="text-center landing_text"> Another Creative Line Here </span>
-            </div> */}
+            <div className="text-center">
+                <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
+            </div>
             <div className="dressdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn5} alt="Customer Worn Dress 5" ></img>
@@ -78,13 +75,13 @@ function LandingPane() {
                     <img className='img-fluid' src={CustomerWorn7} alt="Customer Worn Dress 7" ></img>
                 </div>
             </div>
-            {/* <div className="text-center">
+            <div className="text-center">
                 <span className="text-center landing_text"> Make Your Special Occasion One To Remember </span>
-            </div> */}
+            </div>
             <img className='img-fluid large-img' src={CustomerWorn12} alt="Customer Worn Dress 12" ></img>
-            {/* <div className="text-center">
-                <span className="text-center landing_text"> Another Creative Line Here </span>
-            </div> */}
+            <div className="text-center">
+                <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
+            </div>
             <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className='img-fluid' src={CustomerWorn14} alt="Customer Worn Dress 14" ></img>
@@ -93,9 +90,9 @@ function LandingPane() {
                     <img className='img-fluid' src={CustomerWorn16} alt="Customer Worn Dress 16" ></img>
                 </div>
             </div>
-            {/* <div className="text-center">
-                <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
-            </div> */}
+            <div className="text-center">
+                <span className="text-center landing_text"> Another Creative Line Here </span>
+            </div>
             <div className="dressdisplay dressdisplay-last">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn9} alt="Customer Worn Dress 9" ></img>
