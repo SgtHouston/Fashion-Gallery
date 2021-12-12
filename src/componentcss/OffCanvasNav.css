@@ -44,19 +44,18 @@
     text-decoration: none;
     color: black;
     opacity: 0.7;
-    
 }
 
 .Channelname {
-    padding: 5px 0px 5px 0px;
+    padding: 3px 0px 3px 0px;
 }
 
 .Channelname:hover {
     opacity: 0.7;
     background-color:#b59b29;
     border-radius: 20px;
-    margin-left: 110px;
-    margin-right: 110px;
+    margin-left: 80px;
+    margin-right: 80px;
     
 }
 
@@ -78,5 +77,5 @@
 .offcanvas-header {
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border-bottom: 3px solid black;
+    border-bottom: 4px solid #b59b29;
 }

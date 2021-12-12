@@ -7,7 +7,7 @@
     justify-content: space-between;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    
+    scrollbar-color: rebeccapurple green;
     
     
 }
@@ -21,4 +21,18 @@
     height: auto;
     max-height: 96px;
     
+}
+/* Works on Chrome, Edge, and Safari */
+body::-webkit-scrollbar {
+    width: 11px;
+}
+    
+body::-webkit-scrollbar-track {
+    background: black;
+}
+    
+body::-webkit-scrollbar-thumb {
+    background-color: #b59b29;
+    border-radius: 20px;
+    border: 3px solid black;
 }

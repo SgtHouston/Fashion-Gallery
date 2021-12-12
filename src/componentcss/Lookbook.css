@@ -10,18 +10,21 @@
 }
 
 .Carousel {
+    border-top: 4px solid black;
     min-width:75vw;
     max-width:75vw;
+    border-bottom: 4px solid black;
+    
 }
 
-.carousel-control {
+/* .carousel-control {
     color: #b59b29;
-}
-
-/* .carousel-control-prev-icon, .carousel-control-next-icon{
-    background-color: #D1E8E2;
-    border-radius: 50%;
 } */
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    background-color: #b59b29;
+    border-radius: 50%;
+}
 
 .carousel-indicators {
     background-color: #d3d1cd53;
