@@ -13,19 +13,14 @@
     outline: none;
     border-color: #b59b29;
     border-width: 5px;
-    
-    
 }
 
 .LaunchBtn:active {
     color: #b59b29;
-    
-    
 }
 
 .LaunchBtn:after {
     color: black;
-    
 }
 
 .OffCanvasChannels {
@@ -37,7 +32,6 @@
     text-decoration: none;
     color: black;
     font-size: 24px;
-    
 }
 
 .Channel:hover {
@@ -56,7 +50,6 @@
     border-radius: 20px;
     margin-left: 80px;
     margin-right: 80px;
-    
 }
 
 .closeBtn:focus {

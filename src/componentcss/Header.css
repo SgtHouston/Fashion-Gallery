@@ -7,9 +7,6 @@
     justify-content: space-between;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    scrollbar-color: rebeccapurple green;
-    
-    
 }
 
 .spacerdiv {
@@ -20,17 +17,17 @@
     margin: 5px 0px 0px 0px;
     height: auto;
     max-height: 96px;
-    
 }
+
 /* Works on Chrome, Edge, and Safari */
 body::-webkit-scrollbar {
     width: 11px;
 }
-    
+
 body::-webkit-scrollbar-track {
     background: black;
 }
-    
+
 body::-webkit-scrollbar-thumb {
     background-color: #b59b29;
     border-radius: 20px;
