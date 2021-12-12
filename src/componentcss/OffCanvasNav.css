@@ -2,36 +2,30 @@
     color: black;
     outline: none;
     border-color: #fff;
-    
     min-width: 40px;
     min-height: 40px;
-    margin: 17px 25px 17px 25px;
+    margin: 33px 25px 33px 25px;
     align-content: space-around;
 }
 
 .LaunchBtn:hover {
     color: black;
     outline: none;
-    border-color: #D3D1CD;
+    border-color: #b59b29;
     border-width: 5px;
     
     
 }
 
 .LaunchBtn:active {
-    color: black;
-    outline: none;
-    border-color: #D3D1CD;
-    border-width: 5px;
+    color: #b59b29;
+    
     
 }
 
 .LaunchBtn:after {
     color: black;
-    outline: none;
-    border-color: #D3D1CD;
-    border-width: 5px;
-    background-color: #fff;
+    
 }
 
 .OffCanvasChannels {
@@ -43,6 +37,7 @@
     text-decoration: none;
     color: black;
     font-size: 24px;
+    
 }
 
 .Channel:hover {
@@ -52,25 +47,36 @@
     
 }
 
+.Channelname {
+    padding: 5px 0px 5px 0px;
+}
+
 .Channelname:hover {
     opacity: 0.7;
-    background-color: #D3D1CD;
+    background-color:#b59b29;
     border-radius: 20px;
     margin-left: 110px;
     margin-right: 110px;
     
 }
 
-.btn-close {
-    background-color: #D3D1CD;
-    opacity: .8;
-    
+.closeBtn:focus {
+    color:#b59b29;
 }
 
-.btn-close:focus {
-    outline: black solid 3px !important; 
+.btn-close {
+    opacity: .8;
+    color: black;
 }
 
 .btn-close:active {
-    outline: black solid 3px!important;
+    background-color: #b59b29;
+    outline: 3px solid black !important;
+}
+
+
+.offcanvas-header {
+    background-image: url('../images/WhiteMarble2.png');
+    background-size: cover;
+    border-bottom: 3px solid black;
 }

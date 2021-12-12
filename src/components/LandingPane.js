@@ -52,7 +52,7 @@ function LandingPane() {
             {/* <div className="text-center">
                 <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
             </div> */}
-            <div className="dressdisplay">
+            <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn13} alt="Customer Worn Dress 13" ></img>
                 </div>
@@ -85,7 +85,7 @@ function LandingPane() {
             {/* <div className="text-center">
                 <span className="text-center landing_text"> Another Creative Line Here </span>
             </div> */}
-            <div className="dressdisplay">
+            <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className='img-fluid' src={CustomerWorn14} alt="Customer Worn Dress 14" ></img>
                 </div>
@@ -96,7 +96,7 @@ function LandingPane() {
             {/* <div className="text-center">
                 <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
             </div> */}
-            <div className="dressdisplay">
+            <div className="dressdisplay dressdisplay-last">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn9} alt="Customer Worn Dress 9" ></img>
                 </div>
