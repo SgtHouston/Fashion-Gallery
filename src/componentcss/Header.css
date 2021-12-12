@@ -2,11 +2,13 @@
     display: flex;
     min-width: 100vw;
     text-align: center;
-    /* border-bottom: 5px solid #D3D1CD; */
-    height: 74px;
-    padding: 0px;
+    border-bottom: 4px solid #b59b298b;
+    height: 106px;
     justify-content: space-between;
-    background-color: #D3D1CD;
+    background-image: url('../images/WhiteMarble2.png');
+    background-size: cover;
+    
+    
     
 }
 
@@ -17,5 +19,6 @@
 .logo {
     margin: 5px 0px 0px 0px;
     height: auto;
-    max-height: 64px;
+    max-height: 96px;
+    
 }

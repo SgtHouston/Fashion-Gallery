@@ -4,11 +4,12 @@
     justify-content: center;
     flex-direction: column;
     margin-bottom: 0%;
-    background-color: #D3D1CD;
-    position:static;
+    background-image: url('../images/WhiteMarble2.png');
+    background-size: cover;
+    position: static;
     bottom: 0%;
     min-width: 100vw;
-    min-height: 30rem;
+    min-height: 15rem;
 }
 
 @font-face {
@@ -25,7 +26,7 @@
 }
 
 .footerlink:hover {
-    color:#fff;
+    color: #b59b29;
 }
 
 .footerlinks {
