@@ -7,7 +7,15 @@ function Contact() {
     return (
         <div>
             < Header/>
-            Contact Us Page Coming Soon...
+            <div className="contact">
+                <form >
+                    <fieldset>Client Contact Form</fieldset>
+                    Name:<input type="text" name="name" />
+
+
+
+                </form>
+            </div>
             < Footer/>
         </div>
     )
