@@ -6,17 +6,17 @@
     margin-bottom: 0%;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    position: static;
+    position: bottom;
     bottom: 0%;
     min-width: 100vw;
     min-height: 15rem;
+    
 }
 
 @font-face {
     font-family: SLRScript;
-    src: url('./Source_Sans_Pro/OFL.txt');
+    src: url('../componentcss/Playfair_Display/OFL.txt');
 }
-
 .footerlink {
     text-decoration: none;
     color: black;
@@ -26,7 +26,7 @@
 }
 
 .footerlink:hover {
-    color: #b59b29;
+    color: #838587;
 }
 
 .footerlinks {

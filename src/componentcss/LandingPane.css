@@ -1,6 +1,6 @@
 @font-face {
     font-family: SLRScript;
-    src: url('./Source_Sans_Pro/OFL.txt');
+    src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
 }
 
 .landingpane {
@@ -14,13 +14,15 @@
     font-size: 3.5vw;
     min-width: 100vw;
     font-weight: 500;
+    
 }
 
 .videoTag {
     margin: 0px 0px 20px 0px;
     background-color: black;
     border-bottom: 4px solid black;
-    filter: drop-shadow(0 0 0.35rem #b59b29);
+    filter: drop-shadow(0 0 .5rem #838587);
+    min-width: 100%;
 }
 
 
@@ -28,10 +30,12 @@
     margin: 20px 0px 20px 0px;
     display: flex;
     justify-content: space-around;
+    padding: 0px 45px 0px 45px;
 }
 .dressdisplay-last {
     margin: 20px 0px 0px 0px;
     display: flex;
+    padding: 0px 45px 0px 45px;
 }
 
 .landing__img {
@@ -42,7 +46,9 @@
     width:max-content;
     overflow: hidden; 
     background-color:rgba(155, 155, 155, 1);
-    filter: drop-shadow(0 0 0.25rem #b59b29);
+    filter: drop-shadow(0 0 0.55rem #838587);
+    /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12); */
 }
 
 .landing__img img {
@@ -57,7 +63,7 @@
 
 .landing__img:hover img {
     transform: scale(1.2);
-    opacity: 0.85;
+    
 }
 
 
@@ -67,11 +73,10 @@
 }
 
 .large-img {
-    border-left: 4px solid black;
-    border-right: 4px solid black;
-    border-bottom: 4px solid black;
-    border-top: 4px solid black;
-    margin: 20px 0px 20px 0px;
-    filter: drop-shadow(0 0 0.25rem #b59b29);
+    
+    border: 4px solid black;
+    /* padding: 0px 45px 0px 45px; */
+    margin: 20px 45px 20px 45px;
+    filter: drop-shadow(0 0 0.55rem #838587);
 }
 

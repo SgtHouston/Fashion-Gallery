@@ -1,22 +1,27 @@
+@font-face {
+    font-family: SLRScript;
+    src: url('../componentcss/Playfair_Display/OFL.txt');
+}
+
 .LaunchBtn {
     color: black;
     outline: none;
     border-color: #fff;
     min-width: 40px;
     min-height: 40px;
-    margin: 33px 25px 33px 25px;
+    margin: 23px 25px 23px 25px;
     align-content: space-around;
 }
 
 .LaunchBtn:hover {
     color: black;
     outline: none;
-    border-color: #b59b29;
+    border-color: #838587;
     border-width: 5px;
 }
 
 .LaunchBtn:active {
-    color: #b59b29;
+    color: #838587;
 }
 
 .LaunchBtn:after {
@@ -40,20 +45,22 @@
     opacity: 0.7;
 }
 
+
 .Channelname {
     padding: 3px 0px 3px 0px;
+    
 }
 
 .Channelname:hover {
     opacity: 0.7;
-    background-color:#b59b29;
+    background-color:#838587;
     border-radius: 20px;
     margin-left: 80px;
     margin-right: 80px;
 }
 
 .closeBtn:focus {
-    color:#b59b29;
+    color:#838587;
 }
 
 .btn-close {
@@ -62,7 +69,7 @@
 }
 
 .btn-close:active {
-    background-color: #b59b29;
+    background-color: #838587;
     outline: 3px solid black !important;
 }
 
@@ -70,5 +77,6 @@
 .offcanvas-header {
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border-bottom: 4px solid #b59b29;
+    border-bottom: 4px solid #838587;
+    height: 5rem;
 }

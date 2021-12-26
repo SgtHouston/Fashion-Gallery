@@ -116,7 +116,6 @@ function Lookbook() {
 
 
             </Carousel>
-            
             < Footer />
         </div>
     )
