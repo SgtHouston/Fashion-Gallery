@@ -4,7 +4,6 @@
     align-items: center;
     background-image: url('../images/WhiteMarble2.png');
     background-size:cover;
-    min-height: 100vh;
 }
 
 .Carousel {
@@ -52,4 +51,12 @@
 .spacer {
     flex: 1 0 auto;
     min-height: 1rem;
+}
+
+@media screen and (max-width: 768px) { 
+    .Carousel {
+        min-width:105vw;
+        max-width:105vw;
+        min-height: 50%;
+    }
 }

@@ -36,7 +36,7 @@
 .Channel {
     text-decoration: none;
     color: black;
-    font-size: 24px;
+    font-size: 1rem;
 }
 
 .Channel:hover {
@@ -55,8 +55,8 @@
     opacity: 0.7;
     background-color:#838587;
     border-radius: 20px;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
 .closeBtn:focus {
@@ -78,5 +78,5 @@
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
     border-bottom: 4px solid #838587;
-    height: 5rem;
+    height: 5.5rem;
 }

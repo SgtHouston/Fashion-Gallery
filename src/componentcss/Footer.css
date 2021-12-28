@@ -9,7 +9,7 @@
     position: bottom;
     bottom: 0%;
     min-width: 100vw;
-    min-height: 15rem;
+    min-height: 5rem;
     
 }
 
@@ -20,9 +20,9 @@
 .footerlink {
     text-decoration: none;
     color: black;
-    font-weight:900;
+    font-weight:500;
     font-size: 16px;
-    font-family: SLRScript;
+    
 }
 
 .footerlink:hover {
@@ -31,10 +31,12 @@
 
 .footerlinks {
     justify-content: space-around;
+    display: flex;
 }
 
 .footer__text {
     font-family: SLRScript;
+    font-weight: 100;
 }
 
 
