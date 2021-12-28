@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <h5 className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </h5>
+            <p className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </p>
         </nav>
     )
 }
