@@ -1,6 +1,6 @@
 .navbar {
     display: flex;
-    color: black;
+    color: #545B5A;
     justify-content: center;
     flex-direction: column;
     margin-bottom: 0%;
@@ -10,7 +10,7 @@
     bottom: 0%;
     min-width: 100vw;
     min-height: 5rem;
-    
+    border-top: 4px solid #838587;
 }
 
 @font-face {
@@ -19,7 +19,7 @@
 }
 .footerlink {
     text-decoration: none;
-    color: black;
+    color: #545B5A;
     font-weight:500;
     font-size: 16px;
     
@@ -30,7 +30,7 @@
 }
 
 .footerlinks {
-    justify-content: space-around;
+    justify-content:space-evenly;
     display: flex;
 }
 

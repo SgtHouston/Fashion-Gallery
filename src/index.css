@@ -6,7 +6,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  overflow-x: hidden;
+  
   
 }
 
@@ -17,4 +17,6 @@ code {
 
 html{
   height: 100vh;
+  max-width: 100%;
+  overflow-x: hidden;
 }
