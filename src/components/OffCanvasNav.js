@@ -10,11 +10,11 @@ import MenuIcon from '@mui/icons-material/Menu';
 import '../componentcss/OffCanvasNav.css';
 
 function OffCanvasNav() {
-    // const channels = useSelector(state => state.channels)
+    
     const [show, setShow] = useState(false);
-
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
+    
     return (
         <div className='OffCanvasChannels'>
 
@@ -31,21 +31,21 @@ function OffCanvasNav() {
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid black", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid black", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/about'}>
                                 <p className="Channelname text-center"  onClick={handleClose}> ABOUT</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid black", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid black", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         <Link className="Channel"
                                 to={'/lookbook'}>
                                 <p className="Channelname text-center" onClick={handleClose}> LOOKBOOK</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid black", marginLeft: 3, marginRight: 3 }}></div>
+                        <div style={{ borderTop: "3px solid black", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         <Link className="Channel"

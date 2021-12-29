@@ -1,7 +1,7 @@
 import React from 'react'
 // npm i react-bootstrap
 
-import Logo from '../images/LogoNoBG.png'
+import Logo from '../images/LogoNoBG3.png'
 import '../componentcss/Header.css'
 import OffCanvasNav from './OffCanvasNav'
 // npm install @mui/icons-material

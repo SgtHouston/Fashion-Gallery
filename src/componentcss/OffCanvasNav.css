@@ -4,7 +4,7 @@
 }
 
 .LaunchBtn {
-    color: black;
+    color: #545B5A;
     outline: none;
     border-color: #fff;
     min-width: 40px;
@@ -14,7 +14,7 @@
 }
 
 .LaunchBtn:hover {
-    color: black;
+    color: #838587;
     outline: none;
     border-color: #838587;
     border-width: 5px;
@@ -31,6 +31,7 @@
 .OffCanvasChannels {
     display: flex;
     align-content: space-around;
+
 }
 
 .Channel {
@@ -53,7 +54,7 @@
 
 .Channelname:hover {
     opacity: 0.7;
-    background-color:#838587;
+    background-color:#BCCBC9;
     border-radius: 20px;
     margin-left: 120px;
     margin-right: 120px;
@@ -78,5 +79,5 @@
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
     border-bottom: 4px solid #838587;
-    height: 5.5rem;
+    height: 5.4rem;
 }
