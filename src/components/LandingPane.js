@@ -16,6 +16,7 @@ import CustomerWorn13 from '../images/PinkPose.png'
 import CustomerWorn14 from '../images/PinkFlower.png'
 import CustomerWorn15 from '../images/SilverPose.png'
 import CustomerWorn16 from '../images/GoldFull.png'
+import Twins from '../images/Twins.png'
 
 
 
@@ -59,7 +60,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
             </div>
-            <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
+            <img className='img-fluid large-img' src={Twins} alt="Customer Worn Dress 8" ></img>
             <div className="text-center">
                 <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
             </div>
@@ -90,7 +91,7 @@ function LandingPane() {
                 </div>
             </div>
             <div className="text-center">
-                <span className="text-center landing_text"> Another Creative Line Here </span>
+                <span className="text-center landing_text"> Become A Part Of The SLR Couture Family </span>
             </div>
             <div className="dressdisplay dressdisplay-last">
                 <div className="landing__img">

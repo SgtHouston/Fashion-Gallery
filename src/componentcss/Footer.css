@@ -3,20 +3,21 @@
     color: #545B5A;
     justify-content: center;
     flex-direction: column;
-    margin-bottom: 0%;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    position: bottom;
-    bottom: 0%;
-    min-width: 100vw;
-    min-height: 5rem;
+    min-width: 100%;
+    /* min-height: 5rem; */
     border-top: 4px solid #838587;
+    
 }
 
 @font-face {
     font-family: SLRScript;
     src: url('../componentcss/Playfair_Display/OFL.txt');
 }
+
+
+
 .footerlink {
     text-decoration: none;
     color: #545B5A;
@@ -38,6 +39,5 @@
     font-family: SLRScript;
     font-weight: 100;
 }
-
 
 

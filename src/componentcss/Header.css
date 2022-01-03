@@ -19,17 +19,4 @@
     max-height: 76px;
 }
 
-/* Works on Chrome, Edge, and Safari */
-body::-webkit-scrollbar {
-    width: 11px;
-}
 
-body::-webkit-scrollbar-track {
-    background: black;
-}
-
-body::-webkit-scrollbar-thumb {
-    background-color: #838587;
-    border-radius: 20px;
-    border: 3px solid black;
-}
