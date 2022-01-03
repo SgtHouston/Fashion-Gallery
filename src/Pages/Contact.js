@@ -10,10 +10,24 @@ import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrow
 import { useDispatch, useSelector } from 'react-redux'
 import { useState } from 'react'
 import { actionAddClient } from '../redux/actions/client'
+import { Modal, Button, InputGroup, FormControl } from 'react-bootstrap'
 
 
 function Contact() {
     const dispatch = useDispatch()
+    const [show, setShow] = useState(false);
+    const handleShow = () => setShow(true);
+    function redirect_Main() {
+        var tID = setTimeout(function () {
+            window.location.href = "/";
+            window.clearTimeout(tID);
+            // clear time out.
+        }, 0);
+    }
+    const handleClose = () => { 
+        setShow(false)
+        redirect_Main()
+    };
     const [fname, setFName] = useState('');
     const [age, setAge] = useState('');
     const [lname, setLName] = useState('');
@@ -62,7 +76,9 @@ function Contact() {
         dispatch(actionAddClient(client))
 
         // deploy "Sumbit Successful Modal"
+        handleShow()
         // Refresh page on close or redirect to other
+
     }
 
 
@@ -74,7 +90,8 @@ function Contact() {
                 <div className='contact-form text-center'>
                     
                     <div className='contact-image'>
-                        <img className='img-fluid' src={CustomerWorn8 } alt=''></img>
+                        <img className='img-fluid contact-img' src={CustomerWorn8 } alt=''></img>
+                        {/* <p class="contact-img-text">SLR Couture New Client Form</p> */}
                         <h4 className='contact-text'>Please Fill Out The Form Below <br/>To Start Your Order</h4>
                         < KeyboardDoubleArrowDownIcon />
                     </div>
@@ -274,8 +291,27 @@ function Contact() {
                                 </label>
                             </div>
                         </fieldset>
+                        <br/>
+                        <div>
+                            <button type="submit" className="contact-button"onClick={handleSubmit}>Submit</button>
+                        </div>
+                        <br/>
 
-                        <button type="submit" onClick={handleSubmit}>Submit</button>
+                        <Modal size="md" show={show} onHide={handleClose}>
+                            <Modal.Header closeButton>
+                                <Modal.Title>Submission Successful!</Modal.Title>
+                            </Modal.Header>
+                            <Modal.Body >
+                                Thank you for choosing SLR Couture!  We have received your information and will be in touch with you soon!
+                            </Modal.Body>
+                            
+                            <Modal.Footer>
+                                <Button variant="secondary" onClick={handleClose}>
+                                    Exit
+                                </Button>
+                            </Modal.Footer>
+                        </Modal>
+                        
                     </form>
                 </div>
             </div>

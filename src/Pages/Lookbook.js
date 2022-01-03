@@ -116,6 +116,7 @@ function Lookbook() {
 
 
             </Carousel>
+            <div className="spacer"></div>
             < Footer />
         </div>
     )

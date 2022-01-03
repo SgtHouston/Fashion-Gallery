@@ -12,7 +12,7 @@
     font-family: SLRScript;
     font-size: 1.5rem;
     min-width: 100vw;
-    font-weight: 500;
+    font-weight: 300;
     
 }
 
@@ -33,7 +33,7 @@
 .dressdisplay-last {
     margin: 5px 0px 0px 0px;
     display: flex;
-    padding: 0px 20px 0px 15px;
+    padding: 0px 20px 15px 15px;
 }
 
 .landing__img {
@@ -43,9 +43,9 @@
     height: 100%; 
     overflow: hidden; 
     /* background-color:#545B5A; */
-    /* filter: drop-shadow(0 0 0.55rem #838587);
-    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
-	transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12); */
+    /* filter: drop-shadow(0 0 0.55rem #838587); */
+    /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05); */
+	/* transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12); */
 }
 
 .landing__img img {
@@ -77,4 +77,6 @@
         font-size: 1rem;
     }
 }
+
+
 

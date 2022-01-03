@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 import '../componentcss/About.css'
-import Stacy from '../images/Stacy.png'
+import Designer from '../images/Designer.png'
 
 
 function About() {
@@ -11,7 +11,7 @@ function About() {
             < Header />
             <div className='about__main'>
                 <div className='about__left'>
-                    <img className='img-fluid' src={Stacy} alt=""></img>
+                    <img className='img-fluid designer-img' src={Designer} alt=""></img>
                 </div>
                 <span className='about__right'>
                     Born in Chicago, Illinois, Stacy Rogers exercised her creative mind and taught herself to sew from the young age of 10. 
@@ -28,8 +28,6 @@ function About() {
                     
                 </span>
             </div>
-            
-
             
             < Footer/>
         </div>
