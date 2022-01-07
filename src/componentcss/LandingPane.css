@@ -13,7 +13,7 @@
     font-size: 1.5rem;
     min-width: 100vw;
     font-weight: 300;
-    
+    color: #545B5A;
 }
 
 .videoTag {
@@ -29,6 +29,7 @@
     display: flex;
     justify-content: space-around;
     padding: 0px 20px 0px 15px;
+    
 }
 .dressdisplay-last {
     margin: 5px 0px 0px 0px;
@@ -42,6 +43,7 @@
     margin: 0px 7.5px 0px 7.5px;
     height: 100%; 
     overflow: hidden; 
+    
     /* background-color:#545B5A; */
     /* filter: drop-shadow(0 0 0.55rem #838587); */
     /* box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05); */
