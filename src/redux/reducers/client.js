@@ -5,7 +5,7 @@ export function client (state = {
     FName: '',
     LName: '',
     Consultation: '',
-    Size: 99, 
+    Size: 0, 
     EMail: '',
     Existingnew: '',
     Fitting: '',
@@ -26,7 +26,12 @@ export function client (state = {
         EveningWear: false, 
         Other: false
     },
-    Comments: ''
+    Comments: {},
+    Upload1: {},
+    Upload2: {},
+    Upload3: {},
+    Upload4: {},
+    Upload5: {}
 
 }, action) {
     switch(action.type) {

@@ -3,6 +3,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app"
+// import { getStorage, ref } from "firebase/storage";
 // import { onSnapshot, collection, query, getDocs, where, orderBy } from "firebase/firestore";
 // import { store } from './redux/store'
 // import { actionSetPosts } from './redux/actions/posts';
@@ -20,5 +21,11 @@ const firebaseApp = initializeApp({
 });
 
 export const db = getFirestore(firebaseApp);
+
+// // Get a reference to the storage service, which is used to create references in your storage bucket
+// const storage = getStorage();
+
+// // Create a storage reference from our storage service
+// const storageRef = ref(storage);
 
 export default firebase

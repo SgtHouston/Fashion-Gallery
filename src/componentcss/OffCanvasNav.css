@@ -1,6 +1,6 @@
 @font-face {
     font-family: SLRScript;
-    src: url('../componentcss/Playfair_Display/OFL.txt');
+    src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
 }
 
 .LaunchBtn {
