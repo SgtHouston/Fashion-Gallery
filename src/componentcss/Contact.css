@@ -1,6 +1,6 @@
 @font-face {
     font-family: SLRScript;
-    src: url('../componentcss/Playfair_Display/OFL.txt');
+    src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
 }
 
 .field-label {
@@ -10,8 +10,13 @@
     justify-content:center;
 }
 
+
 .contact-title {
     color:black;
+}
+
+.contact-text {
+    font-family: SLRScript;
 }
 
 .contact-body {
@@ -31,6 +36,7 @@
     background-color: #e9ece6;
     background-position: center;
     background-size: cover;
+    background-color: #BCCBC9;
 }
 
 .form-check {
@@ -41,10 +47,13 @@
     /* text-align: center; */
     flex-direction: row;
 }
-.form-check-black {
-    color: black;
-    padding-left: 2px;
+
+.form-check-input {
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #E9ECE6;
 }
+
 
 .contact-image {
     display: flex;
@@ -77,24 +86,24 @@
 
 .contact-dropdown {
     display: flex;
-    height: 20px;
     justify-content:center;
 }
+
 label {
     color: black;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+fieldset {
+    margin: 0rem 2rem 1.5rem 2rem;
+}
+
+.label-input {
     font-size: 0.9rem;
-    font-weight: 700;
-
+    font-weight: 500;
 }
 
-select {
-    max-width: 10.5rem;
-}
-
-#outfit-selector {
-    font-size: 1.2rem;
-    font-weight: 700;
-}
 
 @media screen and (max-width: 992px) { 
     .contact-names {
@@ -109,12 +118,11 @@ select {
 
     .contact-dropdown {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 
     .contact-form {
-        padding: 0px 0px 20px 0px;
         min-width: 100%;
     }
     
@@ -152,7 +160,7 @@ select {
     background-color: #545B5A;
     color: #BCCBC9;
     font-weight: 900;
-    border: 3px solid #BCCBC9;
+    border: 3px solid #E9ECE6;
 }
 
 .modal {
@@ -200,13 +208,25 @@ select {
 .comments {
     display: block;
     margin: 0 auto;
-    border: 3px solid #545B5A;
-    outline: none;
+    border: none;
 }
 
-input[type=text]:focus, textarea:focus {
+.comments:focus, textarea:focus {
     box-shadow: 0 0 5px #BCCBC9;
-    border: 3px solid #BCCBC9;
+    outline: 3px solid #545B5A;
     color: #545B5A;
+}
 
+.inspiration {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-email {
+    text-decoration: none;
+    color:#545B5A;
+}
+.contact-email:hover {
+    color:black;
 }
