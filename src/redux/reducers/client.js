@@ -26,6 +26,7 @@ export function client (state = {
         EveningWear: false, 
         Other: false
     },
+    Comments: ''
 
 }, action) {
     switch(action.type) {

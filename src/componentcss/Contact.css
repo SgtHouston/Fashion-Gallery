@@ -17,7 +17,6 @@
 .contact-body {
     background-color: #BCCBC9;
     min-height: 100vh;
-    padding-bottom: 20px;
 }
 
 .contact-form {
@@ -50,10 +49,11 @@
 .contact-image {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 85%;
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    
 }
 
 .contact-image img {
@@ -63,10 +63,12 @@
 .contact-names {
     justify-content:center;
     display: flex;
+    
 }
 
 .contact-form-inputs{
-    border-top: 5px solid #545B5A;
+    border-top: 3px dashed #545B5A;
+    
 }
 .contact-details {
     display: flex;
@@ -143,7 +145,14 @@ select {
     background-color: #BCCBC9;
     color: #545B5A;
     font-weight: 900;
-    border: 2px solid black;
+    border: 3px solid #545B5A;
+}
+
+.contact-button:active {
+    background-color: #545B5A;
+    color: #BCCBC9;
+    font-weight: 900;
+    border: 3px solid #BCCBC9;
 }
 
 .modal {
@@ -176,4 +185,28 @@ select {
         transform: translate(-40%, -50%);
         font-family: SLRScript;
     }
+}
+
+.videoTag {
+    max-width: 80vw;
+}
+
+.comment_box {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+.comments {
+    display: block;
+    margin: 0 auto;
+    border: 3px solid #545B5A;
+    outline: none;
+}
+
+input[type=text]:focus, textarea:focus {
+    box-shadow: 0 0 5px #BCCBC9;
+    border: 3px solid #BCCBC9;
+    color: #545B5A;
+
 }

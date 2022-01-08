@@ -91,6 +91,10 @@ function LandingPane() {
                 </div>
             </div>
             <div className="text-center">
+                <span className="text-center landing_text"> Let's Bring Your Vision To Life </span>
+            </div>
+            <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
+            <div className="text-center">
                 <span className="text-center landing_text"> Become A Part Of The SLR Couture Family </span>
             </div>
             <div className="dressdisplay dressdisplay-last">
