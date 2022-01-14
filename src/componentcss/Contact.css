@@ -137,16 +137,33 @@ fieldset {
 
 #fnameinput{
     min-width:15rem;
+    background-color:#fff;
+    /* border:1px solid #545B5A; */
+    
 }
 
 #lnameinput {
     min-width:15rem;
+    background-color:#fff;
+    /* border:1px solid #545B5A; */
 }
 #phoneinput{
     min-width:15rem;
+    background-color:#fff;
+    /* border:1px solid #545B5A; */
 } 
 #emailinput {
     min-width:15rem;
+    background-color:#fff;
+    /* border:1px solid #545B5A; */
+}
+
+#size-selector {
+    background-color:#fff;
+}
+
+.MuiOutlinedInput-root {
+    background-color:#fff;
 }
 
 .contact-button {

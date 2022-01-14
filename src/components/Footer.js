@@ -4,6 +4,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
 import AccessTimeIcon from '@mui/icons-material/AccessTime';
 import EmailIcon from '@mui/icons-material/Email';
+import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 function Footer() {
@@ -30,7 +31,8 @@ function Footer() {
             <div className="footer-contact">
                 <span > <LocationOnIcon/> Atlanta, GA </span><br/>
                 <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/>
-                <a className="contact-email" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> SLRCouture@Gmail.com </span></a>
+                <a className="contact-email" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
+                <a className="contact-email" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> slrcouture@gmail.com </span></a>
                 <p> <AccessTimeIcon/> Mon-Fri: 9AM - 5PM EST<br/>Sat-Sun: Closed </p>
                 <p> All inquiries will be responded to within 72 business hours. </p>
             </div>
