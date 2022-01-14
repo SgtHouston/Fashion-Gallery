@@ -30,7 +30,7 @@ function Contact() {
         redirect_Main()
     };
     const [fname, setFName] = useState('');
-    const [age, setAge] = useState('');
+    const [age, setAge] = useState('0 - 15');
     const [lname, setLName] = useState('');
     const [consultation, setConsultation] = useState('');
     const [size, setSize] = useState(0);

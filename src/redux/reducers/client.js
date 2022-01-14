@@ -1,7 +1,7 @@
 
 
 export function client (state = {
-    Age: '',
+    Age: '0 - 15',
     FName: '',
     LName: '',
     Consultation: '',
