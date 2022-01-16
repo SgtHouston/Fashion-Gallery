@@ -103,7 +103,7 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-image'>
-                        <video className='videoTag' autoPlay loop muted>
+                        <video className='videoTag' autoPlay loop controls muted>
                             <source className='video' src={DressVid} type='video/mp4' />
                         </video>
 
