@@ -26,12 +26,13 @@ export function client (state = {
         EveningWear: false, 
         Other: false
     },
-    Comments: {},
-    Upload1: {},
-    Upload2: {},
-    Upload3: {},
-    Upload4: {},
-    Upload5: {}
+    Comments: '',
+    Budget: '',
+    // Upload1: null,
+    // Upload2: null,
+    // Upload3: null,
+    // Upload4: null,
+    // Upload5: null
 
 }, action) {
     switch(action.type) {

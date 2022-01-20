@@ -138,12 +138,13 @@ fieldset {
 #fnameinput,#lnameinput,#phoneinput,#emailinput {
     min-width:15rem;
     background-color: #fff;
+    border-radius: 5px;
     /* border:1px solid #545B5A; */
 }
 
 #fnameinput:hover, #lnameinput:hover,#phoneinput:hover,#emailinput:hover {
-    outline:#545B5A solid 1px;
     border-radius: 5px;
+    
     
 }
 

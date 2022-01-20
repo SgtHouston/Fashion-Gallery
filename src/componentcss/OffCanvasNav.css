@@ -11,6 +11,12 @@
     min-height: 40px;
     margin: 23px 25px 23px 25px;
     align-content: space-around;
+
+}
+
+.MenuPlaceholder {
+    min-width: 90px;
+    min-height: 82px;
 }
 
 .LaunchBtn:hover {
@@ -80,4 +86,16 @@
     background-size: cover;
     border-bottom: 4px solid #838587;
     height: 5.4rem;
+}
+
+.OffCanvasMain {
+    opacity: 0.65;
+}
+
+.modal-open {
+    padding-right: 0px !important;
+}
+
+.offcanvas-backdrop {
+    background-color: black;
 }

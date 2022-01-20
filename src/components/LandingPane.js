@@ -48,7 +48,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> Look And Feel Your Best With SLR Couture </span>
             </div>
-            
+
             <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn13} alt="Customer Worn Dress 13" ></img>
@@ -63,6 +63,12 @@ function LandingPane() {
             <img className='img-fluid large-img' src={Twins} alt="Customer Worn Dress 8" ></img>
             <div className="text-center">
                 <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
+            </div>
+
+            <div className='buttondiv'>
+                <a className="order-link" href="/contact">
+                    <button className="order-button">Start My Order</button>
+                </a>
             </div>
             <div className="dressdisplay">
                 <div className="landing__img">

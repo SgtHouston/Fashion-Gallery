@@ -19,9 +19,9 @@
 .videoTag {
     margin: 0px 0px 5px 0px;
     background-color: black;
-    /* border-bottom: 4px solid black; */
     filter: drop-shadow(0 0 .5rem #838587);
-    min-width: 100%;
+    min-width: 80vw;
+    margin: 0 auto;
 }
 
 .dressdisplay {
@@ -80,5 +80,30 @@
     }
 }
 
+.order-button {
+    display: flex;
+    background-color: #BCCBC9;
+    color: #545B5A;
+    font-weight: 900;
+    border: 3px solid #545B5A;
+}
 
+.order-button:hover {
+    opacity: 0.7;
+}
+
+.order-button:active {
+    background-color: #545B5A;
+    color: #BCCBC9;
+    font-weight: 900;
+    border: 3px solid #E9ECE6;
+}
+
+.order-link {
+    text-decoration: none;
+}
+
+.buttondiv {
+    margin: 20px auto;   
+}
 

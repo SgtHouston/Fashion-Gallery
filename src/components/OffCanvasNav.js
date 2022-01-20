@@ -12,14 +12,21 @@ import '../componentcss/OffCanvasNav.css';
 function OffCanvasNav() {
     
     const [show, setShow] = useState(false);
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    const [showLaunch, setShowLaunch] = useState(true);
+    const handleClose = () => {
+        setShow(false);
+        setShowLaunch(true);
+    }
+    const handleShow = () => {
+        setShow(true);
+        setShowLaunch(false);
+    }
     
     return (
         <div className='OffCanvasChannels'>
-
-            <MenuIcon className='LaunchBtn' variant='primary' onClick={handleShow}/>
-    
+            
+            { showLaunch ?  <MenuIcon className='LaunchBtn' display={showLaunch} variant='primary' onClick={handleShow}/> : <div className="MenuPlaceholder"></div>  }
+            
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header className="closeBtn" closeButton>
                     <Offcanvas.Title className="Offcanvas-Title"></Offcanvas.Title>
