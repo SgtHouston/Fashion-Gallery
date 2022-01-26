@@ -8,9 +8,9 @@ import InstagramIcon from '@mui/icons-material/Instagram';
 
 
 function Footer() {
-    
 
     return (
+        
         <nav className="navbar navbar-dark text-center">
             <div className="col-12">
                 <div className="footerlinks text-center ">
@@ -24,6 +24,10 @@ function Footer() {
                         <a className="footerlink" href="/lookbook" alt=''> LOOKBOOK </a>
                     </div>
                     <div className="my-3">
+                        <a className="footerlink" href="/clients"> GALLERY </a>
+                    </div>
+                    
+                    <div className="my-3">
                         <a className="footerlink" href="/contact"> CONTACT US </a>
                     </div>
                 </div>
@@ -36,6 +40,7 @@ function Footer() {
                 <p> <AccessTimeIcon/> Mon-Fri: 9am - 5pm EST<br/>Sat-Sun: Closed </p>
                 <p> All inquiries will be responded to within 72 business hours. </p>
             </div>
+            
             <p className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </p>
         </nav>
     )

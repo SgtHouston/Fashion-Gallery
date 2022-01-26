@@ -52,7 +52,38 @@
     font-size: 1rem;
     font-weight: 700;
     background-color: #E9ECE6;
+
 }
+
+.form-check-input:checked {
+    background-color: #545B5A;
+    border-color: #545B5A;
+    
+    
+}
+
+input[type="checkbox"]:checked {
+    box-shadow: 0 0 0 3px #545b5a64;
+}
+
+input[type="checkbox"]:active {
+    box-shadow: 0 0 0 3px #545b5a7b;
+    border-color: #545b5a7b;
+}
+
+input[type="radio"]:checked {
+    box-shadow: 0 0 0 3px #545b5a64;
+}
+
+input[type="radio"]:active {
+    box-shadow: 0 0 0 3px #545b5a7b;
+    border-color: #545b5a7b;
+}
+
+input[type="file"] {
+    
+}
+
 
 
 .contact-image {
@@ -86,7 +117,7 @@
 
 .contact-dropdown {
     display: flex;
-    justify-content:center;
+    justify-content:space-evenly;
 }
 
 label {
@@ -118,8 +149,8 @@ fieldset {
 
     .contact-dropdown {
         display: flex;
-        flex-direction: row;
-        align-items: center;
+        flex-direction: column;
+        justify-content:space-evenly;
     }
 
     .contact-form {
@@ -190,19 +221,13 @@ fieldset {
 }
 
 @media screen and (max-width: 768px) { 
-    .contact-img-text {
-        color: black;
-        font-weight: 500;
-        font-size: 1rem;
-        position: absolute;
-        top: 14%;
-        left: 27%;
-        transform: translate(-40%, -50%);
-        font-family: SLRScript;
+    .videoTagContact {
+        min-width: 100vw;
     }
+    
 }
 
-.videoTag {
+.videoTagContact {
     max-width: 80vw;
 }
 

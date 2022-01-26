@@ -3,14 +3,10 @@
     min-width: 100vw;
     text-align: center;
     height: 86px;
-    justify-content: space-between;
+    justify-content:space-between;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
     border-bottom: 4px solid #838587;
-}
-
-.spacerdiv {
-    margin: 0px 50px 0px 50px;
 }
 
 .logo {
@@ -19,4 +15,53 @@
     max-height: 76px;
 }
 
+.button-div {
+    max-height: 50px;
+    height: auto;
+    width: 82px;
+    margin: 5px 10px 5px 0px;
+}
 
+.order-button {
+    display: flex;
+    color: #545B5A;
+    background: none;
+    font-weight: 900;
+    /* border: 2px solid #545B5A; */
+    font-family: SLRScript;
+    border: none;
+    
+}
+
+.order-button:hover {
+    opacity: 0.75;
+}
+
+.order-button:active {
+    background-color: #545B5A;
+    color: #BCCBC9;
+    font-weight: 900;
+    border: 3px solid #E9ECE6;
+}
+
+.order-link {
+    text-decoration: none;
+    display: flex;
+}
+
+.order-link-arrow {
+    display: flex;
+    align-self: center;
+    flex-direction: row;
+    color:#545B5A;
+    outline:auto;
+}
+
+@media screen and (max-width: 768px) { 
+    .button-div {
+        max-height: 50px;
+        height: auto;
+        width: 82px;
+        margin: 5px 0px 5px 0px;
+    }
+}

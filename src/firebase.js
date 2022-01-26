@@ -3,10 +3,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/firestore';
 import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app"
-// import { getStorage, ref } from "firebase/storage";
-// import { onSnapshot, collection, query, getDocs, where, orderBy } from "firebase/firestore";
-// import { store } from './redux/store'
-// import { actionSetPosts } from './redux/actions/posts';
+
 
 
 

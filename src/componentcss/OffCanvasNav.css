@@ -62,8 +62,8 @@
     opacity: 0.7;
     background-color:#BCCBC9;
     border-radius: 20px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 7rem;
+    margin-right: 7rem;
 }
 
 .closeBtn:focus {
@@ -98,4 +98,12 @@
 
 .offcanvas-backdrop {
     background-color: black;
+}
+
+@media screen and (max-width: 996px) { 
+    .Channelname:hover {
+        margin-left: 4.65rem;
+        margin-right: 4.65rem;
+    }
+    
 }

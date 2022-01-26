@@ -29,8 +29,9 @@
 }
 
 .footerlinks {
-    justify-content:space-evenly;
     display: flex;
+    justify-content:space-evenly;
+    
 }
 
 .footer__text {
@@ -43,6 +44,13 @@
     font-weight: 900;
     font-size: 0.9rem;
     
+}
+
+@media screen and (max-width: 768px) { 
+    .footerlink {
+        font-size: 0.75rem;
+    }
+
 }
 
 
