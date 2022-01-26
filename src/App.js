@@ -5,6 +5,7 @@ import Home from "./Pages/Home";
 import About from "./Pages/About";
 import Lookbook from "./Pages/Lookbook";
 import Contact from "./Pages/Contact";
+import Clients from "./Pages/Clients";
 
 
 function App() {
@@ -37,6 +38,12 @@ function App() {
           < Route exact path="/contact">
             < Contact />
           </ Route>
+
+          {/* Page 3  */}
+          < Route exact path="/clients">
+            < Clients />
+          </ Route>
+
 
           {/* Redirect */}
           < Route exact path="*">

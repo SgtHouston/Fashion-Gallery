@@ -4,24 +4,31 @@ import React from 'react'
 import Logo from '../images/LogoNoBG3.png'
 import '../componentcss/Header.css'
 import OffCanvasNav from './OffCanvasNav'
+import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 // npm install @mui/icons-material
-// import Email from '@mui/icons-material/EmailOutlined';
-// import Burst from '@mui/icons-material/BurstModeOutlined';
-// import Home from '@mui/icons-material/HomeOutlined';
-// import Help from '@mui/icons-material/HelpOutlineOutlined';
+
 
 function Header() {
+
     return (
         <div className="header">
 
             <OffCanvasNav />
-            <a href="/" alt=""><img
+
+            <a href="/" alt="">
+                <img
                 alt="brand logo"
                 src={Logo}
-                className="d-inline-block logo img-fluid"
-            /></a>
-            <div className="spacerdiv">
+                className="d-inline-block logo img-fluid"/>
+            </a>
 
+            <div className="button-div">
+                <a className="order-link" href="/contact" >
+                    <ArrowForwardIcon className="order-link-arrow"/>
+                    <button className="order-button ">
+                        Start Your Order
+                    </button>
+                </a>
             </div>
     
         </div>

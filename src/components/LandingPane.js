@@ -26,10 +26,10 @@ function LandingPane() {
 
     return (
         <div className="landingpane">
-            <video className='videoTag' autoPlay loop muted>
+            <video className='videoTag' autoPlay loop muted controls>
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
-
+            
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
             </div>
@@ -48,7 +48,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> Look And Feel Your Best With SLR Couture </span>
             </div>
-            
+
             <div className="dressdisplay pairdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn13} alt="Customer Worn Dress 13" ></img>
@@ -64,6 +64,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
             </div>
+
             <div className="dressdisplay">
                 <div className="landing__img">
                     <img className="img-fluid" src={CustomerWorn5} alt="Customer Worn Dress 5" ></img>
@@ -93,6 +94,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> Let's Bring Your Vision To Life </span>
             </div>
+            
             <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
             <div className="text-center">
                 <span className="text-center landing_text"> Become A Part Of The SLR Couture Family </span>
@@ -107,7 +109,9 @@ function LandingPane() {
                 <div className="landing__img">
                     <img className='img-fluid' src={CustomerWorn11} alt="Customer Worn Dress 11" ></img>
                 </div>
+                
             </div>
+            
 
 
         </div>
