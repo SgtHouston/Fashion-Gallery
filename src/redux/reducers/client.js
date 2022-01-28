@@ -14,6 +14,7 @@ export function client (state = {
     Shipping: '',
     Time: new Date(),
     Color: '#000000',
+    Fabric: '',
     Purpose: {
         Birthday: false,
         WeddingGuest: false,

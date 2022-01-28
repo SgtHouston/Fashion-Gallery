@@ -6,6 +6,8 @@ import About from "./Pages/About";
 import Lookbook from "./Pages/Lookbook";
 import Contact from "./Pages/Contact";
 import Clients from "./Pages/Clients";
+import Faqs from "./Pages/Faqs";
+import Terms from "./Pages/Terms";
 
 
 function App() {
@@ -29,19 +31,24 @@ function App() {
             < Lookbook />
           </ Route>
 
-          {/* Page 3:  */}
-          < Route exact path="/lookbook/:lookbookId">
-            
-          </ Route>
-
-          {/* Page 3  */}
+          {/* Page 4  */}
           < Route exact path="/contact">
             < Contact />
           </ Route>
 
-          {/* Page 3  */}
+          {/* Page 5  */}
           < Route exact path="/clients">
             < Clients />
+          </ Route>
+
+          {/* Page 6  */}
+          < Route exact path="/faqs">
+            < Faqs />
+          </ Route>
+
+          {/* Page 7  */}
+          < Route exact path="/terms">
+            < Terms />
           </ Route>
 
 

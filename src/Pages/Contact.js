@@ -18,8 +18,6 @@ import CSSSelect from '../components/CSSSelect'
 // npm install -g npm (new npm version install)
 
 
-
-
 function Contact() {
 
     function redirect_Main() {
@@ -42,11 +40,6 @@ function Contact() {
 
     const dispatch = useDispatch()
     const [show, setShow] = useState(false);
-    const handleShow = () => setShow(true);
-    const handleClose = () => {
-        setShow(false)
-        redirect_Main()
-    };
     const [fname, setFName] = useState('');
     const [age, setAge] = useState('0 - 15');
     const [lname, setLName] = useState('');
@@ -61,6 +54,7 @@ function Contact() {
     const [budget, setBudget] = useState('');
     const [height, setHeight] = useState('');
     const [color, setColor] = useState('#000000');
+    const [fabric, setFabric] = useState('');
     const [upload1, setUpload1] = useState(null)
     const [upload2, setUpload2] = useState(null)
     const [upload3, setUpload3] = useState(null)
@@ -84,6 +78,11 @@ function Contact() {
 
     const client = useSelector(state => state.client)
 
+    const handleShow = () => setShow(true);
+    const handleClose = () => {
+        setShow(false)
+        redirect_Main()
+    };
 
     const handleSubmit = e => {
         e.preventDefault();
@@ -103,6 +102,7 @@ function Contact() {
         client.Budget = budget;
         client.Height = height;
         client.Color = color;
+        client.Fabric = fabric;
         client.Upload1 = upload1;
         client.Upload2 = upload2;
         client.Upload3 = upload3;
@@ -121,8 +121,6 @@ function Contact() {
         // Refresh page on close or redirect to other
 
     }
-
-
 
     return (
         <div className="contact">
@@ -280,51 +278,51 @@ function Contact() {
                             <label htmlFor="outfit-selector" id="outfit-selector">Purpose of Outfit <br /> (You Can Choose More Than One Option) </label>
                             <br />
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Birthday: (!purpose.Birthday) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Birthday: (!purpose.Birthday) })}  />
                                 <label className="form-check-label label-input">Birthday</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, WeddingGuest: (!purpose.WeddingGuest) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, WeddingGuest: (!purpose.WeddingGuest) })}  />
                                 <label className="form-check-label label-input"> Wedding Guest</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Prom: (!purpose.Prom) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Prom: (!purpose.Prom) })}  />
                                 <label className="form-check-label label-input"> Prom</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Wedding: (!purpose.Wedding) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Wedding: (!purpose.Wedding) })}  />
                                 <label className="form-check-label label-input"> Wedding</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Reception: (!purpose.Reception) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Reception: (!purpose.Reception) })}  />
                                 <label className="form-check-label label-input"> Reception Dress</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Anniversary: (!purpose.Anniversary) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Anniversary: (!purpose.Anniversary) })}  />
                                 <label className="form-check-label label-input"> Anniversary Dress</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, RedCarpet: (!purpose.RedCarpet) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, RedCarpet: (!purpose.RedCarpet) })}  />
                                 <label className="form-check-label label-input"> Red Carpet</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Graduation: (!purpose.Graduation) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Graduation: (!purpose.Graduation) })}  />
                                 <label className="form-check-label label-input">  Graduation</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, SisofBride: (!purpose.SisofBride) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, SisofBride: (!purpose.SisofBride) })}  />
                                 <label className="form-check-label label-input">  Sister Of Bride/Groom</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, MotherofBride: (!purpose.MotherofBride) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, MotherofBride: (!purpose.MotherofBride) })}  />
                                 <label className="form-check-label label-input">Mother of Bride/Groom</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, EveningWear: (!purpose.EveningWear) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, EveningWear: (!purpose.EveningWear) })}  />
                                 <label className="form-check-label label-input">  Evening Wear</label>
                             </p>
                             <p className="form-check form-check-inline">
-                                <input type="checkbox" onChange={e => setPurpose({ ...purpose, Other: (!purpose.Other) })} className="form-check-input" />
+                                <input  type="checkbox" className="form-check-input" onChange={e => setPurpose({ ...purpose, Other: (!purpose.Other) })}  />
                                 <label className="form-check-label label-input">  Other</label>
                             </p>
 
@@ -349,11 +347,42 @@ function Contact() {
                         </fieldset>
 
                         <fieldset>
-                            <label htmlFor="ColorSelector" id="ColorSelector">Select A Dress Color <br /> (Please Be As Accurate As Possible)</label>
+                            <label htmlFor="ColorSelector" id="ColorSelector">Select Dress Color & Fabric <br /> (Please Be As Accurate As Possible)</label>
                             <br />
-                            <div className="form-check form-check-inline">
+                            <span>Color</span>
+                            <div className="form-check">
+                                
                                 <input type="color" name="color-selector" id="ColorSelector" value={color} onChange={e => setColor(e.target.value)} />
                             </div>
+
+                            <div className="selector form-check">
+                                    <InputLabel className="form-check">Fabric </InputLabel>
+                                    <CSSSelect
+                                        className="form-check"
+                                        name="Select Your Fabric"
+                                        id="Fabric-selector"
+                                        label="Fabric *"
+                                        value={fabric}
+                                        onChange={e => setFabric(e.target.value)}
+                                    >
+                                        <MenuItem value='Ankara' > Ankara </MenuItem>
+                                        <MenuItem value='Beaded Rhinestone Lace'> Beaded Rhinestone Lace </MenuItem>
+                                        <MenuItem value='Charmeuse' > Charmeuse </MenuItem>
+                                        <MenuItem value='Chiffon' > Chiffon </MenuItem>
+                                        <MenuItem value='Crepe' > Crepe </MenuItem>
+                                        <MenuItem value='Embroidered Lace' > Embroidered Lace </MenuItem>
+                                        <MenuItem value='Illusion Mesh' > Illusion Mesh </MenuItem>
+                                        <MenuItem value='Mikado' > Mikado </MenuItem>
+                                        <MenuItem value='Organza' > Organza </MenuItem>
+                                        <MenuItem value='Satin' > Satin </MenuItem>
+                                        <MenuItem value='Sequin' > Sequin </MenuItem>
+                                        <MenuItem value='Stretch Crepe' > Stretch Crepe </MenuItem>
+                                        <MenuItem value='Stretch Velvet' > Stretch Velvet </MenuItem>
+                                        <MenuItem value='Tulle' > Tulle </MenuItem>
+                                    </CSSSelect>
+                                    <FormHelperText className="text-center">Select Dress Fabric </FormHelperText>
+
+                                </div>
                         </fieldset>
 
                         <fieldset>
@@ -410,17 +439,21 @@ function Contact() {
 
                         <div>
                             <label>Upload 1 Full-Body Photo:</label>
-                            <p>(Max Size: 1 MB)</p>
+                            <p>(Max Size: 2 MB)</p>
                             <div className="inspiration">
-                                <input className="pic-input" id="fileinput6" type="file" alt='' onChange={e => { 
-                                    if (e.target.files[0].size > 1048576) {
-                                        alert('This Image File Is Too Large!');
-                                        setUpload6(null);
-                                        document.getElementById('fileinput6').value = ''
-                                    } else {
-                                        setUpload6(e.target.value);
-                                    }
-                                }} />
+                                <input  className="pic-input" 
+                                        id="fileinput6" 
+                                        type="file" 
+                                        alt='' 
+                                        onChange={e => { 
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
+                                                setUpload6(null);
+                                                document.getElementById('fileinput6').value = ''
+                                            } else {
+                                                setUpload6(e.target.value);
+                                            }
+                                        }} />
 
                             </div>
                         </div>
@@ -428,70 +461,80 @@ function Contact() {
                         {/* Requires Pay Plan */}
                         <div>
                             <label>Upload Up To 5 Garment Inspiration Photos:</label>
-                            <p>(Max Size: 1 MB)</p>
+                            <p>(Max Size: 2 MB)</p>
                             <div className="inspiration">
-                                <input className="pic-input" id="fileinput1" type="file" alt='' onChange={e => {
-                                    if (e.target.files[0].size > 1048576) {
-                                        alert('This Image File Is Too Large!');
-                                        setUpload1(null);
-                                        document.getElementById('fileinput1').value = ''
-                                    } else {
-                                        setUpload1(e.target.value);
-                                        // e.target.files[0]
-                                    }
-
-                                }} />
-                                <input className="pic-input" id="fileinput2" type="file" alt='' onChange={e => { 
-                                    if (e.target.files[0].size > 1048576) {
-                                        alert('This Image File Is Too Large!');
-                                        setUpload2(null);
-                                        document.getElementById('fileinput2').value = ''
-                                    } else {
-                                        setUpload2(e.target.value);
-                                        // e.target.files[0]
-                                    }
-                                }} />
-                                <input className="pic-input" id="fileinput3" type="file" alt='' onChange={e => { 
-                                    if (e.target.files[0].size > 1048576) {
-                                        alert('This Image File Is Too Large!');
-                                        setUpload3(null);
-                                        document.getElementById('fileinput3').value = ''
-                                    } else {
-                                        setUpload3(e.target.value);
-                                        // e.target.files[0]
-                                    }
-                                }} />
-                                <input className="pic-input" id="fileinput4" type="file" alt='' onChange={e => { 
-                                    if (e.target.files[0].size > 1048576) {
-                                        alert('This Image File Is Too Large!');
-                                        setUpload4(null);
-                                        document.getElementById('fileinput4').value = ''
-                                    } else {
-                                        setUpload4(e.target.value);
-                                    }
-                                }} />
+                                <input  className="pic-input" 
+                                        id="fileinput1" 
+                                        type="file" 
+                                        alt='' 
+                                        onChange={e => {
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
+                                                setUpload1(null);
+                                                document.getElementById('fileinput1').value = ''
+                                            } else {
+                                                setUpload1(e.target.value);
+                                                // e.target.files[0]
+                                            }
+                                        }} />
+                                <input  className="pic-input" 
+                                        id="fileinput2" 
+                                        type="file" 
+                                        alt='' 
+                                        onChange={e => { 
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
+                                                setUpload2(null);
+                                                document.getElementById('fileinput2').value = ''
+                                            } else {
+                                                setUpload2(e.target.value);
+                                                // e.target.files[0]
+                                            }
+                                        }} />
+                                <input  className="pic-input" 
+                                        id="fileinput3" 
+                                        type="file" 
+                                        alt='' 
+                                        onChange={e => { 
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
+                                                setUpload3(null);
+                                                document.getElementById('fileinput3').value = ''
+                                            } else {
+                                                setUpload3(e.target.value);
+                                                // e.target.files[0]
+                                            }
+                                        }} />
+                                <input  className="pic-input" 
+                                        id="fileinput4" 
+                                        type="file" 
+                                        alt='' 
+                                        onChange={e => { 
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
+                                                setUpload4(null);
+                                                document.getElementById('fileinput4').value = ''
+                                            } else {
+                                                setUpload4(e.target.value);
+                                            }
+                                        }} />
                                 <input  className="pic-input" 
                                         id="fileinput5" 
                                         type="file" 
                                         alt='' 
                                         onChange={e => { 
-                                        if (e.target.files[0].size > 1048576) {
-                                            alert('This Image File Is Too Large!');
-                                            setUpload5(null);
-                                            document.getElementById('fileinput5').value = ''
-                                        } else {
-                                            setUpload5(e.target.value);
-                                        }
-                                    }} />
+                                            if (e.target.files[0].size > 2097152) {
+                                                alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Max Size Requirement Before Upload.');
+                                                setUpload5(null);
+                                                document.getElementById('fileinput5').value = ''
+                                            } else {
+                                                setUpload5(e.target.value);
+                                            }
+                                        }} />
                             </div>
                         </div>
                         <br />
 
-
-                        {/* Photo Inspiration Inputs x 5 pictures */}
-                        {/* Height dropdown */}
-                        {/* MUI Swap Out & Color Theme Change*/}
-                        {/* Pick A Dress Color */}
                         {/* Terms & Conditons / FAQs */}
                         <div className="col-md-6 comment_box">
                             <textarea name="comments" cols="50" rows="10" placeholder="Inquiry/Comments/Notes"

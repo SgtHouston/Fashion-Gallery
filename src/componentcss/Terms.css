@@ -1,0 +1,18 @@
+.terms-title {
+    font-family: SLRScript;
+    min-width: 100vw;
+    font-weight: 300;
+    color: #545B5A;
+    padding-top: 8px;
+    background-color: #BCCBC9;
+}
+
+.terms-body {
+    text-align: center;
+    background-color: #BCCBC9;
+}
+
+.terms-header {
+    font-family: SLRScript;
+    font-weight: 300;
+}

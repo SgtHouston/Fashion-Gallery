@@ -39,6 +39,11 @@ function Footer() {
                 <a className="contact-email" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> slrcouture@gmail.com </span></a>
                 <p> <AccessTimeIcon/> Mon-Fri: 9am - 5pm EST<br/>Sat-Sun: Closed </p>
                 <p> All inquiries will be responded to within 72 business hours. </p>
+                <div className="footerlinks">
+                    <p><a className="contact-email" href="/faqs">F.A.Q.s</a></p>
+                    <p><a className="contact-email" href="/terms">Privacy & Terms</a></p>
+                </div>
+                
             </div>
             
             <p className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </p>

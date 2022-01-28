@@ -19,7 +19,7 @@
     max-height: 50px;
     height: auto;
     width: 82px;
-    margin: 5px 10px 5px 0px;
+    margin: 5px 20px 5px 0px;
 }
 
 .order-button {
@@ -41,8 +41,10 @@
     background-color: #545B5A;
     color: #BCCBC9;
     font-weight: 900;
-    border: 3px solid #E9ECE6;
+    border: 3px solid #545B5A;
+    border-radius: 10px;
 }
+
 
 .order-link {
     text-decoration: none;
