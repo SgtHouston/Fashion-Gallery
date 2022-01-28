@@ -9,12 +9,11 @@
 }
 
 .client-pic {
-    width: 30%;
+    width: 45%;
     margin: 7.5px 7.5px 7.5px 7.5px;
-    /* padding: 5px; */
     border:#545B5A solid 3px;
     background-color: #545B5A;
-    height: 25rem;
+    
 }
 
 .clients-title {
@@ -27,7 +26,7 @@
 
 @media screen and (max-width: 767px) { 
     .client-pic {
-        max-width: 28%;
-        height: 9rem;
+        width: 45%;
+        height: 11rem;
     }
 }

@@ -8,7 +8,7 @@ function Clients() {
 
     function renderPic (pic, index) {
         // write render pic function
-        // accepts a pictures and renders it in an img tag
+        // accepts a picture and renders it in an img tag
         return (
             `<img className ='client-pic' src=${pic} alt='' key=${index}></img>`
         )
