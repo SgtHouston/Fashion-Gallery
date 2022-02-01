@@ -14,7 +14,7 @@ function Faqs() {
                 <h2 className='faqs-title text-center'> Frequently Asked Questions</h2>
                 <br/>
                 <div className='faqs-accordion'>
-                    <Accordion defaultActiveKey="0" flush>
+                    <Accordion flush>
 
                         <Accordion.Item eventKey="0">
                             <Accordion.Header>DO YOU HAVE A STOREFRONT?</Accordion.Header>
