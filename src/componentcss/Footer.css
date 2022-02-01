@@ -25,7 +25,8 @@
 }
 
 .footerlink:hover {
-    color: #838587;
+    color: black;
+    font-weight:600;
 }
 
 .footerlinks {
@@ -50,7 +51,15 @@
     .footerlink {
         font-size: 0.75rem;
     }
+}
 
+.footer-info {
+    text-decoration: none;
+    color:#545B5A;
+    
+}
+.footer-info:hover {
+    color:black;
 }
 
 

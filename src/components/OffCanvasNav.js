@@ -66,6 +66,13 @@ function OffCanvasNav() {
                                 to={'/contact'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONTACT US</p>
                         </Link>
+                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <br/>
+
+                        <Link className="Channel"
+                                to={'/faqs'}>
+                                <p className="Channelname text-center" onClick={handleClose}> FAQs</p>
+                        </Link>
                         
 
                         

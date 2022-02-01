@@ -16,6 +16,9 @@ import { FormHelperText, InputLabel, MenuItem } from '@mui/material';
 import CSSTextField from '../components/CSSTextField'
 import CSSSelect from '../components/CSSSelect'
 // npm install -g npm (new npm version install)
+import { storage } from '../firebase'
+import { ref, uploadBytesResumable } from 'firebase/storage'
+import { getDownloadURL } from 'firebase/storage';
 
 
 function Contact() {
@@ -25,7 +28,7 @@ function Contact() {
             window.location.href = "/";
             window.clearTimeout(tID);
             // clear time out.
-        }, 0);
+        }, 2000);
     }
 
     // function returnFileSize(number) {
@@ -55,12 +58,12 @@ function Contact() {
     const [height, setHeight] = useState('');
     const [color, setColor] = useState('#000000');
     const [fabric, setFabric] = useState('');
-    const [upload1, setUpload1] = useState(null)
-    const [upload2, setUpload2] = useState(null)
-    const [upload3, setUpload3] = useState(null)
-    const [upload4, setUpload4] = useState(null)
-    const [upload5, setUpload5] = useState(null)
-    const [upload6, setUpload6] = useState(null)
+    const [upload1, setUpload1] = useState('')
+    const [upload2, setUpload2] = useState('')
+    const [upload3, setUpload3] = useState('')
+    const [upload4, setUpload4] = useState('')
+    const [upload5, setUpload5] = useState('')
+    const [upload6, setUpload6] = useState('')
     const [purpose, setPurpose] = useState({
         Birthday: false,
         WeddingGuest: false,
@@ -86,6 +89,7 @@ function Contact() {
 
     const handleSubmit = e => {
         e.preventDefault();
+
         // Capture Info from Contact State 
         client.FName = fname;
         client.LName = lname;
@@ -103,12 +107,86 @@ function Contact() {
         client.Height = height;
         client.Color = color;
         client.Fabric = fabric;
-        client.Upload1 = upload1;
-        client.Upload2 = upload2;
-        client.Upload3 = upload3;
-        client.Upload4 = upload4;
-        client.Upload5 = upload5;
-        client.ClientPic = upload6;
+        client.Upload1 = upload1.name ? upload1.name : null;
+        client.Upload2 = upload2.name ? upload2.name : null;
+        client.Upload3 = upload3.name ? upload3.name : null;
+        client.Upload4 = upload4.name ? upload4.name : null;
+        client.Upload5 = upload5.name ? upload5.name : null;
+        client.ClientPic = upload6.name ? upload6.name : null;
+
+
+        const storageRef1 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload1.name}`));
+        const storageRef2 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload2.name}`));
+        const storageRef3 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload3.name}`));
+        const storageRef4 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload4.name}`));
+        const storageRef5 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload5.name}`));
+        const storageRef6 = ref(storage, (`images/${lname}-${fname}/ClientPhoto/${upload6.name}`));
+
+        const uploadTask1 = uploadBytesResumable(storageRef1, upload1);
+        uploadTask1.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask1.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
+
+        const uploadTask2 = uploadBytesResumable(storageRef2, upload2);
+        uploadTask2.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask2.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
+
+        const uploadTask3 = uploadBytesResumable(storageRef3, upload3);
+        uploadTask3.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask3.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
+
+        const uploadTask4 = uploadBytesResumable(storageRef4, upload4);
+        uploadTask4.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask4.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
+
+        const uploadTask5 = uploadBytesResumable(storageRef5, upload5);
+        uploadTask5.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask5.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
+
+        const uploadTask6 = uploadBytesResumable(storageRef6, upload6);
+        uploadTask6.on(
+            "state_changed", 
+            (snapshot) => {}, 
+        (err) => console.log(err),
+        () => {
+            getDownloadURL(uploadTask6.snapshot.ref)
+            .then((url) => console.log(url));
+        }
+        );
 
 
         // Submit info as client and dispatch to redux for global state
@@ -254,11 +332,11 @@ function Contact() {
                                         <MenuItem value={' 5\' 4" '}> 5' 4" </MenuItem>
                                         <MenuItem value={' 5\' 5" '}> 5' 5" </MenuItem>
                                         <MenuItem value={' 5\' 6" '}> 5' 6" </MenuItem>
-                                        <MenuItem value={' 5\' 6" '}> 5' 7" </MenuItem>
-                                        <MenuItem value={' 5\' 6" '}> 5' 8" </MenuItem>
-                                        <MenuItem value={' 5\' 6" '}> 5' 9" </MenuItem>
-                                        <MenuItem value={' 5\' 6" '}> 5' 10" </MenuItem>
-                                        <MenuItem value={' 5\' 6" '}> 5' 11" </MenuItem>
+                                        <MenuItem value={' 5\' 7" '}> 5' 7" </MenuItem>
+                                        <MenuItem value={' 5\' 8" '}> 5' 8" </MenuItem>
+                                        <MenuItem value={' 5\' 9" '}> 5' 9" </MenuItem>
+                                        <MenuItem value={' 5\' 10" '}> 5' 10" </MenuItem>
+                                        <MenuItem value={' 5\' 11" '}> 5' 11" </MenuItem>
                                         <MenuItem value={' 6\' 0" '}> 6' 0" </MenuItem>
                                         <MenuItem value={' 6\' 1" '}> 6' 1" </MenuItem>
                                         <MenuItem value={' 6\' 2" '}> 6' 2" </MenuItem>
@@ -451,11 +529,12 @@ function Contact() {
                                                 setUpload6(null);
                                                 document.getElementById('fileinput6').value = ''
                                             } else {
-                                                setUpload6(e.target.value);
+                                                setUpload6(e.target.files[0]);
                                             }
                                         }} />
 
                             </div>
+                            
                         </div>
                         <br />
                         {/* Requires Pay Plan */}
@@ -473,10 +552,10 @@ function Contact() {
                                                 setUpload1(null);
                                                 document.getElementById('fileinput1').value = ''
                                             } else {
-                                                setUpload1(e.target.value);
-                                                // e.target.files[0]
+                                                setUpload1(e.target.files[0]);
                                             }
                                         }} />
+                                        
                                 <input  className="pic-input" 
                                         id="fileinput2" 
                                         type="file" 
@@ -487,8 +566,7 @@ function Contact() {
                                                 setUpload2(null);
                                                 document.getElementById('fileinput2').value = ''
                                             } else {
-                                                setUpload2(e.target.value);
-                                                // e.target.files[0]
+                                                setUpload2(e.target.files[0]);
                                             }
                                         }} />
                                 <input  className="pic-input" 
@@ -501,8 +579,8 @@ function Contact() {
                                                 setUpload3(null);
                                                 document.getElementById('fileinput3').value = ''
                                             } else {
-                                                setUpload3(e.target.value);
-                                                // e.target.files[0]
+                                                setUpload3(e.target.files[0]);
+                                                
                                             }
                                         }} />
                                 <input  className="pic-input" 
@@ -515,7 +593,7 @@ function Contact() {
                                                 setUpload4(null);
                                                 document.getElementById('fileinput4').value = ''
                                             } else {
-                                                setUpload4(e.target.value);
+                                                setUpload4(e.target.files[0]);
                                             }
                                         }} />
                                 <input  className="pic-input" 
@@ -528,7 +606,7 @@ function Contact() {
                                                 setUpload5(null);
                                                 document.getElementById('fileinput5').value = ''
                                             } else {
-                                                setUpload5(e.target.value);
+                                                setUpload5(e.target.files[0]);
                                             }
                                         }} />
                             </div>
@@ -553,7 +631,7 @@ function Contact() {
                                 <Modal.Title>Submission Successful!</Modal.Title>
                             </Modal.Header>
                             <Modal.Body >
-                                Thank you for choosing SLR Couture!  We have received your information and will be in touch with you soon!
+                                Thank you for choosing SLR Couture!  We have received your information and will be in touch with you soon! <br/><br/> Upon closing this window, you will be redirected to our home page.
                             </Modal.Body>
 
                             <Modal.Footer>

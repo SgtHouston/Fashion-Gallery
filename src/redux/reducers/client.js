@@ -12,7 +12,7 @@ export function client (state = {
     Fitting: '',
     Phone: '',
     Shipping: '',
-    Time: new Date(),
+    Time: new Date().toLocaleString(),
     Color: '#000000',
     Fabric: '',
     Purpose: {

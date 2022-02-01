@@ -35,13 +35,13 @@ function Footer() {
             <div className="footer-contact">
                 <span > <LocationOnIcon/> Atlanta, GA </span><br/>
                 <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/>
-                <a className="contact-email" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
-                <a className="contact-email" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> slrcouture@gmail.com </span></a>
+                <a className="footer-info" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
+                <a className="footer-info" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> slrcouture@gmail.com </span></a>
                 <p> <AccessTimeIcon/> Mon-Fri: 9am - 5pm EST<br/>Sat-Sun: Closed </p>
                 <p> All inquiries will be responded to within 72 business hours. </p>
                 <div className="footerlinks">
-                    <p><a className="contact-email" href="/faqs">F.A.Q.s</a></p>
-                    <p><a className="contact-email" href="/terms">Privacy & Terms</a></p>
+                    <p><a className="footer-info" href="/faqs">FAQ's</a></p>
+                    <p><a className="footer-info" href="/terms">Privacy & Terms</a></p>
                 </div>
                 
             </div>
