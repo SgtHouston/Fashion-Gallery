@@ -12,20 +12,29 @@ import '../componentcss/OffCanvasNav.css';
 
 function OffCanvasNav() {
     
+    // Deploys OffCanvas Nav
     const [show, setShow] = useState(false);
+
+    // Removes OffCanvasNav Launch button from 
+    // behind nav when deployed so video can be seen,
     const [showLaunch, setShowLaunch] = useState(true);
 
     const handleClose = () => {
+        // Close Nav
         setShow(false);
+        // Re-display launch button
         setShowLaunch(true);
     }
     const handleShow = () => {
+        // Open Nav
         setShow(true);
+        // Remove Launch Button
         setShowLaunch(false); 
     }
     
     return (
         <div className='OffCanvasChannels'>
+            {/* If True, display launch button, if false replace with placeholder div.   */}
             { showLaunch ? <MenuIcon className='LaunchBtn' show={{showLaunch}} variant='primary' onClick={handleShow}/> : <div className="MenuPlaceholder"></div>  }
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header className="closeBtn" closeButton>
@@ -33,7 +42,7 @@ function OffCanvasNav() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <div className="Channels">
-
+                        {/*  */}
                         <Link className="Channel"
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>

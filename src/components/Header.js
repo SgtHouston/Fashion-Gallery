@@ -12,7 +12,7 @@ function Header() {
 
     return (
         <div className="header">
-
+            {/* Navigation Pane On Every Page Via Header */}
             <OffCanvasNav />
 
             <a href="/" alt="">
