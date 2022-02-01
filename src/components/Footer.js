@@ -14,6 +14,7 @@ function Footer() {
         <nav className="navbar navbar-dark text-center">
             <div className="col-12">
                 <div className="footerlinks text-center ">
+                    {/* Footer Links */}
                     <div className="my-3">
                         <a className="footerlink" href="/" alt=''> HOME </a>
                     </div>
@@ -33,6 +34,7 @@ function Footer() {
                 </div>
             </div>
             <div className="footer-contact">
+                {/* Contact Info */}
                 <span > <LocationOnIcon/> Atlanta, GA </span><br/>
                 <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/>
                 <a className="footer-info" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
