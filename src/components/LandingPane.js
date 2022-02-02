@@ -24,6 +24,8 @@ import Twins from '../images/Twins.png'
 
 function LandingPane() {
 
+    const vid1 = document.getElementById('video1') 
+    vid1.play()
 
     return (
         <div className="landingpane">

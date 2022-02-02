@@ -31,16 +31,6 @@ function Contact() {
         }, 2000);
     }
 
-    // function returnFileSize(number) {
-    //     if (number < 1024) {
-    //         return number + 'bytes';
-    //     } else if (number >= 1024 && number < 1048576) {
-    //         return (number / 1024).toFixed(1) + 'KB';
-    //     } else if (number >= 1048576) {
-    //         return (number / 1048576).toFixed(1) + 'MB';
-    //     }
-    // }
-
     const dispatch = useDispatch()
     const [show, setShow] = useState(false);
     const [fname, setFName] = useState('');
@@ -199,6 +189,10 @@ function Contact() {
         // Refresh page on close or redirect to other
 
     }
+
+    const vid2 = document.getElementById('video2') 
+    vid2.play()
+
 
     return (
         <div className="contact">
