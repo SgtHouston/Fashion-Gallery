@@ -17,6 +17,10 @@ import CustomerWorn14 from '../images/PinkFlower.png'
 import CustomerWorn15 from '../images/SilverPose.png'
 import CustomerWorn16 from '../images/GoldFull.png'
 import Twins from '../images/Twins.png'
+import { Player } from 'video-react';
+import "video-react/dist/video-react.css";
+
+
 
 
 
@@ -24,14 +28,14 @@ import Twins from '../images/Twins.png'
 
 function LandingPane() {
 
-    const vid1 = document.getElementById('video1') 
-    vid1.play()
 
     return (
+
+        
         <div className="landingpane">
-            <video className='videoTag' id='video1' muted autoPlay loop playsinline >
-                <source className='video' src={backgroundVid} type='video/mp4' />
-            </video>
+            <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline >
+                {/* <source className='video' src={backgroundVid} type='video/mp4' /> */}
+            </Player>
 
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>

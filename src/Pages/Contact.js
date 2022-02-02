@@ -19,6 +19,11 @@ import CSSSelect from '../components/CSSSelect'
 import { storage } from '../firebase'
 import { ref, uploadBytesResumable } from 'firebase/storage'
 import { getDownloadURL } from 'firebase/storage';
+// npm install --save video-react react react-dom redux
+// added to replace video tags with react player tags
+import { Player, LoadingSpinner } from 'video-react';
+import "video-react/dist/video-react.css";
+
 
 
 function Contact() {
@@ -190,9 +195,6 @@ function Contact() {
 
     }
 
-    const vid2 = document.getElementById('video2') 
-    vid2.play()
-
 
     return (
         <div className="contact">
@@ -201,9 +203,10 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-image'>
-                        <video className='videoTagContact' id='video2' muted autoPlay loop  playsinline>
-                            <source className='video' src={DressVid} type='video/mp4' />
-                        </video>
+                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline aspectRatio="4:3" >
+                            {/* <source className='video' src={DressVid} type='video/mp4' /> */}
+                            <LoadingSpinner />
+                        </Player>
 
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>
                         < KeyboardDoubleArrowDownIcon />
