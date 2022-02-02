@@ -214,7 +214,7 @@ function Contact() {
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>
                         < KeyboardDoubleArrowDownIcon />
                     </div>
-                    <form className="contact-form-inputs" onSubmit={handleSubmit}>
+                    <form className="contact-form-inputs" netlify name="Contact" onSubmit={handleSubmit}>
                         <fieldset>
                             <br />
                             <label htmlFor="contact-names" className="form-check">Name </label>
