@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { HashRouter as Router, Route, Switch, Redirect } from "react-router-dom";
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
