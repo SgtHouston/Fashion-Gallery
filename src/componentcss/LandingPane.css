@@ -28,23 +28,21 @@
     margin: 5px 0px 5px 0px;
     display: flex;
     justify-content: space-around;
-    padding: 0px 20px 0px 15px;
     
 }
 .dressdisplay-last {
     margin: 5px 0px 0px 0px;
     display: flex;
-    padding: 0px 20px 15px 15px;
+    padding: 0px 0px 15px 0px;
+    
 }
 
 .landing__img {
     display: flex;
     justify-content: space-around;
-    margin: 0px 7.5px 0px 7.5px;
+    margin: 0px 2.5px 0px 2.5px;
     height: 100%; 
     overflow: hidden; 
-    
-    
 }
 
 .landing__img img {
@@ -59,7 +57,6 @@
 
 }
 
-
 .vidpic-div {
     display: flex;
     margin: 7.5px 0px 7.5px 0px;
@@ -67,8 +64,9 @@
 
 .large-img {
     /* background-color: #545B5A; */
-    margin: 10px 25px 10px 25px;
+    padding: 10px 7px 10px 7px;
     /* filter: drop-shadow(0 0 0.55rem #838587); */
+    
 }
 
 @media screen and (max-width: 768px) { 
