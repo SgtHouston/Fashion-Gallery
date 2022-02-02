@@ -39,7 +39,7 @@ function App() {
           
 
           {/* Page 7  */}
-          < Route exact path="/terms" element={Terms} />
+          < Route exact path="/terms" element={<Terms/>} />
           
 
           {/* Redirect */}
