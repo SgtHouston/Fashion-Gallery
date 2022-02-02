@@ -228,7 +228,9 @@ fieldset {
 }
 
 .videoTagContact {
-    max-width: 80vw;
+    min-width: 100vw;
+    background-color: black;
+    filter: drop-shadow(0 0 .5rem #838587);
 }
 
 .comment_box {
