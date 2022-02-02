@@ -1,0 +1,15 @@
+.dialog {
+    background-image: url('../images/WhiteMarble2.png');
+    background-size: cover;
+    border: 4px solid #545B5A;
+    padding: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 767px) { 
+    .dialog {
+        max-width: 18rem;
+        min-width: 18rem;
+    }
+    
+    
+}
