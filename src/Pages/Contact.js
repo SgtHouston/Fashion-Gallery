@@ -21,7 +21,7 @@ import { ref, uploadBytesResumable } from 'firebase/storage'
 import { getDownloadURL } from 'firebase/storage';
 // npm install --save video-react react react-dom redux
 // added to replace video tags with react player tags
-import { Player, LoadingSpinner } from 'video-react';
+import { Player, LoadingSpinner, ControlBar} from 'video-react';
 import "video-react/dist/video-react.css";
 
 
@@ -203,8 +203,8 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-image'>
-                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline aspectRatio="4:3" >
-                            {/* <source className='video' src={DressVid} type='video/mp4' /> */}
+                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline >
+                            <ControlBar disableCompletely={true} className="my-class" />
                             <LoadingSpinner />
                         </Player>
 

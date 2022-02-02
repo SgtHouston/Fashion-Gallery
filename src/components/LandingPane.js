@@ -17,7 +17,7 @@ import CustomerWorn14 from '../images/PinkFlower.png'
 import CustomerWorn15 from '../images/SilverPose.png'
 import CustomerWorn16 from '../images/GoldFull.png'
 import Twins from '../images/Twins.png'
-import { Player } from 'video-react';
+import { Player, LoadingSpinner, ControlBar  } from 'video-react';
 import "video-react/dist/video-react.css";
 
 
@@ -34,7 +34,8 @@ function LandingPane() {
         
         <div className="landingpane">
             <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline >
-                {/* <source className='video' src={backgroundVid} type='video/mp4' /> */}
+            <ControlBar disableCompletely={true} className="my-class" />
+            <LoadingSpinner />
             </Player>
 
             <div className="text-center">
