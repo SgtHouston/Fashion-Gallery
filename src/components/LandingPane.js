@@ -17,6 +17,7 @@ import CustomerWorn14 from '../images/PinkFlower.png'
 import CustomerWorn15 from '../images/SilverPose.png'
 import CustomerWorn16 from '../images/GoldFull.png'
 import Twins from '../images/Twins.png'
+import Poster from '../images/SLR Couture Long Logo.jpg'
 
 
 
@@ -26,7 +27,7 @@ function LandingPane() {
 
     return (
         <div className="landingpane">
-            <video className='videoTag' autoPlay loop muted controls>
+            <video className='videoTag' autoPlay loop muted poster={Poster}>
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
             
