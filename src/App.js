@@ -13,7 +13,7 @@ import Terms from "./Pages/Terms";
 function App() {
   return (
     <div className="App">
-      < Router>
+      < Router basename={process.env.PUBLIC_URL}>
         < Switch>
 
           {/* Page 1  */}
