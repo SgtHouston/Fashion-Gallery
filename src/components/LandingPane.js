@@ -30,9 +30,6 @@ function LandingPane() {
             <video className='videoTag' id='video1' muted autoPlay loop playsinline >
                 <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
-            <script>
-                { document.getElementById('video1').play() }
-            </script>
 
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
