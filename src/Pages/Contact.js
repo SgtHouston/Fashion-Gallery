@@ -10,7 +10,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useState } from 'react'
 import { actionAddClient } from '../redux/actions/client'
 import { Modal, Button } from 'react-bootstrap'
-import DressVid from '../video/DressVid.mp4'
+import DressVid from '../video/DressVid480.mov'
 import { FormHelperText, InputLabel, MenuItem } from '@mui/material';
 // import { styled } from '@mui/material/styles';
 import CSSTextField from '../components/CSSTextField'
@@ -207,7 +207,7 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-image'>
-                        <video className='videoTagContact' autoPlay loop controls muted>
+                        <video className='videoTagContact' autoPlay loop muted>
                             <source className='video' src={DressVid} type='video/mp4' />
                         </video>
 
