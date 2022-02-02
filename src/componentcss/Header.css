@@ -56,7 +56,9 @@
     align-self: center;
     flex-direction: row;
     color:#545B5A;
-    outline:auto;
+    text-decoration: none;
+    border: 2px solid #545B5A;
+    border-radius: 7px;
 }
 
 @media screen and (max-width: 768px) { 
@@ -64,6 +66,6 @@
         max-height: 50px;
         height: auto;
         width: 82px;
-        margin: 5px 0px 5px 0px;
+        margin: 5px 0px 10px 0px;
     }
 }
