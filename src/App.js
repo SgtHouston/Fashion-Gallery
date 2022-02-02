@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
@@ -14,50 +14,40 @@ function App() {
   return (
     <div className="App">
       < Router >
-        < Switch>
+        < Routes>
 
           {/* Page 1  */}
-          < Route exact path="/">
-            < Home /> 
-          </ Route>
+          < Route exact path="/" element={<Home/>} />
 
           {/* Page 2  */}
-          < Route exact path="/about">
-            < About />
-          </ Route>
+          < Route exact path="/about" element={<About/>} />
+
 
           {/* Page 3  */}
-          < Route exact path="/lookbook">
-            < Lookbook />
-          </ Route>
+          < Route exact path="/lookbook" element={<Lookbook/>} />
+      
 
           {/* Page 4  */}
-          < Route exact path="/contact">
-            < Contact />
-          </ Route>
+          < Route exact path="/contact" element={<Contact/>} />
+
 
           {/* Page 5  */}
-          < Route exact path="/clients">
-            < Clients />
-          </ Route>
+          < Route exact path="/clients" element={<Clients/>} />
 
           {/* Page 6  */}
-          < Route exact path="/faqs">
-            < Faqs />
-          </ Route>
+          < Route exact path="/faqs" element={<Faqs/>} />
+          
 
           {/* Page 7  */}
-          < Route exact path="/terms">
-            < Terms />
-          </ Route>
-
+          < Route exact path="/terms" element={Terms} />
+          
 
           {/* Redirect */}
-          < Route exact path="*">
-            < Redirect to="/">{/* Redirect to homepage */}</Redirect>
-          </ Route>
+          <Route exact path="*"  element={<Navigate to="/" />} />
+          {/* Redirect to homepage */}
           
-        </ Switch>
+          
+        </ Routes>
         
       </ Router>
     </div>
