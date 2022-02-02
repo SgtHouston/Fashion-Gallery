@@ -2,7 +2,7 @@
   "name": "slr-couture",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sgthouston.github.io/slr-couture",
+  "homepage": "https://slr-couture.com",
   "dependencies": {
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
