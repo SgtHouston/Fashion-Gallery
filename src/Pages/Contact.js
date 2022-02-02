@@ -211,7 +211,7 @@ function Contact() {
                             <source className='video' src={DressVid} type='video/mp4' />
                         </video>
                         <script>
-                            {document.getElementById('video2').play()}
+                            { document.getElementById('video2').play() }
                         </script>
 
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>

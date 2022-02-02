@@ -28,7 +28,7 @@ function LandingPane() {
     return (
         <div className="landingpane">
             <video className='videoTag' id='video1' muted autoPlay loop playsinline >
-                <source className='video' id='video1' src={backgroundVid} type='video/mp4' />
+                <source className='video' src={backgroundVid} type='video/mp4' />
             </video>
             <script>
                 { document.getElementById('video1').play() }
