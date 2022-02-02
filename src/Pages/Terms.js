@@ -11,7 +11,7 @@ function Terms() {
         <div className="terms">
             <Header />
             <div className="terms-body">
-                <h2 className='terms-title text-center'> Terms Of Service</h2>
+                <h2 className='terms-title'> Terms Of Service</h2>
                 <br />
                 <div className='terms'>
                     <p className="terms-header">OVERVIEW</p>
