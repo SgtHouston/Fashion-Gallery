@@ -18,8 +18,6 @@
 .button-div {
     max-height: 50px;
     height: auto;
-    width: 82px;
-    margin: 5px 20px 5px 0px;
 }
 
 .order-button {
@@ -30,7 +28,8 @@
     /* border: 2px solid #545B5A; */
     font-family: SLRScript;
     border: none;
-    
+    padding: 0px 0px 0px 0px;
+    width: 40px;
 }
 
 .order-button:hover {
@@ -49,6 +48,8 @@
 .order-link {
     text-decoration: none;
     display: flex;
+    justify-content:center;
+    width: 92px;
 }
 
 .order-link-arrow {
