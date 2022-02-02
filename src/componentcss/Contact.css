@@ -80,10 +80,6 @@ input[type="radio"]:active {
     border-color: #545b5a7b;
 }
 
-input[type="file"] {
-    
-}
-
 
 
 .contact-image {
@@ -179,8 +175,6 @@ fieldset {
 
 #fnameinput:hover, #lnameinput:hover,#phoneinput:hover,#emailinput:hover {
     border-radius: 5px;
-    
-    
 }
 
 #size-selector {
@@ -229,6 +223,9 @@ fieldset {
         min-width: 100vw;
     }
     
+    .inspiration {
+        margin: 0rem 0rem 0rem 5rem;
+    }
 }
 
 .videoTagContact {
@@ -241,7 +238,6 @@ fieldset {
 .comment_box {
     display: block;
     margin: 0 auto;
-    
 }
 
 .comments {

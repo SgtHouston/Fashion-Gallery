@@ -512,7 +512,7 @@ function Contact() {
 
                         </fieldset>
 
-                        <div>
+                        <fieldset>
                             <label>Upload 1 Full-Body Photo:</label>
                             <p>(Max Size: 2 MB)</p>
                             <div className="inspiration">
@@ -532,10 +532,10 @@ function Contact() {
 
                             </div>
 
-                        </div>
+                        </fieldset>
                         <br />
                         {/* Requires Pay Plan */}
-                        <div>
+                        <fieldset>
                             <label>Upload Up To 5 Garment Inspiration Photos:</label>
                             <p>(Max Size: 2 MB)</p>
                             <div className="inspiration">
@@ -607,7 +607,7 @@ function Contact() {
                                         }
                                     }} />
                             </div>
-                        </div>
+                        </fieldset>
                         <br />
 
                         {/* Terms & Conditons / FAQs */}
