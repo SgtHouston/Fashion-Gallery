@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Switch, Redirect } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Switch, Redirect } from "react-router-dom";
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
@@ -13,7 +13,8 @@ import Terms from "./Pages/Terms";
 function App() {
   return (
     <div className="App">
-      < Router>
+      < Router >
+        <HashRouter basename="/">
         < Switch>
 
           {/* Page 1  */}
@@ -62,6 +63,7 @@ function App() {
 
 
         </ Switch>
+        </HashRouter>
       </ Router>
     </div>
   );
