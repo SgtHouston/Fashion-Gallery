@@ -194,7 +194,25 @@ function Contact() {
         // Refresh page on close or redirect to other
 
     }
+    const screenWidth = window.screen.width
 
+    let videoheight = 580
+
+    if (screenWidth >= 1280 ) {
+        videoheight = 580
+    } else if (screenWidth <= 1279 && screenWidth >= 1000  ) {
+        videoheight = 465
+    } else if (screenWidth <= 999 && screenWidth >= 769) {
+        videoheight = 370
+    } else if (screenWidth <= 768 && screenWidth >= 700) {
+        videoheight = 350
+    } else if (screenWidth <= 699 && screenWidth >= 530) {
+        videoheight = 245
+    } else if  (screenWidth < 529 && screenWidth >= 410) {
+        videoheight = 190
+    } else {
+        videoheight = 170
+    }
 
     return (
         <div className="contact">
@@ -203,7 +221,7 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-video'>
-                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false} height={580} >
+                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false} height={videoheight} >
                             <ControlBar disableCompletely={true} className="my-class" />
                             <LoadingSpinner />
                         </Player>
@@ -211,7 +229,7 @@ function Contact() {
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>
                         < KeyboardDoubleArrowDownIcon />
                     </div>
-                    <form className="contact-form-inputs" netlify name="Contact" onSubmit={handleSubmit}>
+                    <form className="contact-form-inputs" name="Contact" onSubmit={handleSubmit}>
                         <fieldset>
                             <br />
                             <label htmlFor="contact-names" className="form-check">Name </label>

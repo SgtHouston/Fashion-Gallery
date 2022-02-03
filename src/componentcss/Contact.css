@@ -219,10 +219,6 @@ fieldset {
 }
 
 @media screen and (max-width: 768px) { 
-    .videoTagContact {
-        min-width: 100vw;
-    }
-    
     .inspiration {
         margin: 0rem 0rem 0rem 7rem;
     }
