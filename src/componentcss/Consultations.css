@@ -1,0 +1,19 @@
+.consultations-title {
+    font-family: SLRScript;
+    font-weight: 300;
+    color: #545B5A;
+    padding-top: 8px;
+    background-color: #BCCBC9;
+    
+}
+
+.consultations-body {
+    text-align: center;
+    background-color: #BCCBC9;
+    padding: 1rem 3rem 1rem 3rem;
+}
+
+.consultations-header {
+    font-family: SLRScript;
+    font-weight: 300;
+}

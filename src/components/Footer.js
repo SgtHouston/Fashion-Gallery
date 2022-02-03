@@ -29,7 +29,7 @@ function Footer() {
                     </div>
                     
                     <div className="my-3">
-                        <a className="footerlink" href="/contact"> CONTACT US </a>
+                        <a className="footerlink" href="/contact"> START ORDER </a>
                     </div>
                 </div>
             </div>

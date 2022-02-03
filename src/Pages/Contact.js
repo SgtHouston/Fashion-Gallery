@@ -514,7 +514,7 @@ function Contact() {
 
                         <fieldset>
                             <label htmlFor="consultation-selector" id="consultation-selector">Consultation Preference</label>
-                            <br />
+                            <p>(Consultation Fee Due Upon Scheduling)</p>
                             <div className="form-check form-check-inline">
                                 <input className="form-check-input" type="radio" name="consultation-selector" id="inPerson" value={consultation} onChange={e => setConsultation("In-Person Consultation")} />
                                 <label htmlFor="inPerson" className="label-input">

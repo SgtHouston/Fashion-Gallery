@@ -38,6 +38,15 @@ function Faqs() {
                         </Accordion.Item>
 
                         <Accordion.Item eventKey="3">
+                            <Accordion.Header>IS THERE A CONSULTATION A FEE?</Accordion.Header>
+                            <Accordion.Body>
+                                BRIDAL CONSULTATION $150 - 2hrs <br/>
+                                PROM CONSULTATION $75 - 1hr <br/>
+                                CUSTOM CONSULTATION $50 - 30min <br/>
+                            </Accordion.Body>
+                        </Accordion.Item>
+
+                        <Accordion.Item eventKey="4">
                             <Accordion.Header>HOW LONG DOES THE COUTURE PROCESS TAKE?</Accordion.Header>
                             <Accordion.Body>
                                 BRIDAL TURNAROUND TIMEFRAME 24-48 WEEKS<br/>
@@ -46,23 +55,23 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="4">
-                            <Accordion.Header>IS THERE A CONSULTATION A FEE?</Accordion.Header>
+                        <Accordion.Item eventKey="5">
+                            <Accordion.Header>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
                             <Accordion.Body>
-                                BRIDAL CONSULTATION $200 - 3hrs <br/>
-                                PROM CONSULTATION $100 - 2hrs <br/>
-                                CUSTOM CONSULTATION $50 - 1hr <br/>
+                                We advise beginning the process at least 24 weeks to your wedding. We do offer express couture services. Please send an e-mail to slrcouture@gmail.com if you need a gown less than 24 weeks to your wedding.
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="5">
+                        
+
+                        <Accordion.Item eventKey="6">
                             <Accordion.Header>DO YOU OFFER RUSH ORDERS? </Accordion.Header>
                             <Accordion.Body>
                                 We can provide rush orders with lead times under 12 weeks contingent upon on our production schedule. All rush orders must be requested prior to ordering. All orders are shipped via UPS Standard Ground (7-10 business days) unless otherwise requested. Rush orders are subject to prior approval. This option does not include shipping, which you will be billed separately. 
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="6">
+                        <Accordion.Item eventKey="7">
                             <Accordion.Header>DO YOU OFFER COUTURE TO BRIDES INTERNATIONALLY?</Accordion.Header>
                             <Accordion.Body>
                                 Yes, we do extend our couture services to international brides. Consultations will be held virtually via a video call, during which we will walk you through the entire couture process in detail.
@@ -99,9 +108,11 @@ function Faqs() {
                         </Accordion.Item>
 
                         <Accordion.Item eventKey="10">
-                            <Accordion.Header>WHAT IS YOUR REFUND POLICY?</Accordion.Header>
+                            <Accordion.Header>WHAT IS YOUR CANCELLATION / REFUND POLICY?</Accordion.Header>
                             <Accordion.Body>
-                                All custom made items are considered final sale and do not qualify for return, refund or store credits. 
+                            If you need to cancel your order, you can only do so providing your gown hasn’t begun production. There is a cancellation fee to cover the cost of administration, fabric allocation, pre-production and pattern preparation associated with your order. You must contact us immediately at slrcouture@gmail.com to discuss the circumstances surrounding the cancellation well in advance of your production date.  <br/><br/>
+                            
+                            All custom made items are considered final sale and do not qualify for return, refund or store credits. 
                             </Accordion.Body>
                         </Accordion.Item>
 
