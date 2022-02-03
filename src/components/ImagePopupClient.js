@@ -18,8 +18,8 @@ function ImagePopupClient({ Img }) {
             { imgPopupLaunch ? 
                     (
                     <div className="dialog-backdrop">
-                        <dialog className="dialog center" open onClick={handleClick} >
-                            <img className='img-fluid' src={Img} style={{maxHeight: '100vh'}} onClick={handleClick} alt="" />
+                        <dialog className="dialog center" open style={{ maxHeight: '100vh' }} onClick={handleClick} >
+                            <img className='img-fluid' src={Img} style={{ maxHeight: '100vh' }} onClick={handleClick} alt="" />
                         </dialog>
                     </div>
                 ) 
