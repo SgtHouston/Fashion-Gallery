@@ -203,7 +203,7 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-video'>
-                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false}  >
+                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false} height={580} >
                             <ControlBar disableCompletely={true} className="my-class" />
                             <LoadingSpinner />
                         </Player>

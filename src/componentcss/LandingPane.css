@@ -21,21 +21,11 @@
     background-color: black;
     filter: drop-shadow(0 0 .5rem #838587);
     max-width: 80%;
+    min-width: 80%;
     margin: 0 auto;
     
 }
 
-#video1 {
-    margin: 0px 0px 5px 0px;
-    background-color: black;
-    filter: drop-shadow(0 0 .5rem #838587);
-    max-width: 80%;
-    margin: 0 auto;
-}
-
-.video-react-controls-enabled.video-react.videoTag {
-    padding-top: 0px;
-}
 
 .dressdisplay {
     margin: 5px 0px 5px 0px;
