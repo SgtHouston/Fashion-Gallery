@@ -19,10 +19,10 @@
 }
 
 .LaunchBtn:hover {
-    color: #838587;
+    color: black;
     outline: none;
-    border-color: #838587;
-    border-width: 5px;
+    /* border-color: #838587;
+    border-width: 5px; */
 }
 
 .LaunchBtn:active {
@@ -74,7 +74,7 @@
 }
 
 .btn-close:active {
-    background-color: #838587;
+    background-color: #BCCBC9;
     outline: 3px solid black !important;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .OffCanvasMain {
-    opacity: 0.65;
+    opacity: 0.75;
 }
 
 .modal-open {

@@ -34,7 +34,7 @@
 }
 
 .order-button:hover {
-    opacity: 0.75;
+    color: BLACK;
 }
 
 .order-button:active {
