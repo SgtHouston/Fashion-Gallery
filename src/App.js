@@ -8,6 +8,7 @@ import Contact from "./Pages/Contact";
 import Clients from "./Pages/Clients";
 import Faqs from "./Pages/Faqs";
 import Terms from "./Pages/Terms";
+import Consultations from "./Pages/Consultations";
 
 
 function App() {
@@ -22,14 +23,11 @@ function App() {
           {/* Page 2  */}
           < Route exact path="/about" element={<About/>} />
 
-
           {/* Page 3  */}
           < Route exact path="/lookbook" element={<Lookbook/>} />
-      
 
           {/* Page 4  */}
           < Route exact path="/contact" element={<Contact/>} />
-
 
           {/* Page 5  */}
           < Route exact path="/clients" element={<Clients/>} />
@@ -37,11 +35,12 @@ function App() {
           {/* Page 6  */}
           < Route exact path="/faqs" element={<Faqs/>} />
           
-
           {/* Page 7  */}
           < Route exact path="/terms" element={<Terms/>} />
-          
 
+          {/* Page 7  */}
+          < Route exact path="/consultations" element={<Consultations/>} />
+          
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
           {/* Redirect to homepage */}
