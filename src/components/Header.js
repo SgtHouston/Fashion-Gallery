@@ -23,7 +23,7 @@ function Header() {
             </a>
 
             <div className="button-div">
-                <a className="order-link" href="/contact" >
+                <a className="order-link" href="/start-order" >
                     <ArrowForwardIcon className="order-link-arrow"/>
                     <button className="order-button ">
                         Start Your Order

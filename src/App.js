@@ -27,7 +27,7 @@ function App() {
           < Route exact path="/lookbook" element={<Lookbook/>} />
 
           {/* Page 4  */}
-          < Route exact path="/contact" element={<Contact/>} />
+          < Route exact path="/start-order" element={<Contact/>} />
 
           {/* Page 5  */}
           < Route exact path="/clients" element={<Clients/>} />

@@ -17,3 +17,8 @@
     font-family: SLRScript;
     font-weight: 300;
 }
+
+.consultations-link {
+    text-decoration: none;
+    color: #545B5A;
+}

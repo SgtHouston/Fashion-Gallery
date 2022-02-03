@@ -31,7 +31,7 @@ function Footer() {
                         <a className="footerlink" href="/consultations"> CONSULTATIONS </a>
                     </div>
                     <div className="my-3">
-                        <a className="footerlink" href="/contact"> START ORDER </a>
+                        <a className="footerlink" href="/start-order"> START ORDER </a>
                     </div>
                 </div>
             </div>
