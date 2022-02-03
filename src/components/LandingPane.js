@@ -19,6 +19,7 @@ import CustomerWorn16 from '../images/GoldFull.png'
 import Twins from '../images/Twins.png'
 import { Player, LoadingSpinner, ControlBar  } from 'video-react';
 import "video-react/dist/video-react.css";
+import ImagePopupComponent from './ImagePopupComponent'
 
 
 
@@ -34,23 +35,18 @@ function LandingPane() {
         
         <div className="landingpane">
             <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline >
-            <ControlBar disableCompletely={true} className="my-class" />
-            <LoadingSpinner />
+                <ControlBar disableCompletely={true} className="my-class" />
+                <LoadingSpinner />
             </Player>
 
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
             </div>
+
             <div className="dressdisplay">
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn1} alt="Customer Worn Dress 1"></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn3} alt="Customer Worn Dress 3"></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn2} alt="Customer Worn Dress 2"></img>
-                </div>
+                < ImagePopupComponent Img={CustomerWorn1} alt="Customer Worn Dress 1" />
+                < ImagePopupComponent Img={CustomerWorn3} alt="Customer Worn Dress 3" />
+                < ImagePopupComponent Img={CustomerWorn2} alt="Customer Worn Dress 2" />
             </div>
 
             <div className="text-center">
@@ -58,69 +54,56 @@ function LandingPane() {
             </div>
 
             <div className="dressdisplay">
-                <div className="landing__img">
-                    <img className="img-fluid" src={CustomerWorn13} alt="Customer Worn Dress 13" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn15} alt="Customer Worn Dress 15" ></img>
-                </div>
+                < ImagePopupComponent Img={CustomerWorn13} alt="Customer Worn Dress 13" />
+                < ImagePopupComponent Img={CustomerWorn15} alt="Customer Worn Dress 15" />
             </div>
+
             <div className="text-center">
                 <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
             </div>
-            <img className='img-fluid large-img' src={Twins} alt="Customer Worn Dress 8" ></img>
+
+            < ImagePopupComponent className='large-img' Img={Twins} alt="Customer Worn Dress 8" />
+            
             <div className="text-center">
                 <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
             </div>
 
             <div className="dressdisplay">
-                <div className="landing__img">
-                    <img className="img-fluid" src={CustomerWorn5} alt="Customer Worn Dress 5" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn6} alt="Customer Worn Dress 6" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn7} alt="Customer Worn Dress 7" ></img>
-                </div>
+                < ImagePopupComponent Img={CustomerWorn5} alt="Customer Worn Dress 5" />
+                < ImagePopupComponent Img={CustomerWorn6} alt="Customer Worn Dress 6" />
+                < ImagePopupComponent Img={CustomerWorn7} alt="Customer Worn Dress 7" />
             </div>
+
             <div className="text-center">
                 <span className="text-center landing_text"> Make Your Special Occasion One To Remember </span>
             </div>
-            <img className='img-fluid large-img' src={CustomerWorn12} alt="Customer Worn Dress 12" ></img>
+
+            < ImagePopupComponent className='large-img' Img={CustomerWorn12} alt="Customer Worn Dress 12" />
+            
             <div className="text-center">
                 <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
             </div>
+
             <div className="dressdisplay">
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn14} alt="Customer Worn Dress 14" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn16} alt="Customer Worn Dress 16" ></img>
-                </div>
+                < ImagePopupComponent Img={CustomerWorn14} alt="Customer Worn Dress 14" />
+                < ImagePopupComponent Img={CustomerWorn16} alt="Customer Worn Dress 16" />           
             </div>
+
             <div className="text-center">
                 <span className="text-center landing_text"> Let's Bring Your Vision To Life </span>
             </div>
 
-            <img className='img-fluid large-img' src={CustomerWorn8} alt="Customer Worn Dress 8" ></img>
+            < ImagePopupComponent className='large-img'Img={CustomerWorn8} alt="Customer Worn Dress 8" />
+            
             <div className="text-center">
                 <span className="text-center landing_text"> Become A Part Of The SLR Couture Family </span>
             </div>
+
             <div className="dressdisplay dressdisplay-last">
-                <div className="landing__img">
-                    <img className="img-fluid" src={CustomerWorn9} alt="Customer Worn Dress 9" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn10} alt="Customer Worn Dress 10" ></img>
-                </div>
-                <div className="landing__img">
-                    <img className='img-fluid' src={CustomerWorn11} alt="Customer Worn Dress 11" ></img>
-                </div>
-
+                < ImagePopupComponent Img={CustomerWorn9} alt="Customer Worn Dress 9" />          
+                < ImagePopupComponent Img={CustomerWorn10} alt="Customer Worn Dress 10" />
+                < ImagePopupComponent Img={CustomerWorn11} alt="Customer Worn Dress 11" />    
             </div>
-
-
 
         </div>
     )
