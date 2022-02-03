@@ -2,30 +2,23 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import '../componentcss/Clients.css'
 import picDB from "../db/db";
-import parse from 'html-react-parser';
+import ImagePopupClient from "../components/ImagePopupClient";
 
 function Clients() {
 
-    function renderPic (pic, index) {
-        // write render pic function
-        // accepts a picture and renders it in an img tag
-        return (
-            `<img className ='client-pic' src=${pic} alt='' key=${index}></img>`
-        )
-        
-    }   
 
     return (
         <div className="clients">
             <Header />
             <div className="clients-body">
                 <h2 className="clients-title">Client Gallery</h2>
-                
-                { picDB.map((pic, index) => {
-                    return (
-                        parse(renderPic(pic, index))
-                    )
-                })}
+                <div className="clients-pics">
+                    { picDB.map((Img, index) => {
+                        return (
+                            <ImagePopupClient Img={Img} alt={`Customer Worn Dress ${index + 1}`} />
+                        );
+                    })}
+                </div>
 
             </div>
             <Footer />
