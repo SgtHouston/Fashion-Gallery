@@ -34,7 +34,7 @@ function LandingPane() {
 
         
         <div className="landingpane">
-            <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline >
+            <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline fluid={false}  >
                 <ControlBar disableCompletely={true} className="my-class" />
                 <LoadingSpinner />
             </Player>

@@ -18,6 +18,7 @@
 .button-div {
     max-height: 50px;
     height: auto;
+    margin-right: 5px;
 }
 
 .order-button {
