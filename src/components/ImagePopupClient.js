@@ -1,6 +1,5 @@
 import React, { useState }  from "react";
-// import '../componentcss/ImagePopupClient.css'
-
+import '../componentcss/ImagePopupClient.css'
 
 
 function ImagePopupClient({ Img }) {
@@ -14,14 +13,15 @@ function ImagePopupClient({ Img }) {
 
 
     return (  
-        <div className ='client-pic'>
-            <img src={Img} onClick={handleClick} alt=""/>
-            
+        <div className ='pic-div'>
+            <img className ='client-pic' src={Img} onClick={handleClick} alt=""/>
             { imgPopupLaunch ? 
-                (
-                    <dialog className="dialog" style={{ position: "absolute", width: '30rem'}} open onClick={handleClick} >
-                        <img className='img-fluid' src={Img} onClick={handleClick} alt="" />
-                    </dialog>
+                    (
+                    <div className="dialog-backdrop">
+                        <dialog className="dialog center" open onClick={handleClick} >
+                            <img className='img-fluid' src={Img} style={{maxHeight: '100vh'}} onClick={handleClick} alt="" />
+                        </dialog>
+                    </div>
                 ) 
                 : 
                 ''
