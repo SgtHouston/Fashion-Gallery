@@ -25,12 +25,12 @@ function Lookbook() {
 
 
                 <Carousel.Item>
-                    <a href="/lookbook/greengold"><img
+                    <img
                         className="img-fluid carousel-img"
                         src={dress1}
                         alt="First slide"
                         
-                    /></a>
+                    />
                 </Carousel.Item>
 
                 <Carousel.Item>
