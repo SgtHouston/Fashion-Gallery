@@ -5,6 +5,7 @@
     padding: 10px 10px 10px 10px;
     min-width:50%;
     z-index: 1;
+    max-width: 75vw;
 }
 
 
@@ -12,7 +13,6 @@
     position: absolute;
     left: 50%;
     transform: translate(-50%, 0%);
-    
 }
 
 .dialog-backdrop {
