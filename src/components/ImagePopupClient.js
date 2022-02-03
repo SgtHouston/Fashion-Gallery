@@ -18,8 +18,8 @@ function ImagePopupClient({ Img }) {
             { imgPopupLaunch ? 
                     (
                     <div className="dialog-backdrop">
-                        <dialog className="dialog center" open style={{ minHeight: '80vh' }} onClick={handleClick} >
-                            <img className='img-fluid' src={Img} style={{ minHeight: '80vh' }} onClick={handleClick} alt="" />
+                        <dialog className="dialog center" open style={{ minWidth: '100vw' }} onClick={handleClick} >
+                            <img className='img-fluid' src={Img} style={{ minHeight: '100%' }} onClick={handleClick} alt="" />
                         </dialog>
                     </div>
                 ) 
