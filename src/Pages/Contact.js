@@ -202,8 +202,8 @@ function Contact() {
             <div className="contact-body">
                 <div className='contact-form text-center'>
 
-                    <div className='contact-image'>
-                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline >
+                    <div className='contact-video'>
+                        <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false}  >
                             <ControlBar disableCompletely={true} className="my-class" />
                             <LoadingSpinner />
                         </Player>
