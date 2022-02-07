@@ -78,14 +78,14 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="7">
+                        <Accordion.Item eventKey="8">
                             <Accordion.Header>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
                             <Accordion.Body>
                                 We advise beginning the process at least 24 weeks to your wedding. We do offer express couture services. Please send an e-mail to slrcouture@gmail.com if you need a gown less than 24 weeks to your wedding.
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="8">
+                        <Accordion.Item eventKey="9">
                             <Accordion.Header>HOW LONG DOES SHIPPING TAKE?</Accordion.Header>
                             <Accordion.Body>
                                 Shipping usually takes between 5-7 business days for domestic shipping within the U.S.A. Express shipping is an option as well. <br/><br/>
@@ -100,14 +100,14 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="9">
+                        <Accordion.Item eventKey="10">
                             <Accordion.Header>WHAT SHIPPING METHOD DO YOU USE?</Accordion.Header>
                             <Accordion.Body>
                                 Should you choose to have your gown shipped, our preferred shipping partner for both domestic and international shipping is UPS. In the event UPS is not reliable, we will chose another major courier. 
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="10">
+                        <Accordion.Item eventKey="11">
                             <Accordion.Header>WHAT IS YOUR CANCELLATION / REFUND POLICY?</Accordion.Header>
                             <Accordion.Body>
                             If you need to cancel your order, you can only do so providing your gown hasn’t begun production. There is a cancellation fee to cover the cost of administration, fabric allocation, pre-production and pattern preparation associated with your order. You must contact us immediately at slrcouture@gmail.com to discuss the circumstances surrounding the cancellation well in advance of your production date.  <br/><br/>
@@ -116,7 +116,7 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="11">
+                        <Accordion.Item eventKey="12">
                             <Accordion.Header> * COVID-19 DISCLAIMER *</Accordion.Header>
                             <Accordion.Body>
                                 We are making every effort to dispatch all orders within our standard timeframe; due to COVID-19, please be aware that production and delivery delays may occur. 
