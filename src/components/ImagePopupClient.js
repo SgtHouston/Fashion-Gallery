@@ -11,9 +11,17 @@ function ImagePopupClient({ Img }) {
         setImgPopupLaunch(!imgPopupLaunch)
     }
 
+    let divClass = 'pic-div'
+
+    if (imgPopupLaunch === true) {
+        divClass = 'pic-div_no-opacity'
+    } else {
+        divClass = 'pic-div'
+    }
+
 
     return (  
-        <div className ='pic-div'>
+        <div className ={divClass}>
             <img className ='client-pic' src={Img} onClick={handleClick} alt=""/>
             { imgPopupLaunch ? 
                     (
