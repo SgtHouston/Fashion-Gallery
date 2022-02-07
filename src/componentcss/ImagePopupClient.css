@@ -25,3 +25,7 @@
     height: 100vh;
 }
 
+.landing__img:hover {
+    opacity: 0.80;
+}
+

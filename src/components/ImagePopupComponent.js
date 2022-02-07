@@ -12,9 +12,16 @@ function ImagePopupComponent({ Img }) {
         setImgPopupLaunch(!imgPopupLaunch)
     }
 
+    let divClass = 'landing__img'
+
+    if (imgPopupLaunch === true) {
+        divClass = 'landing__img_no-opacity'
+    } else {
+        divClass = 'landing__img'
+    }
 
     return (  
-        <div className="landing__img">
+        <div className={divClass}>
             <img className='img-fluid' src={Img} onClick={handleClick} alt=""/>
             
             { imgPopupLaunch ? 
