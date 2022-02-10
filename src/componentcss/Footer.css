@@ -26,7 +26,10 @@
 
 .footerlink:hover {
     color: black;
-    
+}
+
+.footerlink:active {
+    color: #838587;
 }
 
 .footerlinks {
@@ -60,6 +63,10 @@
 }
 .footer-info:hover {
     color:black;
+}
+
+.footer-info:active {
+    color: #838587;
 }
 
 
