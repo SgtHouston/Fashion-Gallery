@@ -27,8 +27,9 @@ function ImagePopupComponent({ Img }) {
             { imgPopupLaunch ? 
                     (
                     <div className="dialog-backdrop">
-                        <dialog className="dialog center" style={{ width: '30rem' }} open onClick={handleClick} >
-                            <img className='img-fluid client-image' src={Img} onClick={handleClick} alt="" />
+                        <dialog className="dialog center text-center" style={{ width: '30rem' }} open onClick={handleClick} >
+                            <h5 className="dialog-message">Click Picture To Close</h5>
+                            <img className='img-fluid client-image ' src={Img} style={{ maxHeight: '90vh' }} onClick={handleClick} alt="" />
                         </dialog>
                     </div>
                 ) 
