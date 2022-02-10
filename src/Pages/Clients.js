@@ -15,7 +15,7 @@ function Clients() {
                 <div className="clients-pics">
                     { picDB.map((Img, index) => {
                         return (
-                            <ImagePopupClient Img={Img} alt={`Customer Worn Dress ${index + 1}`} />
+                            <ImagePopupClient Img={Img} alt={`Customer Worn Dress ${index + 1}`} key={index + 1} />
                         );
                     })}
                 </div>
