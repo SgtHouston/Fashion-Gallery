@@ -10,7 +10,7 @@ import Footer from '../components/Footer'
 function Home() {
     const link = 'www.GitHub.com/SgtHouston'
     console.log(
-        `%c Welcome To SLR Couture!  Website made by @ ${link} `, 
+        `%c Welcome To SLR Couture!  Gallery made by @ ${link} `, 
         'background: #545B5A; color: #fff; padding: 3px; border-radius:8px;'
     )
     

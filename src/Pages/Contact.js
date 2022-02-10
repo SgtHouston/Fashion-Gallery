@@ -200,7 +200,6 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-video'>
-                    
 
                         <video className='videoTagContact' id='video2' muted autoPlay loop playsInline>
                             <source src={DressVid} type="video/mp4" />
