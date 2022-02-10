@@ -16,29 +16,29 @@ function Faqs() {
                 <div className='faqs-accordion'>
                     <Accordion flush>
 
-                        <Accordion.Item eventKey="0">
-                            <Accordion.Header>DO YOU HAVE A STOREFRONT?</Accordion.Header>
+                        <Accordion.Item eventKey="0" >
+                            <Accordion.Header className='accordion-header'>DO YOU HAVE A STOREFRONT?</Accordion.Header>
                             <Accordion.Body>
                                 We do not have a storefront at this time as we are an exclusively online company. We do have an office in Georgia, but this location is not set up for customer visits. Items can be picked up with pre-approval.
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="1">
-                            <Accordion.Header>WHERE IS SLR COUTURE LOCATED? </Accordion.Header>
+                        <Accordion.Item eventKey="1" >
+                            <Accordion.Header className='accordion-header'>WHERE IS SLR COUTURE LOCATED? </Accordion.Header>
                             <Accordion.Body>
                                 SLR Couture is located in the United States in Atlanta, GA
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="2">
-                            <Accordion.Header>WHAT IS THE BEST WAY TO CONTACT YOU? </Accordion.Header>
+                        <Accordion.Item eventKey="2" className='accordion-item'>
+                            <Accordion.Header className='accordion-header'>WHAT IS THE BEST WAY TO CONTACT YOU? </Accordion.Header>
                             <Accordion.Body>
                                 The best way to reach us is via e-mail at slrcouture@gmail.com
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="3">
-                            <Accordion.Header>IS THERE A CONSULTATION A FEE?</Accordion.Header>
+                        <Accordion.Item eventKey="3" className='accordion-item'>
+                            <Accordion.Header className='accordion-header'>IS THERE A CONSULTATION A FEE?</Accordion.Header>
                             <Accordion.Body>
                                 BRIDAL CONSULTATION $150 - 2hrs <br/>
                                 PROM CONSULTATION $75 - 1hr <br/>
@@ -46,8 +46,8 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="4">
-                            <Accordion.Header>HOW LONG DOES THE COUTURE PROCESS TAKE?</Accordion.Header>
+                        <Accordion.Item eventKey="4" className='accordion-item'>
+                            <Accordion.Header className='accordion-header'>HOW LONG DOES THE COUTURE PROCESS TAKE?</Accordion.Header>
                             <Accordion.Body>
                                 BRIDAL TURNAROUND TIMEFRAME 24-48 WEEKS<br/>
                                 PROM TURNAROUND TIMEFRAME 4-6 WEEKS<br/>
@@ -55,8 +55,8 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="5">
-                            <Accordion.Header>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
+                        <Accordion.Item eventKey="5" className='accordion-item'>
+                            <Accordion.Header className='accordion-header'>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
                             <Accordion.Body>
                                 We advise beginning the process at least 24 weeks to your wedding. We do offer express couture services. Please send an e-mail to slrcouture@gmail.com if you need a gown less than 24 weeks to your wedding.
                             </Accordion.Body>
@@ -64,29 +64,29 @@ function Faqs() {
 
                         
 
-                        <Accordion.Item eventKey="6">
-                            <Accordion.Header>DO YOU OFFER RUSH ORDERS? </Accordion.Header>
+                        <Accordion.Item eventKey="6" >
+                            <Accordion.Header className='accordion-header'>DO YOU OFFER RUSH ORDERS? </Accordion.Header>
                             <Accordion.Body>
                                 We can provide rush orders with lead times under 12 weeks contingent upon on our production schedule. All rush orders must be requested prior to ordering. All orders are shipped via UPS Standard Ground (7-10 business days) unless otherwise requested. Rush orders are subject to prior approval. This option does not include shipping, which you will be billed separately. 
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="7">
-                            <Accordion.Header>DO YOU OFFER COUTURE TO BRIDES INTERNATIONALLY?</Accordion.Header>
+                        <Accordion.Item eventKey="7" >
+                            <Accordion.Header className='accordion-header'>DO YOU OFFER COUTURE TO BRIDES INTERNATIONALLY?</Accordion.Header>
                             <Accordion.Body>
                                 Yes, we do extend our couture services to international brides. Consultations will be held virtually via a video call, during which we will walk you through the entire couture process in detail.
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="8">
-                            <Accordion.Header>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
+                        <Accordion.Item eventKey="8" >
+                            <Accordion.Header className='accordion-header'>HOW SOON CAN I BEGIN THE COUTURE PROCESS FOR MY GOWN?</Accordion.Header>
                             <Accordion.Body>
                                 We advise beginning the process at least 24 weeks to your wedding. We do offer express couture services. Please send an e-mail to slrcouture@gmail.com if you need a gown less than 24 weeks to your wedding.
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="9">
-                            <Accordion.Header>HOW LONG DOES SHIPPING TAKE?</Accordion.Header>
+                        <Accordion.Item eventKey="9" >
+                            <Accordion.Header className='accordion-header'>HOW LONG DOES SHIPPING TAKE?</Accordion.Header>
                             <Accordion.Body>
                                 Shipping usually takes between 5-7 business days for domestic shipping within the U.S.A. Express shipping is an option as well. <br/><br/>
 
@@ -100,15 +100,15 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="10">
-                            <Accordion.Header>WHAT SHIPPING METHOD DO YOU USE?</Accordion.Header>
+                        <Accordion.Item eventKey="10" >
+                            <Accordion.Header className='accordion-header'>WHAT SHIPPING METHOD DO YOU USE?</Accordion.Header>
                             <Accordion.Body>
                                 Should you choose to have your gown shipped, our preferred shipping partner for both domestic and international shipping is UPS. In the event UPS is not reliable, we will chose another major courier. 
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="11">
-                            <Accordion.Header>WHAT IS YOUR CANCELLATION / REFUND POLICY?</Accordion.Header>
+                        <Accordion.Item eventKey="11" >
+                            <Accordion.Header className='accordion-header'>WHAT IS YOUR CANCELLATION / REFUND POLICY?</Accordion.Header>
                             <Accordion.Body>
                             If you need to cancel your order, you can only do so providing your gown hasn’t begun production. There is a cancellation fee to cover the cost of administration, fabric allocation, pre-production and pattern preparation associated with your order. You must contact us immediately at slrcouture@gmail.com to discuss the circumstances surrounding the cancellation well in advance of your production date.  <br/><br/>
                             
@@ -116,8 +116,8 @@ function Faqs() {
                             </Accordion.Body>
                         </Accordion.Item>
 
-                        <Accordion.Item eventKey="12">
-                            <Accordion.Header> * COVID-19 DISCLAIMER *</Accordion.Header>
+                        <Accordion.Item eventKey="12" >
+                            <Accordion.Header className='accordion-header'> * COVID-19 DISCLAIMER *</Accordion.Header>
                             <Accordion.Body>
                                 We are making every effort to dispatch all orders within our standard timeframe; due to COVID-19, please be aware that production and delivery delays may occur. 
                             </Accordion.Body>
