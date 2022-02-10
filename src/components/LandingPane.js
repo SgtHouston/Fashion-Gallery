@@ -47,7 +47,7 @@ function LandingPane() {
     } else if  (screenWidth < 529 && screenWidth >= 410) {
         videoheight = 190
     } else if (screenWidth < 409 && screenWidth >= 375) {
-        videoheight = 180
+        videoheight = 160
     } else {
         videoheight = 170
     }
