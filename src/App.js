@@ -9,6 +9,7 @@ import Clients from "./Pages/Clients";
 import Faqs from "./Pages/Faqs";
 import Terms from "./Pages/Terms";
 import Consultations from "./Pages/Consultations";
+import './App.css'
 
 
 function App() {
