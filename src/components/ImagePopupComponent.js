@@ -1,5 +1,6 @@
 import React, { useState }  from "react";
 import '../componentcss/ImagePopupComponent.css'
+import CloseIcon from '@mui/icons-material/Close';
 
 
 
@@ -22,13 +23,13 @@ function ImagePopupComponent({ Img }) {
 
     return (  
         <div className={divClass}>
-            <img className='img-fluid' src={Img} onClick={handleClick} alt=""/>
+            <img className='img-fluid shadow' src={Img} onClick={handleClick} alt=""/>
             
             { imgPopupLaunch ? 
                     (
                     <div className="dialog-backdrop">
                         <dialog className="dialog center text-center" style={{ width: '30rem' }} open onClick={handleClick} >
-                            <h5 className="dialog-message">Click Picture To Close</h5>
+                            <h5 className="dialog-message"> <CloseIcon className="dialog-icon"/> </h5>
                             <img className='img-fluid client-image ' src={Img} style={{ maxHeight: '90vh' }} onClick={handleClick} alt="" />
                         </dialog>
                     </div>
