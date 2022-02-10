@@ -28,3 +28,12 @@
     opacity: 0.80;
 }
 
+.dialog-message {
+    text-align: end;
+    margin-bottom: 0px;
+}
+
+.dialog-icon {
+    min-width: 40px;
+    min-height: 40px;
+}
