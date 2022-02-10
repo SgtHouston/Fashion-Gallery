@@ -30,6 +30,7 @@ import ImagePopupComponent from './ImagePopupComponent'
 function LandingPane() {
 
     const screenWidth = window.screen.width
+    console.log(screenWidth)
 
     let videoheight = 580
 
@@ -45,6 +46,8 @@ function LandingPane() {
         videoheight = 245
     } else if  (screenWidth < 529 && screenWidth >= 410) {
         videoheight = 190
+    } else if (screenWidth < 409 && screenWidth >= 375) {
+        videoheight = 180
     } else {
         videoheight = 170
     }
