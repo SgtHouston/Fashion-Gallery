@@ -17,8 +17,6 @@ import CustomerWorn14 from '../images/PinkFlower.png'
 import CustomerWorn15 from '../images/SilverPose.png'
 import CustomerWorn16 from '../images/GoldFull.png'
 import Twins from '../images/Twins.png'
-// import { Player, LoadingSpinner, ControlBar  } from 'video-react';
-import "video-react/dist/video-react.css";
 import ImagePopupComponent from './ImagePopupComponent'
 
 
@@ -29,44 +27,14 @@ import ImagePopupComponent from './ImagePopupComponent'
 
 function LandingPane() {
 
-    // const screenWidth = window.screen.width
-    // console.log(screenWidth)
-
-    // let videoheight = 580
-
-    // if (screenWidth >= 1280 ) {
-    //     videoheight = 580
-    // } else if (screenWidth <= 1279 && screenWidth >= 1000  ) {
-    //     videoheight = 465
-    // } else if (screenWidth <= 999 && screenWidth >= 769) {
-    //     videoheight = 370
-    // } else if (screenWidth <= 768 && screenWidth >= 700) {
-    //     videoheight = 350
-    // } else if (screenWidth <= 699 && screenWidth >= 530) {
-    //     videoheight = 245
-    // } else if  (screenWidth < 529 && screenWidth >= 410) {
-    //     videoheight = 190
-    // } else if (screenWidth < 409 && screenWidth >= 375) {
-    //     videoheight = 160
-    // } else {
-    //     videoheight = 170
-    // }
-
     return (
 
         <div className="landingpane">
-            {/* <Player className='videoTag' id='video1'  src={backgroundVid} muted autoPlay loop playsinline fluid={false} height={videoheight}  >
-                <ControlBar disableCompletely={true} className="my-class" />
-                <LoadingSpinner />
-            </Player> */}
-
                     
             <video className='videoTag' id='video1'  muted autoPlay loop playsInline>
                 <source src={backgroundVid} type="video/mp4" />
                 Your browser does not support the video tag.
             </video>
-                
-            
 
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>

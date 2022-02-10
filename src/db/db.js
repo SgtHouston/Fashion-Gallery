@@ -14,7 +14,7 @@ import pic13 from '../images/WhiteDress.png'
 import pic14 from '../images/SilverRose5.JPG'
 import pic15 from '../images/SilverProm2.png'
 import pic16 from '../images/silverchairs.JPG'
-import pic17 from '../images/IMG_6967.png'
+import pic17 from '../images/IMG_9712.png'
 import pic18 from '../images/IMG_6969.png'
 
 

@@ -19,10 +19,7 @@ import CSSSelect from '../components/CSSSelect'
 import { storage } from '../firebase'
 import { ref, uploadBytesResumable } from 'firebase/storage'
 import { getDownloadURL } from 'firebase/storage';
-// npm install --save video-react react react-dom redux
-// added to replace video tags with react player tags
-// import { Player, LoadingSpinner, ControlBar} from 'video-react';
-// import "video-react/dist/video-react.css";
+
 
 
 
@@ -194,25 +191,7 @@ function Contact() {
         // Refresh page on close or redirect to other
 
     }
-    // const screenWidth = window.screen.width
-
-    // let videoheight = 580
-
-    // if (screenWidth >= 1280 ) {
-    //     videoheight = 580
-    // } else if (screenWidth <= 1279 && screenWidth >= 1000  ) {
-    //     videoheight = 465
-    // } else if (screenWidth <= 999 && screenWidth >= 769) {
-    //     videoheight = 370
-    // } else if (screenWidth <= 768 && screenWidth >= 700) {
-    //     videoheight = 350
-    // } else if (screenWidth <= 699 && screenWidth >= 530) {
-    //     videoheight = 245
-    // } else if  (screenWidth < 529 && screenWidth >= 410) {
-    //     videoheight = 190
-    // } else {
-    //     videoheight = 170
-    // }
+    
 
     return (
         <div className="contact">
@@ -221,10 +200,7 @@ function Contact() {
                 <div className='contact-form text-center'>
 
                     <div className='contact-video'>
-                        {/* <Player className='videoTagContact' id='video2' src={DressVid} muted autoPlay loop  playsinline fluid={false} height={videoheight} >
-                            <ControlBar disableCompletely={true} className="my-class" />
-                            <LoadingSpinner />
-                        </Player> */}
+                    
 
                         <video className='videoTagContact' id='video2' muted autoPlay loop playsInline>
                             <source src={DressVid} type="video/mp4" />
