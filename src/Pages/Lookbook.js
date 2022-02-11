@@ -32,7 +32,7 @@ function Lookbook() {
     return (
         <div className="Lookbook">
             < Header />
-            <Carousel className="Carousel text-center" fade>
+            <Carousel className="Carousel text-center" fade interval={2000}>
 
 
                 <Carousel.Item>
