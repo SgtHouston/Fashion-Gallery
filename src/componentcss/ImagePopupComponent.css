@@ -30,10 +30,18 @@
 
 .dialog-message {
     text-align: end;
-    margin-bottom: 0px;
+    margin: -15px -8px -5px -5px;
 }
 
 .dialog-icon {
     min-width: 40px;
     min-height: 40px;
 }
+
+@media screen and (max-width: 540px) { 
+    .dialog-message {
+        text-align: center;
+        margin: -15px -8px -5px -5px;
+    }
+}
+
