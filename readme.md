@@ -1,3 +1,3 @@
-## SLR Couture
+# SLR Couture
 
-#  Lookbook Gallery
+##  Fashion Portfolio Gallery

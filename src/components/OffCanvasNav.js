@@ -16,7 +16,7 @@ function OffCanvasNav() {
     const [show, setShow] = useState(false);
 
     // Removes OffCanvasNav Launch button from 
-    // behind nav when deployed so video can be seen,
+    // behind nav when deployed so video can be seen with opacity but no button
     const [showLaunch, setShowLaunch] = useState(true);
 
     const handleClose = () => {
@@ -42,7 +42,7 @@ function OffCanvasNav() {
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <div className="Channels">
-                        {/*  */}
+                        
                         <Link className="Channel"
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>

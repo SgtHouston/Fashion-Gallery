@@ -39,13 +39,12 @@ function App() {
           {/* Page 7  */}
           < Route exact path="/terms" element={<Terms/>} />
 
-          {/* Page 7  */}
+          {/* Page 8  */}
           < Route exact path="/consultations" element={<Consultations/>} />
           
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
           {/* Redirect to homepage */}
-          
           
         </ Routes>
         
