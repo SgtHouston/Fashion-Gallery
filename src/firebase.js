@@ -5,9 +5,6 @@ import { getFirestore } from "firebase/firestore";
 import { initializeApp } from "firebase/app"
 import { getStorage } from "firebase/storage";
 
-
-
-
 const firebaseApp = initializeApp({
     apiKey: "AIzaSyDHUDUtIKzUrJ94AAcHM1ka_dQVPe7OEIs",
     authDomain: "slr-couture.firebaseapp.com",
@@ -23,8 +20,5 @@ export const db = getFirestore(firebaseApp);
 
 // Get a reference to the storage service, which is used to create references in your storage bucket
 export const storage = getStorage(firebaseApp);
-
-// // Create a storage reference from our storage service
-// const storageRef = ref(storage);
 
 export default firebase

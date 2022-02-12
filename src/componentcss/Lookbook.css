@@ -49,10 +49,6 @@
     max-height: 60%;
 }
 
-.spacer {
-    flex: 1 0 auto;
-    min-height: 1rem;
-}
 
 @media screen and (max-width: 768px) { 
     .Carousel {

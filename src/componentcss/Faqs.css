@@ -42,3 +42,7 @@
 .accordion-header:hover {
     opacity: 0.9;
 }
+
+.accordion-body {
+    white-space: pre-wrap;
+}

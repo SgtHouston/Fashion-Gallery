@@ -2,7 +2,6 @@ import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import '../componentcss/Contact.css'
-// import Twins from '../images/Twins.png'
 // npm install @mui/icons-material
 // npm install @mui/material
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
@@ -12,7 +11,6 @@ import { actionAddClient } from '../redux/actions/client'
 import { Modal, Button } from 'react-bootstrap'
 import DressVid from '../video/DressVid480.mov'
 import { FormHelperText, InputLabel, MenuItem } from '@mui/material';
-// import { styled } from '@mui/material/styles';
 import CSSTextField from '../components/CSSTextField'
 import CSSSelect from '../components/CSSSelect'
 // npm install -g npm (new npm version install)
@@ -532,7 +530,7 @@ function Contact() {
 
                         </fieldset>
                         <br />
-                        {/* Requires Pay Plan */}
+                        
                         <fieldset>
                             <label>Upload Up To 5 Garment Inspiration Photos:</label>
                             <p>(Max Size: 2 MB)</p>
@@ -608,7 +606,7 @@ function Contact() {
                         </fieldset>
                         <br />
 
-                        {/* Terms & Conditons / FAQs */}
+                        
                         <div className="col-md-6 comment_box">
                             <textarea name="comments" cols="50" rows="10" placeholder="Inquiry/Comments/Notes"
                                 required minLength={5} maxLength={500}

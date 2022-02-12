@@ -20,11 +20,6 @@ import Twins from '../images/Twins.png'
 import ImagePopupComponent from './ImagePopupComponent'
 
 
-
-
-
-
-
 function LandingPane() {
 
     return (
