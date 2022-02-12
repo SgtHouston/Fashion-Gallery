@@ -3,7 +3,6 @@ import { db } from "../../firebase"
 
 export function actionAddClient(object) {
     return async function(dispatch, getState) {
-        console.log('dispatching now')
         dispatch({
             type: 'ADD_CLIENT',
             object

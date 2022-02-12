@@ -119,7 +119,7 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask1.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
@@ -130,7 +130,7 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask2.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
@@ -141,7 +141,7 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask3.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
@@ -152,7 +152,7 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask4.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
@@ -163,7 +163,7 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask5.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
@@ -174,17 +174,16 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask6.snapshot.ref)
-                    .then((url) => console.log(url));
+                    // .then((url) => console.log(url));
             }
         );
 
 
         // Submit info as client and dispatch to redux for global state
-        console.log(client)
         dispatch(actionAddClient(client))
 
 
-        // deploy "Sumbit Successful Modal"
+        // deploy "Sumbit Successful" Modal
         handleShow()
         // Refresh page on close or redirect to other
 
