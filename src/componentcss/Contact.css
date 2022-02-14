@@ -231,6 +231,7 @@ fieldset {
     max-width: 80%;
     min-width: 80%;
     margin: 0 auto;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .comment_box {
