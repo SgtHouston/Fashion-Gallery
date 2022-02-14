@@ -39,6 +39,10 @@
     min-height: 40px;
 }
 
+.client-image-component {
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 540px) { 
     .dialog-message {
         text-align: center;
