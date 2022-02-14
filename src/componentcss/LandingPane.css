@@ -18,25 +18,22 @@
 
 .videoTag {
     margin: 0px 0px 5px 0px;
-    background-color: black;
+    padding: 0px 0px 4px 0px;
     filter: drop-shadow(0 0 .5rem #838587);
     max-width: 80%;
     min-width: 80%;
     margin: 0 auto;
-    
+    border-radius: 0px 0px 20px 20px;
 }
 
 
 .dressdisplay {
-    
     display: flex;
     justify-content: space-around;
-    
 }
 .dressdisplay-last {
     display: flex;
     padding: 0px 0px 15px 0px;
-    
 }
 
 .landing__img {
@@ -45,12 +42,14 @@
     margin: 0px 2.5px 0px 2.5px;
     height: 100%; 
     overflow: hidden; 
+    border-radius: 20px;
 }
 
 .landing__img img {
     height: 100%; 
     width: 100%;
     padding: 4px;
+    border-radius: 20px;
 }
 
 
@@ -61,6 +60,10 @@
 
 .dressdisplay-bottom {
     margin: 0px 20px 0px 6px;
+}
+
+.line-div {
+    
 }
 
 
