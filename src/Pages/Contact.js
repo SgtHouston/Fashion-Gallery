@@ -30,8 +30,10 @@ function Contact() {
             // clear time out.
         }, 2000);
     }
-
+    // Dispatch for Redux 
     const dispatch = useDispatch()
+
+    // useState Hooks to Capture Client Input
     const [show, setShow] = useState(false);
     const [fname, setFName] = useState('');
     const [age, setAge] = useState('0 - 15');
@@ -69,18 +71,23 @@ function Contact() {
         Other: false
     });
 
+    // Get client from global state
     const client = useSelector(state => state.client)
 
+    // Deploys "Submit Successful" Modal, triggered by form submission via handleSubmit function
     const handleShow = () => setShow(true);
+
+    // Close Modal and redirect to Home page
     const handleClose = () => {
         setShow(false)
         redirect_Main()
     };
 
+    // Capture Client Info and Post To Redux & Firebase
     const handleSubmit = e => {
         e.preventDefault();
 
-        // Capture Info from Contact State 
+        // Capture Info from Contact Local State 
         client.FName = fname;
         client.LName = lname;
         client.Age = age;
@@ -97,6 +104,8 @@ function Contact() {
         client.Height = height;
         client.Color = color;
         client.Fabric = fabric;
+        // Turnery Statements
+        // If pictures have been uploaded, use the name of the file for the New Client Form in the Firestore DB
         client.Upload1 = upload1.name ? upload1.name : null;
         client.Upload2 = upload2.name ? upload2.name : null;
         client.Upload3 = upload3.name ? upload3.name : null;
@@ -104,7 +113,7 @@ function Contact() {
         client.Upload5 = upload5.name ? upload5.name : null;
         client.ClientPic = upload6.name ? upload6.name : null;
 
-
+        // Create Storage references for each photo in Firebase Storage with file path for organization.
         const storageRef1 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload1.name}`));
         const storageRef2 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload2.name}`));
         const storageRef3 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload3.name}`));
@@ -112,6 +121,7 @@ function Contact() {
         const storageRef5 = ref(storage, (`images/${lname}-${fname}/InspirationPhoto/${upload5.name}`));
         const storageRef6 = ref(storage, (`images/${lname}-${fname}/ClientPhoto/${upload6.name}`));
 
+        // Send each uploaded photo to Firebase
         const uploadTask1 = uploadBytesResumable(storageRef1, upload1);
         uploadTask1.on(
             "state_changed",
@@ -119,7 +129,6 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask1.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
@@ -130,7 +139,6 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask2.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
@@ -141,7 +149,6 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask3.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
@@ -152,7 +159,6 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask4.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
@@ -163,7 +169,6 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask5.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
@@ -174,18 +179,17 @@ function Contact() {
             (err) => console.log(err),
             () => {
                 getDownloadURL(uploadTask6.snapshot.ref)
-                    // .then((url) => console.log(url));
             }
         );
 
 
-        // Submit info as client and dispatch to redux for global state
+        // Submit info as "client" and dispatch to redux for global state
         dispatch(actionAddClient(client))
 
 
         // deploy "Sumbit Successful" Modal
         handleShow()
-        // Refresh page on close or redirect to other
+        // Redirect to Home page on close
 
     }
     

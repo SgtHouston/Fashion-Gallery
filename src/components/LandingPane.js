@@ -34,7 +34,7 @@ function LandingPane() {
             <div className="text-center">
                 <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
             </div>
-
+            <div className="dressdisplay-bottom">
             <div className="dressdisplay">
                 < ImagePopupComponent Img={CustomerWorn1} alt="Customer Worn Dress 1" />
                 < ImagePopupComponent Img={CustomerWorn3} alt="Customer Worn Dress 3" />
@@ -95,6 +95,7 @@ function LandingPane() {
                 < ImagePopupComponent Img={CustomerWorn9} alt="Customer Worn Dress 9" />          
                 < ImagePopupComponent Img={CustomerWorn10} alt="Customer Worn Dress 10" />
                 < ImagePopupComponent Img={CustomerWorn11} alt="Customer Worn Dress 11" />    
+            </div>
             </div>
 
         </div>

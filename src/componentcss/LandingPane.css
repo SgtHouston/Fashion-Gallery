@@ -28,13 +28,12 @@
 
 
 .dressdisplay {
-    margin: 5px 0px 5px 0px;
+    
     display: flex;
     justify-content: space-around;
     
 }
 .dressdisplay-last {
-    margin: 5px 0px 0px 0px;
     display: flex;
     padding: 0px 0px 15px 0px;
     
@@ -60,16 +59,18 @@
     margin: 7.5px 0px 7.5px 0px;
 }
 
-.large-img {
-    /* background-color: #545B5A; */
-    padding: 10px 7px 10px 7px;
-    /* filter: drop-shadow(0 0 0.55rem #838587); */
-    
+.dressdisplay-bottom {
+    margin: 0px 20px 0px 6px;
 }
+
 
 @media screen and (max-width: 768px) { 
     .landingpane {
         font-size: 1rem;
+    }
+
+    .dressdisplay-bottom {
+        margin: 0px 8px 0px 6px;
     }
 }
 

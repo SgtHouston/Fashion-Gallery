@@ -21,9 +21,7 @@ function Faqs() {
                             return (
                                 <Accordion.Item eventKey={index} >
                                     <Accordion.Header className='accordion-header'>{Faqs.Question}</Accordion.Header>
-                                    <Accordion.Body className='accordion-body'>
-                                    {Faqs.Answer}
-                                    </Accordion.Body>
+                                    <Accordion.Body className='accordion-body'>{Faqs.Answer}</Accordion.Body>
                                 </Accordion.Item>
                             );
                         })}
