@@ -5,6 +5,7 @@
     padding: 10px 10px 10px 10px;
     min-width:50%;
     z-index: 1;
+    border-radius: 20px;
 }
 
 
@@ -36,6 +37,10 @@
 .dialog-icon {
     min-width: 40px;
     min-height: 40px;
+}
+
+.client-image-component {
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 540px) { 
