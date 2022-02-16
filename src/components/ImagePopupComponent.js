@@ -14,7 +14,7 @@ function ImagePopupComponent({ Img }) {
     }
 
     let divClass = 'landing__img'
-
+    // Turns off opacity of background when popup launched
     if (imgPopupLaunch === true) {
         divClass = 'landing__img_no-opacity'
     } else {
@@ -26,7 +26,7 @@ function ImagePopupComponent({ Img }) {
             <img className='img-fluid shadow' src={Img} onClick={handleClick} alt=""/>
             
             { imgPopupLaunch ? 
-                    (
+                (
                     <div className="dialog-backdrop">
                         <dialog className="dialog center text-center" style={{ width: '30rem' }} open onClick={handleClick} >
                             <h5 className="dialog-message"> <CloseIcon className="dialog-icon"/> </h5>

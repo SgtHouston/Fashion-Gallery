@@ -16,7 +16,7 @@ function Faqs() {
                 <br />
                 <div className='faqs-accordion'>
                     <Accordion flush>
-
+                        {/* Map FAQs db onto page */}
                         {FaqsDB.map((Faqs, index) => {
                             return (
                                 <Accordion.Item eventKey={index} >

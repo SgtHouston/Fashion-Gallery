@@ -18,11 +18,8 @@ import { storage } from '../firebase'
 import { ref, uploadBytesResumable } from 'firebase/storage'
 import { getDownloadURL } from 'firebase/storage';
 
-
-
-
 function Contact() {
-
+    // Redirect function for after form submission
     function redirect_Main() {
         var tID = setTimeout(function () {
             window.location.href = "/";

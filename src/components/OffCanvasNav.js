@@ -34,15 +34,22 @@ function OffCanvasNav() {
     
     return (
         <div className='OffCanvasChannels'>
+
             {/* If True, display launch button, if false replace with placeholder div.   */}
-            { showLaunch ? <MenuIcon className='LaunchBtn' show={{showLaunch}} variant='primary' onClick={handleShow}/> : <div className="MenuPlaceholder"></div>  }
+            { showLaunch ? 
+                (<MenuIcon className='LaunchBtn' show={{showLaunch}} variant='primary' onClick={handleShow}/> )
+                : 
+                <div className="MenuPlaceholder"></div>  
+                
+            }
+            
             <Offcanvas className="OffCanvasMain" show={show} onHide={handleClose}>
                 <Offcanvas.Header className="closeBtn" closeButton>
                     <Offcanvas.Title className="Offcanvas-Title"></Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
                     <div className="Channels">
-                        
+                        {/* Page 1 Home */}
                         <Link className="Channel"
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>
@@ -50,6 +57,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 2 About */}
                         <Link className="Channel"
                                 to={'/about'}>
                                 <p className="Channelname text-center"  onClick={handleClose}> ABOUT</p>
@@ -57,6 +65,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 3 Lookbook */}
                         <Link className="Channel"
                                 to={'/lookbook'}>
                                 <p className="Channelname text-center" onClick={handleClose}> LOOKBOOK</p>
@@ -64,6 +73,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 4 Client Gallery */}
                         <Link className="Channel"
                                 to={'/clients'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CLIENT GALLERY </p>
@@ -71,6 +81,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 5 Consultations */}
                         <Link className="Channel"
                                 to={'/consultations'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONSULTATIONS </p>
@@ -78,6 +89,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 6 Start Order/Contact Page */}
                         <Link className="Channel"
                                 to={'/start-order'}>
                                 <p className="Channelname text-center" onClick={handleClose}> START ORDER </p>
@@ -85,13 +97,13 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 7 FAQs  */}
                         <Link className="Channel"
                                 to={'/faqs'}>
                                 <p className="Channelname text-center" onClick={handleClose}> FAQs</p>
                         </Link>
-                        
 
-                        
+                        {/* Terms & Conditions in Footer only */}
 
                     </div>
                 </Offcanvas.Body>

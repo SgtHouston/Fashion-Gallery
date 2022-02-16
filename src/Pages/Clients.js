@@ -13,6 +13,7 @@ function Clients() {
                 <h2 className="clients-title">Client Gallery</h2>
 
                 <div className="clients-pics">
+                    {/* Maps client images onto page */}
                     { picDB.map((Img, index) => {
                         return (
                             <ImagePopupClient Img={Img} alt={`Customer Worn Dress ${index + 1}`} key={index + 1} />
