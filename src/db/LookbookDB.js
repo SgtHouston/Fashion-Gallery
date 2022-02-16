@@ -20,7 +20,8 @@ import dress10 from '../images/DressLogo Pics/10.png'
 import dress10a from '../images/DressLogo Pics/10a.png'
 import dress11 from '../images/DressLogo Pics/1.png'
 import dress11a from '../images/DressLogo Pics/1a.png'
-
+import dress12 from '../images/DressLogo Pics/12.png'
+import dress13 from '../images/DressLogo Pics/13.png'
 
 const LookbookDB = [
     dress1,
@@ -44,7 +45,9 @@ const LookbookDB = [
     dress10,
     dress10a,
     dress11,
-    dress11a
+    dress11a,
+    dress12,
+    dress13
 ];
 
 export default LookbookDB

@@ -13,6 +13,7 @@ function Lookbook() {
             < Header />
 
             <Carousel className="Carousel text-center" fade interval={2000}>
+                {/* Map Lookbook DB onto page */}
                 { LookBookDB.map((Img, index) => {
                         return (
                             < Carousel.Item >
