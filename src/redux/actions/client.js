@@ -7,7 +7,7 @@ export function actionAddClient(object) {
             type: 'ADD_CLIENT',
             object
         })
-        await addDoc(collection(db, 'New Client Forms'), object)
+        await addDoc(collection(db, 'forms'), object)
         
     }
 
