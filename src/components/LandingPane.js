@@ -1,6 +1,6 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
-import backgroundVid from '../video/Mikayla480.mov'
+import backgroundVid from '../video/Mikayla.mov'
 import CustomerWorn1 from '../images/IMG_6976.png'
 import CustomerWorn2 from '../images/IMG_6993.png'
 import CustomerWorn3 from '../images/IMG_6994.png'
