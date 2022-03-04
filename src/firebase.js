@@ -22,7 +22,7 @@ const auth = getAuth();
 signInAnonymously(auth)
     .then(() => {
         // Signed in..
-        console.log()
+        
     })
     .catch((error) => {
         const errorCode = error.code;
