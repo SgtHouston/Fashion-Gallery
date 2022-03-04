@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useState } from 'react'
 import { actionAddClient } from '../redux/actions/client'
 import { Modal, Button } from 'react-bootstrap'
-import DressVid from '../video/DressVid.mov'
+import DressVid from '../video/DressVid.mp4'
 import { FormHelperText, InputLabel, MenuItem } from '@mui/material';
 import CSSTextField from '../components/CSSTextField'
 import CSSSelect from '../components/CSSSelect'
