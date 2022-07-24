@@ -16,7 +16,7 @@ function Lookbook() {
                 {/* Map Lookbook DB onto page */}
                 { LookBookDB.map((Img, index) => {
                         return (
-                            < Carousel.Item >
+                            < Carousel.Item key={index + 1}>
                                 <img src={Img} className="img-fluid carousel-img" alt={`Slide ${index + 1}`} key={index + 1} />
                             </Carousel.Item>
                         );
