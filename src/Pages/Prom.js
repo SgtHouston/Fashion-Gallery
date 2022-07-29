@@ -1,20 +1,20 @@
 import React from 'react'
 import Footer from '../components/Footer'
 import Header from '../components/Header'
-import '../componentcss/Lookbook.css'
+import '../componentcss/Prom.css'
 import { Carousel } from 'react-bootstrap'
-import LookBookDB from "../db/LookbookDB";
+import PromDB from "../db/PromDB";
 
 
 
-function Lookbook() {
+function Prom() {
     return (
-        <div className="Lookbook">
+        <div className="Prom">
             < Header />
 
             <Carousel className="Carousel text-center" fade interval={2000}>
-                {/* Map Lookbook DB onto page */}
-                { LookBookDB.map((Img, index) => {
+                {/* Map Prom DB onto page */}
+                { PromDB.map((Img, index) => {
                         return (
                             < Carousel.Item key={index + 1}>
                                 <img src={Img} className="img-fluid carousel-img" alt={`Slide ${index + 1}`} key={index + 1} />
@@ -28,4 +28,4 @@ function Lookbook() {
     )
 }
 
-export default Lookbook
+export default Prom

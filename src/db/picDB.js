@@ -16,6 +16,9 @@ import pic15 from '../images/SilverProm2.png'
 import pic16 from '../images/silverchairs.JPG'
 import pic17 from '../images/IMG_9712.png'
 import pic18 from '../images/IMG_6969.png'
+import pic19 from '../images/GreenClose.jpg'
+
+
 
 const picDB = [
     pic1,
@@ -35,7 +38,8 @@ const picDB = [
     pic15,
     pic16,
     pic17,
-    pic18
+    pic18,
+    pic19
 ];
 
 export default picDB

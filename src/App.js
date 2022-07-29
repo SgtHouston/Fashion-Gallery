@@ -3,13 +3,15 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
 import About from "./Pages/About";
-import Lookbook from "./Pages/Lookbook";
+import Prom from "./Pages/Prom";
 import Contact from "./Pages/Contact";
 import Clients from "./Pages/Clients";
 import Faqs from "./Pages/Faqs";
 import Terms from "./Pages/Terms";
 import Consultations from "./Pages/Consultations";
+import Bridal from "./Pages/Bridal";
 import './App.css'
+
 
 
 function App() {
@@ -25,7 +27,7 @@ function App() {
           < Route exact path="/about" element={<About/>} />
 
           {/* Page 3  */}
-          < Route exact path="/lookbook" element={<Lookbook/>} />
+          < Route exact path="/prom" element={<Prom/>} />
 
           {/* Page 4  */}
           < Route exact path="/start-order" element={<Contact/>} />
@@ -41,6 +43,9 @@ function App() {
 
           {/* Page 8  */}
           < Route exact path="/consultations" element={<Consultations/>} />
+
+          {/* Page 9  */}
+          < Route exact path="/bridal" element={<Bridal />} />
           
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
