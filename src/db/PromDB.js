@@ -23,7 +23,7 @@ import dress11a from '../images/DressLogo Pics/1a.png'
 import dress12 from '../images/DressLogo Pics/12.png'
 import dress13 from '../images/DressLogo Pics/13.png'
 
-const LookbookDB = [
+const PromDB = [
     dress1,
     dress1a,
     dress2,
@@ -50,4 +50,4 @@ const LookbookDB = [
     dress13
 ];
 
-export default LookbookDB
+export default PromDB
