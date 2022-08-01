@@ -13,8 +13,6 @@ const VideoDB = [
     video4,
     video5,
     video6
-    
-    
 ];
 
 export default VideoDB
