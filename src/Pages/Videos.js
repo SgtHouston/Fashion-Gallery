@@ -15,7 +15,7 @@ function Videos (){
                     {/* Maps videos into players onto page */}
                     { VideoDB.map((video, index) => {
                         return (
-                            <video className='videoTag2' id={`Video ${index +1}`} key={index + 1}  muted playsinline controls controlsList='nodownload' preload='auto'>
+                            <video className='videoTag2' id={`Video ${index +1}`} key={index + 1}  muted playsInline controls controlsList='nodownload' preload='auto'>
                                 <source src={video}  type="video/mp4" />
                                 Your browser does not support the video tag.
                                 
