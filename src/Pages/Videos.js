@@ -14,6 +14,7 @@ function Videos (){
                 <div className="videos-vids">
                     {/* Maps videos into players onto page */}
                     { VideoDB.map((video, index) => {
+                        
                         return (
                             <video className='videoTag2' id={`Video ${index +1}`} key={index + 1}  muted autoPlay playsInline controls controlsList='nodownload' preload='auto'>
                                 <source src={video}  type="video/mp4" />
