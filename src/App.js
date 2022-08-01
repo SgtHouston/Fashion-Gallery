@@ -11,6 +11,7 @@ import Terms from "./Pages/Terms";
 import Consultations from "./Pages/Consultations";
 import Bridal from "./Pages/Bridal";
 import './App.css'
+import Videos from "./Pages/Videos";
 
 
 
@@ -46,6 +47,9 @@ function App() {
 
           {/* Page 9  */}
           < Route exact path="/bridal" element={<Bridal />} />
+
+          {/* Page 10  */}
+          < Route exact path="/videos" element={<Videos />} />
           
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
