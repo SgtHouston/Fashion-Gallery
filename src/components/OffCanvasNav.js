@@ -89,8 +89,15 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
+                        {/* Page 6 Videos */}
+                        <Link className="Channel"
+                                to={'/videos'}>
+                                <p className="Channelname text-center" onClick={handleClose}> VIDEOS </p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <br/>
 
-                        {/* Page 6 Consultations */}
+                        {/* Page 7 Consultations */}
                         <Link className="Channel"
                                 to={'/consultations'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONSULTATIONS </p>
@@ -98,7 +105,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 7 Start Order/Contact Page */}
+                        {/* Page 8 Start Order/Contact Page */}
                         <Link className="Channel"
                                 to={'/start-order'}>
                                 <p className="Channelname text-center" onClick={handleClose}> START ORDER </p>
@@ -106,13 +113,13 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 8 FAQs  */}
+                        {/* Page 9 FAQs  */}
                         <Link className="Channel"
                                 to={'/faqs'}>
                                 <p className="Channelname text-center" onClick={handleClose}> FAQs</p>
                         </Link>
 
-                        {/* Terms & Conditions in Footer only */}
+                        {/* Page 10 Terms & Conditions in Footer only */}
 
                     </div>
                 </Offcanvas.Body>

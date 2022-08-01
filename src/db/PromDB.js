@@ -22,6 +22,10 @@ import dress11 from '../images/DressLogo Pics/1.png'
 import dress11a from '../images/DressLogo Pics/1a.png'
 import dress12 from '../images/DressLogo Pics/12.png'
 import dress13 from '../images/DressLogo Pics/13.png'
+import dress14 from '../images/Blue.jpg'
+import dress14a from '../images/Blue2.jpg'
+import dress15 from '../images/BabyBlue.jpg'
+import dress15a from '../images/BabyBlue2.jpg'
 
 const PromDB = [
     dress1,
@@ -47,7 +51,11 @@ const PromDB = [
     dress11,
     dress11a,
     dress12,
-    dress13
+    dress13,
+    dress14,
+    dress14a,
+    dress15,
+    dress15a 
 ];
 
 export default PromDB
