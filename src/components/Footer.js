@@ -53,7 +53,7 @@ function Footer() {
                 
             </div>
             
-            <p className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </p>
+            <p className="footer__text">&#169; 2023  SLR Couture.  All Rights Reserved </p>
         </nav>
     )
 }
