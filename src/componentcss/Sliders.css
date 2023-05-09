@@ -1,0 +1,13 @@
+.Sliders-inner {
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    background-color:#BCCBC9;
+    padding: 5px;
+}
+.__rcs-handle-button {
+    color: #BCCBC9
+}
+
+.__rcs-handle-line{
+    color: #545B5A;
+}
