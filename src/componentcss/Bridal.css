@@ -4,13 +4,13 @@
     align-items: center;
     background-image: url('../images/WhiteMarble2.png');
     background-size:cover;
-    
 }
 
 .Carousel {
     min-width:60vw;
     max-width:60vw;
-    
+    padding-top: 86px;
+    z-index: 1;
 }
 
 /* .carousel-control {
@@ -29,7 +29,6 @@
 .carousel-indicators [data-bs-target] {
     background-color:rgba(0, 0, 0, 0.7);
     height: .5rem;
-    
 }
 
 .carousel-indicators [data-bs-target]:hover {

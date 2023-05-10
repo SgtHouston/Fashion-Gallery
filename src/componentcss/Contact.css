@@ -22,6 +22,7 @@
 .contact-body {
     background-color: #BCCBC9;
     min-height: 100vh;
+    padding-top: 86px;
 }
 
 .contact-form {
@@ -52,14 +53,11 @@
     font-size: 1rem;
     font-weight: 700;
     background-color: #E9ECE6;
-
 }
 
 .form-check-input:checked {
     background-color: #545B5A;
     border-color: #545B5A;
-    
-    
 }
 
 input[type="checkbox"]:checked {
@@ -89,7 +87,6 @@ input[type="radio"]:active {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    
 }
 
 .contact-image img {
@@ -99,12 +96,10 @@ input[type="radio"]:active {
 .contact-names {
     justify-content:center;
     display: flex;
-    
 }
 
 .contact-form-inputs{
     border-top: 3px dashed #545B5A;
-    
 }
 .contact-details {
     display: flex;
