@@ -27,7 +27,17 @@ function Contact() {
     // Email.js
     const form = useRef();
     
+    // Current Date Formatting
+    console.log(new Date().toISOString().slice(0, 10))
+    var today = new Date();
+    var dd = String(today.getDate()).padStart(2, '0');
+    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    var yyyy = today.getFullYear();
+    var hrs = String(today.getHours()+ 0).padStart(2, '0');
+    var min = String(today.getMinutes()+ 1).padStart(2, '0');
+    const Time = yyyy + '/' + mm + '/' + dd + ' ' + hrs+ ':' + min;
 
+    
 
     // Redirect function for after form submission
     function redirect_Main() {
@@ -97,6 +107,7 @@ function Contact() {
 
         // Capture Info from Contact Local State 
         client.FName = fname;
+        client.Time = Time
         client.LName = lname;
         client.Age = age;
         client.Consultation = consultation;
