@@ -28,7 +28,6 @@ function Contact() {
     const form = useRef();
     
     // Current Date Formatting
-    console.log(new Date().toISOString().slice(0, 10))
     var today = new Date();
     var dd = String(today.getDate()).padStart(2, '0');
     var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
