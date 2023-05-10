@@ -16,8 +16,14 @@ import pic15 from '../images/SilverProm2.png'
 import pic16 from '../images/silverchairs.JPG'
 import pic17 from '../images/IMG_9712.png'
 import pic18 from '../images/IMG_6969.png'
+import pic19 from '../images/GreenClose.jpg'
+import pic20 from '../images/WhiteGoldWorn.jpg'
+
+
 
 const picDB = [
+    pic19,
+    pic20,
     pic1,
     pic2,
     pic3,

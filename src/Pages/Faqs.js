@@ -19,7 +19,7 @@ function Faqs() {
                         {/* Map FAQs db onto page */}
                         {FaqsDB.map((Faqs, index) => {
                             return (
-                                <Accordion.Item eventKey={index} >
+                                <Accordion.Item eventKey={index} key={index + 1}>
                                     <Accordion.Header className='accordion-header'>{Faqs.Question}</Accordion.Header>
                                     <Accordion.Body className='accordion-body'>{Faqs.Answer}</Accordion.Body>
                                 </Accordion.Item>

@@ -22,8 +22,11 @@ function Footer() {
                         <a className="footerlink" href="/about" alt=''> ABOUT </a>
                     </div>
                     <div className="my-3">
-                        <a className="footerlink" href="/lookbook" alt=''> LOOKBOOK </a>
+                        <a className="footerlink" href="/bridal" alt=''> BRIDAL </a>
                     </div>
+                    <div className="my-3">
+                        <a className="footerlink" href="/prom" alt=''> PROM </a>
+                    </div> 
                     <div className="my-3">
                         <a className="footerlink" href="/clients"> GALLERY </a>
                     </div>
@@ -50,7 +53,7 @@ function Footer() {
                 
             </div>
             
-            <p className="footer__text">&#169; 2022  SLR Couture.  All Rights Reserved </p>
+            <p className="footer__text">&#169; 2023  SLR Couture.  All Rights Reserved </p>
         </nav>
     )
 }

@@ -65,15 +65,23 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 3 Lookbook */}
+                        {/* Page 3 Bridal Gallery */}
                         <Link className="Channel"
-                                to={'/lookbook'}>
-                                <p className="Channelname text-center" onClick={handleClose}> LOOKBOOK</p>
+                                to={'/bridal'}>
+                                <p className="Channelname text-center" onClick={handleClose}> BRIDAL  </p>
                         </Link>
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 4 Client Gallery */}
+                        {/* Page 4 PROM GALLERY */}
+                        <Link className="Channel"
+                                to={'/prom'}>
+                                <p className="Channelname text-center" onClick={handleClose}> PROM </p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <br/>
+
+                        {/* Page 5 Client Gallery */}
                         <Link className="Channel"
                                 to={'/clients'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CLIENT GALLERY </p>
@@ -81,7 +89,15 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 5 Consultations */}
+                        {/* Page 6 Videos */}
+                        <Link className="Channel"
+                                to={'/videos'}>
+                                <p className="Channelname text-center" onClick={handleClose}> VIDEOS </p>
+                        </Link>
+                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <br/>
+
+                        {/* Page 7 Consultations */}
                         <Link className="Channel"
                                 to={'/consultations'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONSULTATIONS </p>
@@ -89,7 +105,7 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 6 Start Order/Contact Page */}
+                        {/* Page 8 Start Order/Contact Page */}
                         <Link className="Channel"
                                 to={'/start-order'}>
                                 <p className="Channelname text-center" onClick={handleClose}> START ORDER </p>
@@ -97,13 +113,13 @@ function OffCanvasNav() {
                         <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
-                        {/* Page 7 FAQs  */}
+                        {/* Page 9 FAQs  */}
                         <Link className="Channel"
                                 to={'/faqs'}>
                                 <p className="Channelname text-center" onClick={handleClose}> FAQs</p>
                         </Link>
 
-                        {/* Terms & Conditions in Footer only */}
+                        {/* Page 10 Terms & Conditions in Footer only */}
 
                     </div>
                 </Offcanvas.Body>

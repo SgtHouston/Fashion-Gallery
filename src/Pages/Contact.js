@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from 'react-redux'
 import { useState } from 'react'
 import { actionAddClient } from '../redux/actions/client'
 import { Modal, Button } from 'react-bootstrap'
-import DressVid from '../video/DressVid480.mov'
+import DressVid from '../video/DressVid.mp4'
 import { FormHelperText, InputLabel, MenuItem } from '@mui/material';
 import CSSTextField from '../components/CSSTextField'
 import CSSSelect from '../components/CSSSelect'
@@ -17,6 +17,8 @@ import CSSSelect from '../components/CSSSelect'
 import { storage } from '../firebase'
 import { ref, uploadBytesResumable } from 'firebase/storage'
 import { getDownloadURL } from 'firebase/storage';
+// npm install react-date-picker
+import DatePicker from 'react-date-picker'
 
 function Contact() {
     // Redirect function for after form submission
@@ -37,6 +39,7 @@ function Contact() {
     const [lname, setLName] = useState('');
     const [consultation, setConsultation] = useState('');
     const [size, setSize] = useState(0);
+    const [eventDate, setEventDate] = useState('');
     const [email, setEmail] = useState('');
     const [existingnew, setExistingnew] = useState('');
     const [fitting, setFitting] = useState('');
@@ -101,6 +104,7 @@ function Contact() {
         client.Height = height;
         client.Color = color;
         client.Fabric = fabric;
+        client.EventDate = eventDate
         // Turnery Statements
         // If pictures have been uploaded, use the name of the file for the New Client Form in the Firestore DB
         client.Upload1 = upload1.name ? upload1.name : null;
@@ -189,7 +193,6 @@ function Contact() {
         // Redirect to Home page on close
 
     }
-    
 
     return (
         <div className="contact">
@@ -397,6 +400,12 @@ function Contact() {
                                 <label className="form-check-label label-input">  Other</label>
                             </p>
 
+                        </fieldset>
+
+                        <fieldset>
+                            <label htmlFor="event-date" id="event-date">Event Date </label>
+                            <br/>
+                            <DatePicker value={eventDate} className="form-check date-picker" onChange={setEventDate}/>
                         </fieldset>
 
                         <fieldset>

@@ -259,3 +259,18 @@ fieldset {
 .contact-email:hover {
     color:black;
 }
+
+.date-picker {
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0px;
+    border-radius: 5px;
+}
+
+.react-date-picker__wrapper {
+    border-radius: 5px;
+}
+
+
+
+
