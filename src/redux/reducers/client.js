@@ -1,6 +1,7 @@
 
 
 export function client (state = {
+    Time: new Date().toLocaleString(),
     Age: '0 - 15',
     FName: '',
     LName: '',
@@ -12,7 +13,6 @@ export function client (state = {
     Fitting: '',
     Phone: '',
     Shipping: '',
-    Time: new Date().toLocaleString(),
     Color: '#000000',
     Fabric: '',
     EventDate: '',
