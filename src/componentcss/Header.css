@@ -33,8 +33,6 @@
     border: none;
     padding: 3px 2px 2px 2px;
     width: 40px;
-    
-
 }
 
 .order-button:hover {
@@ -42,12 +40,10 @@
 }
 
 .order-button:active {
-    
     color: #838587;
     font-weight: 900;
     /* border: 3px solid #545B5A; */
     border-radius: 10px;
-    
 }
 
 

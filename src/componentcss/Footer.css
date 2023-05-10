@@ -9,7 +9,6 @@
     /* min-height: 5rem; */
     border-top: 4px solid #838587;
     padding: 0px;
-    
 }
 
 @font-face {
@@ -22,7 +21,6 @@
     color: #545B5A;
     font-weight:500;
     font-size: 16px;
-    
 }
 
 .footerlink:hover {
@@ -36,7 +34,6 @@
 .footerlinks {
     display: flex;
     justify-content:space-evenly;
-    
 }
 
 .footer__text {
@@ -48,7 +45,6 @@
 .footer-contact {
     font-weight: 900;
     font-size: 0.9rem;
-    
 }
 
 @media screen and (max-width: 768px) { 
@@ -60,7 +56,6 @@
 .footer-info {
     text-decoration: none;
     color:#545B5A;
-    
 }
 .footer-info:hover {
     color:black;

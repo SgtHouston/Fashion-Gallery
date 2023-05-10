@@ -29,7 +29,6 @@
 .carousel-indicators [data-bs-target] {
     background-color:rgba(0, 0, 0, 0.7);
     height: .5rem;
-    
 }
 
 .carousel-indicators [data-bs-target]:hover {
