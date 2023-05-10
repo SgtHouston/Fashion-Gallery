@@ -1,12 +1,14 @@
 import React from 'react'
+import emailjs from '@emailjs/browser';
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import '../componentcss/Contact.css'
 // npm install @mui/icons-material
 // npm install @mui/material
+// npm i @emailjs/browser
 import KeyboardDoubleArrowDownIcon from '@mui/icons-material/KeyboardDoubleArrowDown';
 import { useDispatch, useSelector } from 'react-redux'
-import { useState } from 'react'
+import { useState, useRef } from 'react'
 import { actionAddClient } from '../redux/actions/client'
 import { Modal, Button } from 'react-bootstrap'
 import DressVid from '../video/DressVid.mp4'
@@ -21,6 +23,12 @@ import { getDownloadURL } from 'firebase/storage';
 import DatePicker from 'react-date-picker'
 
 function Contact() {
+    
+    // Email.js
+    const form = useRef();
+    
+
+
     // Redirect function for after form submission
     function redirect_Main() {
         var tID = setTimeout(function () {
@@ -183,9 +191,20 @@ function Contact() {
             }
         );
 
+        // Send E-Mail via email.js
+        emailjs.sendForm('service_jp95jt9', 'template_ptgk4z9', form.current, '0GOH6Mh_VqTqgJVB4')
+            .then((result) => {
+                console.log(result.text);
+                console.log("Message Sent")
+        }, (error) => {
+                console.log(error.text);
+                console.log("Message Unsuccessful")
+        });
+
 
         // Submit info as "client" and dispatch to redux for global state
         dispatch(actionAddClient(client))
+
 
 
         // deploy "Sumbit Successful" Modal
@@ -210,16 +229,16 @@ function Contact() {
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>
                         < KeyboardDoubleArrowDownIcon />
                     </div>
-                    <form className="contact-form-inputs" name="Contact" onSubmit={handleSubmit}>
+                    <form ref={form} className="contact-form-inputs" name="Contact" onSubmit={handleSubmit}>
                         <fieldset>
                             <br />
                             <label htmlFor="contact-names" className="form-check">Name </label>
                             <div className="contact-names">
                                 <div className="form-check">
-                                    <CSSTextField id="fnameinput" label="First" variant="outlined" type="text" placeholder="Your First Name" value={fname} onChange={e => setFName(e.target.value)} required />
+                                    <CSSTextField id="fnameinput" label="First" variant="outlined" type="text" placeholder="Your First Name" value={fname} name='user_name_first' onChange={e => setFName(e.target.value)} required />
                                 </div>
                                 <div className="form-check">
-                                    <CSSTextField id="lnameinput" label="Last" variant="outlined" type="text" placeholder="Your Last Name" value={lname} onChange={e => setLName(e.target.value)} required />
+                                    <CSSTextField id="lnameinput" label="Last" variant="outlined" type="text" placeholder="Your Last Name" value={lname} name='user_name_last'onChange={e => setLName(e.target.value)} required />
                                 </div>
                             </div>
                         </fieldset>
@@ -232,7 +251,7 @@ function Contact() {
                                 </div>
 
                                 <div className="form-check">
-                                    <CSSTextField label="E-Mail" variant="outlined" type="email" id="emailinput" placeholder="Your E-Mail Address" value={email} onChange={e => setEmail(e.target.value)} required />
+                                    <CSSTextField label="E-Mail" variant="outlined" type="email" id="emailinput" placeholder="Your E-Mail Address" value={email} name='user_email'onChange={e => setEmail(e.target.value)} required />
                                 </div>
                             </div>
                         </fieldset>
