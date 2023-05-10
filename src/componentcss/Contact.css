@@ -22,6 +22,7 @@
 .contact-body {
     background-color: #BCCBC9;
     min-height: 100vh;
+    padding-top: 86px;
 }
 
 .contact-form {
