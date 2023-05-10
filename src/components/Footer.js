@@ -41,8 +41,8 @@ function Footer() {
             <div className="footer-contact">
                 {/* Contact Info */}
                 <span > <LocationOnIcon/> Atlanta, GA </span><br/>
-                <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/>
-                <a className="footer-info" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
+                {/* <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/> */}
+                <a className="footer-info" title="Follow Us On Instagram!" href="https://www.instagram.com/slrcouture/" ><span ><InstagramIcon/> @slrcouture </span></a><br/>
                 <a className="footer-info" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"><span> <EmailIcon/> slrcouture@gmail.com </span></a>
                 <p> <AccessTimeIcon/> Mon-Fri: 9am - 5pm EST<br/>Sat-Sun: Closed </p>
                 <p> All inquiries will be responded to within 72 business hours. </p>
