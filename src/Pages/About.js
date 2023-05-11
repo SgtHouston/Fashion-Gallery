@@ -21,13 +21,13 @@ function About() {
                     SLR Couture was established by Stacy Rogers in 2008, a native of Chicago, IL. Her mission and passion is to inspire effortless glamor by creating well-fitted, impeccably made clothing with thoughtful attention to detail. 
                     <br/>
                     <br/>
-                    An SLR Couture garment quintessentially expresses and enhances a woman's individual beauty.  Every intricate detail is executed with precision and passion. A perfect balance of sexy, classic and chic, a SLR Couture gown is for the woman who isn't afraid to turn heads. 
+                    An SLR Couture garment quintessentially expresses and enhances a woman's individual beauty.  Every intricate detail is executed with precision and passion. A perfect balance of sexy, classic and chic, an SLR Couture gown is for the woman who isn't afraid to turn heads. 
                     <br/>
                     <br/>
-                    To Stacy, individuality is at the heart of fashion; no two women should look alike, because no two women are alike. Perhaps this attention to individualism explains why the working woman, chic and party girl are among the many loyal SLR Couture enthusiasts. 
+                    To Stacy, individuality is at the heart of fashion; no two women should look alike, because no two women are alike. Perhaps this attention to individualism explains why the working woman, chic fashionista, and party girl are among the many loyal SLR Couture enthusiasts. 
                     <br/>
                     <br/>
-                    SLR Couture has the energy of New York, and the romance of Paris. Balancing romantic modern designs with an edgy flair, SLR Couture's Collection is glamorous and feminine. 
+                    SLR Couture designs capture the energy of New York and the romance of Paris.  Balancing romantic, modern designs with an edgy flair, SLR Couture's Collection is glamorous and feminine. 
                     <br/>
                     <br/>
                     "We at SLR Couture are truly experts of our craft.  Our brides and clients choose us because they see our passion within our work, our luxury high quality materials and our attention to detail." 
