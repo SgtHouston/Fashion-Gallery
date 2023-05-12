@@ -101,6 +101,7 @@ function Contact() {
     };
 
     // Capture Client Info and Post To Redux & Firebase
+    // Notify owner of contact
     const handleSubmit = e => {
         e.preventDefault();
 
@@ -201,26 +202,20 @@ function Contact() {
             }
         );
 
-        // Send E-Mail via email.js
+        // Send E-Mail notification of customer contact to owner via email.js
         emailjs.sendForm('service_jp95jt9', 'template_ptgk4z9', form.current, '0GOH6Mh_VqTqgJVB4')
             .then((result) => {
-                console.log(result.text);
-                console.log("Message Sent")
+            // console.log(result.text);
         }, (error) => {
-                console.log(error.text);
-                console.log("Message Unsuccessful")
+            // console.log(error.text);
         });
-
 
         // Submit info as "client" and dispatch to redux for global state
         dispatch(actionAddClient(client))
 
-
-
         // deploy "Sumbit Successful" Modal
         handleShow()
         // Redirect to Home page on close
-
     }
 
     return (
