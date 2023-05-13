@@ -1,20 +1,26 @@
 import React from 'react'
 import '../componentcss/Sliders.css'
-import PicDB from "../db/picDB";
 import Footer from '../components/Footer'
 import Header from '../components/Header'
 import Slider from '../components/Slider'
-import Pic1 from '../images/SilverPose.png'
-import Pic2 from '../images/PinkPose.png'
+import SliderDB from '../db/SliderDB'
 
 function Sliders() {
     return (
-        <div className="Sliders">
+        <div className="sliders">
             < Header />
-                <div className="Sliders-inner">
-                    <Slider Img1={Pic1} Img2={Pic2}/>
-                    <Slider Img1={Pic1} Img2={Pic2}/>
-
+                <div className="sliders-body">
+                    <h2 className='sliders-title'> Sliders </h2>
+                    <br />
+                    <p className="sliders-header">FROM CONCEPT . . . TO CREATION</p>
+                    <div className="sliders-inner">
+                        {/* Map SliderDB onto page */}
+                        {SliderDB.map((ImgPair, index) => {
+                                return (
+                                    <Slider className={`slider slider${index + 1}`} key={index + 1} ImgPair={ImgPair} />
+                                );
+                            })}
+                    </div>
                 </div>
             < Footer />
         </div>
