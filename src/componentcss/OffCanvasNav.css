@@ -50,7 +50,6 @@
     opacity: 0.7;
 }
 
-
 .Channelname {
     padding: 3px 0px 3px 0px;
     
@@ -78,12 +77,12 @@
     outline: 3px solid black !important;
 }
 
-
 .offcanvas-header {
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
     border-bottom: 4px solid #838587;
-    height: 86px;
+    max-height: 86px;
+    min-height: 86px;
 }
 
 .OffCanvasMain {
