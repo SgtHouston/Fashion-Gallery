@@ -10,8 +10,9 @@ import Faqs from "./Pages/Faqs";
 import Terms from "./Pages/Terms";
 import Consultations from "./Pages/Consultations";
 import Bridal from "./Pages/Bridal";
-import './App.css'
+import './App.css';
 import Videos from "./Pages/Videos";
+import Sliders from './Pages/Sliders';
 
 
 
@@ -38,7 +39,7 @@ function App() {
 
           {/* Page 6  */}
           < Route exact path="/faqs" element={<Faqs/>} />
-          
+
           {/* Page 7  */}
           < Route exact path="/terms" element={<Terms/>} />
 
@@ -50,13 +51,16 @@ function App() {
 
           {/* Page 10  */}
           < Route exact path="/videos" element={<Videos />} />
-          
+
+          {/* Page 11  */}
+          < Route exact path="/sliders" element={<Sliders />} />
+
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
           {/* Redirect to homepage */}
-          
+
         </ Routes>
-        
+
       </ Router>
     </div>
   );
