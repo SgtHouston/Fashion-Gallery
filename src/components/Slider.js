@@ -1,5 +1,6 @@
 import React from 'react'
 import '../componentcss/Slider.css'
+// npm i react-compare-slider
 import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
 
 
