@@ -1,6 +1,8 @@
 .header {
     display: flex;
     position:fixed;
+    top: 0;
+    transition:top 0.75s;
     min-width: 100vw;
     text-align: center;
     height: 86px;
