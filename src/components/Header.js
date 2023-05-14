@@ -13,11 +13,19 @@ function Header() {
 
     // Navbar header hides on scroll down, show on scroll up
     var prevScrollpos = window.pageYOffset;
+
+    // Call function on scroll
     window.onscroll = function() {
+        // Current scroll position is amount of pixels scrolled on y axis
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
+        // console.log(window.pageYOffset);
+
+        // if user is still at top of the page OR prev scroll position is greater than current one (if user scrolled up the page)
+        if (window.pageYOffset < 90 || prevScrollpos > currentScrollPos) {
+            // place header atop page
             document.getElementById("header").style.top= '0px';
         } else {
+            // hide header
             document.getElementById("header").style.top = "-86px";
         }
         prevScrollpos = currentScrollPos;
