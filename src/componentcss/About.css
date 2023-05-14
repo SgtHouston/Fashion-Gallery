@@ -8,6 +8,11 @@
     height: 100%;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 
 .about__main {
     display: flex;
@@ -24,7 +29,6 @@
 }
 
 .about__left img {
-    max-height: 250px;
     border :5px solid white;
     justify-content: center;
 }
@@ -40,7 +44,7 @@
     background-color: #545B5A;
 }
 
-@media screen and (max-width: 996px) { 
+@media screen and (max-width: 1024px) { 
     .about__main {
         display: flex;
         flex-direction: column;
