@@ -10,8 +10,21 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Header() {
 
+
+    // Navbar header hides on scroll down, show on scroll up
+    var prevScrollpos = window.pageYOffset;
+    window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("header").style.top= '0px';
+        } else {
+            document.getElementById("header").style.top = "-86px";
+        }
+        prevScrollpos = currentScrollPos;
+    }
+
     return (
-        <div className="header">
+        <div className="header" id="header">
             {/* Navigation Pane On Every Page Via Header */}
             <OffCanvasNav />
 
