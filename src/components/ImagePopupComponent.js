@@ -30,7 +30,7 @@ function ImagePopupComponent({ Img }) {
                     <div className="dialog-backdrop">
                         <dialog className="dialog center text-center" style={{ width: '30rem' }} open onClick={handleClick} >
                             <h5 className="dialog-message"> <CloseIcon className="dialog-icon"/> </h5>
-                            <img className='img-fluid client-image-component ' src={Img} style={{ maxHeight: '90vh' }} onClick={handleClick} alt="" />
+                            <img className='responsive img-fluid client-image-component ' src={Img}  onClick={handleClick} alt="" />
                         </dialog>
                     </div>
                 ) 

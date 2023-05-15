@@ -24,6 +24,11 @@
     height: 100vh;
 }
 
+.responsive {
+    width: 100%;
+    height: auto;
+}
+
 .pic-div:hover {
     opacity: 0.90;
 }
