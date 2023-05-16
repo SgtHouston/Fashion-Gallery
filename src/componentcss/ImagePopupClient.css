@@ -3,18 +3,40 @@
     src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
 }
 
-.dialog {
-    background-image: url('../images/WhiteMarble2.png');
-    background-size: cover;
-    border: 4px solid #545B5A;
-    padding: 10px 10px 10px 10px;
-    z-index: 1;
-    border-radius: 10px;
-}
-
 .responsive {
     width: 100%;
     height: auto;
+}
+
+.dialog-content {
+    display: flex;
+    flex-direction: column;
+    background-image: url('../images/WhiteMarble2.png');
+    background-size: cover;
+    border: 4px solid #545B5A;
+    z-index: 1;
+    padding: 0px 5px 5px 5px !important ;
+    margin: 0px 0px 0px 0px !important ;
+}
+
+div::-webkit-scrollbar {
+    width: 12px;
+}
+
+div::-webkit-scrollbar-track {
+    background-image: url('../images/WhiteMarble2.png');
+    background-size:cover;
+    
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #BCCBC9;
+    border-radius: 20px;
+    border: 3px solid #838587;
+}
+
+.dialog-button {
+    color: #838587;
 }
 
 .center {
@@ -24,33 +46,24 @@
 }
 
 .dialog-backdrop {
-    background-color: rgba(0, 0, 0, 0.93);
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 1040;
-    width: 100vw;
-    height: 100vh;
-}
-
-.landing__img:hover {
-    opacity: 0.90;
+    background-color: rgba(0, 0, 0, 0.9);
 }
 
 .dialog-message {
     font-family: SLRScript;
-}
-
-.dialog-icon {
-    min-width: 40px;
-    min-height: 40px;
-}
-
-.dialog-message {
     text-align: end;
     margin: -15px -8px -5px -5px;
 }
 
+.dialog-icon {
+    min-width: 30px;
+    min-height: 30px;
+    color: #545B5A;
+}
+
+.dialog-icon-button.dialog-icon-button2 {
+    padding: 0px;
+}
 
 @media screen and (max-width: 540px) { 
     .dialog-message {
@@ -61,5 +74,11 @@
 
 .client-image-client {
     border-radius: 10px;
+}
+
+.pic-div_no-opacity {
+    width: 48%;
+    margin: 0px 12px 0px 4px;
+    justify-content: space-around;
 }
 

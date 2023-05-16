@@ -8,6 +8,10 @@
     border-radius: 10px;
 }
 
+.landing__img:hover {
+    opacity: 0.90;
+}
+
 .center {
     position: absolute;
     left: 50%;
@@ -15,7 +19,7 @@
 }
 
 .dialog-backdrop {
-    background-color: rgba(0, 0, 0, 0.93);
+    background-color: rgba(0, 0, 0, 0.9);
     position: fixed;
     top: 0;
     left: 0;
@@ -47,10 +51,11 @@
     border-radius: 10px;
 }
 
-@media screen and (max-width: 540px) { 
+/* @media screen and (max-width: 540px) { 
     .dialog-message {
         text-align: center;
         margin: -15px -8px -5px -5px;
     }
-}
+} */
+
 
