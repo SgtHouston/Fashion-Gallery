@@ -78,9 +78,9 @@
 
 .css-1t1j96h-MuiPaper-root-MuiDialog-paper {
     margin: 0px !important;
-    align-self: center;
+    align-self: top;
     max-height: calc(100vh - 16px)!important;
-    max-width: calc(100vh - 16px)!important ;
+    max-width: calc(100vw - 16px)!important ;
 }
 
 
