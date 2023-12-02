@@ -18,10 +18,14 @@ import pic17 from '../images/IMG_9712.png'
 import pic18 from '../images/IMG_6969.png'
 import pic19 from '../images/GreenClose.jpg'
 import pic20 from '../images/WhiteGoldWorn.jpg'
+import pic21 from '../images/bluebently4.png'
+import pic22 from '../images/bluebently2.jpg'
 
 
 
 const picDB = [
+    pic22,
+    pic21,
     pic19,
     pic20,
     pic1,
