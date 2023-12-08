@@ -37,7 +37,7 @@ function LandingPane() {
             </video>
 
             <div className="text-center">
-                <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Exquisite Bespoke Designs <img className="wing" src={wing} alt=""/></span>
+                <span className="text-center landing_text"> Exquisite Bespoke Designs </span>
             </div>
             <div className="dressdisplay-bottom">
 
@@ -49,13 +49,13 @@ function LandingPane() {
                 
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> A Dress For The Occasion Of A Lifetime <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> A Dress For The Occasion Of A Lifetime </span>
                 </div>
 
                 < ImagePopupComponent className='large-img' Img={Twins} alt="Customer Worn Dress 8" />
                 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Custom Formalwear Fitted Just For You <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Custom Formalwear Fitted Just For You </span>
                 </div>
 
                 <div className="dressdisplay">
@@ -65,13 +65,13 @@ function LandingPane() {
                 </div>
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Make Your Special Occasion One To Remember <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Make Your Special Occasion One To Remember </span>
                 </div>
 
                 < ImagePopupComponent className='large-img' Img={CustomerWorn12} alt="Customer Worn Dress 12" />
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Collaborate With Us To Create A Work Of Art <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Collaborate With Us To Create A Work Of Art </span>
                 </div>
 
                 <div className="dressdisplay">
@@ -82,13 +82,13 @@ function LandingPane() {
                 </div>
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Look And Feel Your Best With SLR Couture <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Look And Feel Your Best With SLR Couture </span>
                 </div>
 
                 < ImagePopupComponent className='large-img'Img={CustomerWorn8} alt="Customer Worn Dress 8" />
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Let's Bring Your Vision To Life <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text">Let's Bring Your Vision To Life </span>
                 </div>
 
                 <div className="dressdisplay">
@@ -98,14 +98,17 @@ function LandingPane() {
                 </div>
                 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Come Through In Custom <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Come Through In Custom </span>
                 </div>
 
                 < ImagePopupComponent className='large-img'Img={CustomerWorn19} alt="Customer Worn Dress 19" />
 
                 <div className="text-center">
-                    <span className="text-center landing_text"><img className="wing wing-reverse" src={wing} alt="" /> Become A Part Of The SLR Couture Family <img className="wing" src={wing} alt=""/></span>
+                    <span className="text-center landing_text"> Become A Part Of The SLR Couture Family </span>
                 </div>
+
+                {/* <img className="wing wing-reverse" src={wing} alt="" /> */}
+                {/* <img className="wing" src={wing} alt=""/> */}
 
                 <div className="dressdisplay dressdisplay-last">
                     < ImagePopupComponent Img={CustomerWorn9} alt="Customer Worn Dress 9" />          
