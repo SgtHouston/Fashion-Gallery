@@ -21,7 +21,7 @@ import CustomerWorn18 from '../images/bluetiffany_.png'
 import CustomerWorn19 from '../images/bluebently.jpg'
 import Twins from '../images/Twins.png'
 import ImagePopupComponent from './ImagePopupComponent'
-import wing from '../images/wing.png'
+// import wing from '../images/wing.png'
 
 
 
