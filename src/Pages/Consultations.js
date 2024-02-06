@@ -36,8 +36,8 @@ function Consultations() {
                     <p className="consultations-header">FEES</p> 
 
                     BRIDAL CONSULTATION $200 - 2hrs<br /><br />
-                    PROM CONSULTATION $75 - 1hrs<br /><br />
-                    CUSTOM CONSULTATION $50 - 30mins<br /><br />
+                    PROM CONSULTATION $100 - 1hrs<br /><br />
+                    CUSTOM CONSULTATION $100 - 1hrs<br /><br />
                 </div>
                 <br />
                 <img src={ConsultPic} alt='' />
