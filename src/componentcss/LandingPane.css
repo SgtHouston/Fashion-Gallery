@@ -25,10 +25,10 @@
     margin: 0px 0px 5px 0px;
     padding: 0px 0px 4px 0px;
     filter: drop-shadow(0 0 .5rem #838587);
-    max-width: 80%;
-    min-width: 80%;
+    max-width: 100%;
+    min-width: 100%;
     margin: 0 auto;
-    border-radius: 0px 0px 10px 10px;
+    /* border-radius: 0px 0px 10px 10px; */
 }
 
 
