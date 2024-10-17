@@ -20,10 +20,13 @@ import pic19 from '../images/GreenClose.jpg'
 import pic20 from '../images/WhiteGoldWorn.jpg'
 import pic21 from '../images/bluebently4.png'
 import pic22 from '../images/bluebently2.jpg'
-
+import pic23 from '../images/PurpleBlueDress.png'
+import pic24 from '../images/Couple1.png'
 
 
 const picDB = [
+    pic24,
+    pic23,
     pic22,
     pic21,
     pic19,
