@@ -7,7 +7,7 @@
     background-size: cover;
     min-width: 100%;
     /* min-height: 5rem; */
-    border-top: 4px solid #838587;
+    border-top: 4px solid #9c8c71;
     padding: 0px;
 }
 
@@ -24,7 +24,7 @@
 }
 
 .footerlink:hover {
-    color: black;
+    color: #9c8c71;
 }
 
 .footerlink:active {
@@ -61,15 +61,31 @@
     width: 50px;
 }
 
+.tiktokicon {
+    text-decoration: none;
+    color:#545B5A;
+    height:25px;
+    width: 25px;
+    fill:#545B5A;
+}
 
 
 .footer-info:hover {
-    color:black;
+    color:#9c8c71;
 }
 
 .footer-info:active {
     color: #838587;
 }
 
+.tiktokicon:hover {
+    fill:#9c8c71;
+    color:#9c8c71;
+}
+
+.tiktokicon:active {
+    color: #838587;
+    fill:#838587;
+}
 
 

@@ -9,7 +9,7 @@
     justify-content:space-between;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border-bottom: 4px solid #838587;
+    border-bottom: 4px solid #9c8c71;
     z-index: 2;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .order-button:hover {
-    color: BLACK;
+    color: #9c8c71;
 }
 
 .order-button:active {
@@ -67,6 +67,7 @@
     border: 2px solid #545B5A;
     border-radius: 7px;
 }
+
 
 @media screen and (max-width: 768px) { 
     .button-div {
