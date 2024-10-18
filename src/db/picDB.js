@@ -22,9 +22,13 @@ import pic21 from '../images/bluebently4.png'
 import pic22 from '../images/bluebently2.jpg'
 import pic23 from '../images/PurpleBlueDress.png'
 import pic24 from '../images/Couple1.png'
+import pic25 from '../images/NewBlackDress3.png'
+import pic26 from '../images/NewPurpleDress1.png'
 
 
 const picDB = [
+    pic26,
+    pic25,
     pic24,
     pic23,
     pic22,
