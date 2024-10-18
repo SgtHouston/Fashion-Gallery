@@ -56,7 +56,13 @@
 .footer-info {
     text-decoration: none;
     color:#545B5A;
+    font-size: 0.9rem;
+    height:50px;
+    width: 50px;
 }
+
+
+
 .footer-info:hover {
     color:black;
 }
