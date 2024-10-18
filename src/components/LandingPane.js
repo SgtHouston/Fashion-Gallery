@@ -1,7 +1,7 @@
 import React from 'react'
 import '../componentcss/LandingPane.css'
 // import backgroundVid from '../video/Mikayla.mp4'
-import backgroundVid2 from '../video/SLR Website Banner.mp4'
+import backgroundVid2 from '../video/SLR Website Banner 4.mp4'
 import CustomerWorn1 from '../images/IMG_6976.png'
 import CustomerWorn2 from '../images/IMG_6993.png'
 import CustomerWorn3 from '../images/IMG_6994.png'
