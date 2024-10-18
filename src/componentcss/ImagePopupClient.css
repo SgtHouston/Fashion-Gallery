@@ -8,12 +8,19 @@
     height: auto;
 }
 
+.client-pic{
+    /* padding and border radius for client page */
+    border: 3px solid #9c8c71;
+    padding: 5px;
+    border-radius: 10px;
+}
+
 .dialog-content {
     display: flex;
     flex-direction: column;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border: 4px solid #545B5A;
+    border: 3px solid #9c8c71;
     z-index: 1;
     padding: 0px 5px 5px 5px !important ;
     margin: 0px 0px 0px 0px !important ;
@@ -58,7 +65,7 @@ div::-webkit-scrollbar-thumb {
 .dialog-icon {
     min-width: 30px;
     min-height: 30px;
-    color: #545B5A;
+    color: #9c8c71;
 }
 
 .dialog-icon-button.dialog-icon-button2 {
