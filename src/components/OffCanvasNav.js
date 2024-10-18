@@ -54,7 +54,7 @@ function OffCanvasNav() {
                                 to={'/'}>
                                 <p className="Channelname text-center" onClick={handleClose}> HOME</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 2 About */}
@@ -62,7 +62,7 @@ function OffCanvasNav() {
                                 to={'/about'}>
                                 <p className="Channelname text-center"  onClick={handleClose}> ABOUT</p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 3 Bridal Gallery */}
@@ -70,7 +70,7 @@ function OffCanvasNav() {
                                 to={'/bridal'}>
                                 <p className="Channelname text-center" onClick={handleClose}> BRIDAL  </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 4 PROM GALLERY */}
@@ -78,7 +78,7 @@ function OffCanvasNav() {
                                 to={'/prom'}>
                                 <p className="Channelname text-center" onClick={handleClose}> PROM </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 5 Client Gallery */}
@@ -86,7 +86,7 @@ function OffCanvasNav() {
                                 to={'/clients'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CLIENT GALLERY </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 6 Videos */}
@@ -94,7 +94,7 @@ function OffCanvasNav() {
                                 to={'/videos'}>
                                 <p className="Channelname text-center" onClick={handleClose}> VIDEOS </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 7 Consultations */}
@@ -102,7 +102,7 @@ function OffCanvasNav() {
                                 to={'/consultations'}>
                                 <p className="Channelname text-center" onClick={handleClose}> CONSULTATIONS </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 8 Start Order/Contact Page */}
@@ -110,7 +110,7 @@ function OffCanvasNav() {
                                 to={'/start-order'}>
                                 <p className="Channelname text-center" onClick={handleClose}> START ORDER </p>
                         </Link>
-                        <div style={{ borderTop: "3px solid #545B5A", marginLeft: 30, marginRight: 30 }}></div>
+                        <div style={{ borderTop: "3px solid #9c8c71", marginLeft: 30, marginRight: 30 }}></div>
                         <br/>
 
                         {/* Page 9 FAQs  */}
