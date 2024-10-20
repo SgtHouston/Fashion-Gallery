@@ -44,7 +44,7 @@ function LandingPane() {
                     <span className="text-center landing_text"> Come Through In Custom </span>
             </div>
 
-            <div className="dressdisplay">
+            <div className="dressdisplay top-display">
                 < ImagePopupComponent Img={CustomerWorn19} alt="Customer Worn Dress 19" />
                 < ImagePopupComponent Img={CustomerWorn14} alt="Customer Worn Dress 14" />
             </div>
