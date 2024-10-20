@@ -35,7 +35,15 @@
 .dressdisplay {
     display: flex;
     justify-content: space-around;
+    margin: 0px 0px 0px 0px;
+    
 }
+
+.top-display {
+    padding: 0px 20px 0px 5px;
+}
+
+
 .dressdisplay-last {
     display: flex;
     padding: 0px 0px 15px 0px;
