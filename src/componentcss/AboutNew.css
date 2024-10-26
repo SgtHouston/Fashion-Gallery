@@ -39,6 +39,7 @@
     font-size:2rem;
     text-align: center;
     color: #B9AA9A;
+    line-height:inherit;
 }
 
 .bannertext{
@@ -114,7 +115,7 @@
 }
 
 .boxtext {
-    font-size: 1.5rem;
+    font-size: 1.3em;
     padding: 40px 50px 10px 50px;
     text-align: center;
     color:#625A52;
@@ -147,7 +148,7 @@
     font-size: 1.1rem;
 }
 
-@media screen and (max-width: 1400px) { 
+/* @media screen and (max-width: 1400px) { 
     .aboutnew{
         position: relative;
     }
@@ -195,7 +196,7 @@
         height: auto;
         margin: 0 auto;
     }
-} 
+}  */
 
 @media screen and (max-width: 1200px) { 
     .aboutnew{
