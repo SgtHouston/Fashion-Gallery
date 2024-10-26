@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
-// import About from "./Pages/About";
+import About from "./Pages/About";
 import Prom from "./Pages/Prom";
 import Contact from "./Pages/Contact";
 import Clients from "./Pages/Clients";
@@ -13,7 +13,7 @@ import Bridal from "./Pages/Bridal";
 import './App.css';
 import Videos from "./Pages/Videos";
 import Sliders from './Pages/Sliders';
-import AboutNew from './Pages/AboutNew';
+// import AboutNew from './Pages/AboutNew';
 
 
 
@@ -27,7 +27,7 @@ function App() {
           < Route exact path="/" element={<Home/>} />
 
           {/* Page 2  */}
-          < Route exact path="/about" element={<AboutNew/>} />
+          < Route exact path="/about" element={<About/>} />
 
           {/* Page 3  */}
           < Route exact path="/prom" element={<Prom/>} />
