@@ -1,0 +1,610 @@
+@font-face {
+    font-family: SLRScript;
+    src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
+}
+
+.aboutnew{
+    position: relative;
+}
+
+.header {
+    z-index: 5;
+}
+
+.aboutnewtop {
+    padding-top: 86px;
+    min-width: 100vw;
+    display: flex;
+}
+
+
+.aboutnewlefttop{
+    background-image: linear-gradient(90deg, #2B2724 70%, #625A52);
+    height: 8vh;
+    min-width: 48vw;
+}
+
+.aboutnewrighttop{
+    height: 8vh;
+    min-width: 52vw;
+    background-color: #2B2724;
+    border-left: 4px solid #9c8c71;
+    justify-content:space-around;
+}
+
+.rttext{
+    font-family: SLRScript;
+    height: 100%;
+    flex-grow: 1;
+    font-size:2rem;
+    text-align: center;
+    color: #B9AA9A;
+}
+
+.bannertext{
+    display: flex;
+    justify-content: space-around;
+    background-color: #B9AA9A;
+    font-size: 1.5rem;
+}
+
+.circle {
+    color: #534c47;
+}
+
+.aboutnewbottom {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.aboutnewbl {
+    height: auto;
+    min-width: 48vw;
+    background-image: linear-gradient(90deg, #2B2724 70%, #625A52);
+    color: #B9AA9A;
+    z-index: 2;
+}
+
+.aboutnewbr {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    color: #B9AA9A;
+    min-width: 52vw;
+    background-color: #2B2724;
+    border-left: 4px solid #9c8c71;
+    z-index: 1;
+}
+
+.responsive {
+    width: 44vw;
+    height: auto;
+    margin: 0 auto;
+}
+
+.imglabel{
+    min-height: fit-content;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: SLRScript;
+}
+
+.aboutnewblhtext{
+    padding-top: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.create {
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.box {
+    background-color: #F4F1E1;
+    margin: 3vw 0vw 0vw 5vw;
+    height: 35vw;
+    width: 55vw;
+    z-index: 2;
+    border-radius: 10px;
+    
+}
+
+.boxtext {
+    font-size: 1.5rem;
+    padding: 40px 50px 10px 50px;
+    text-align: center;
+    color:#625A52;
+}
+
+.startorder {
+    background-color: #B9AA9A;
+    color: white;
+    width:fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.376) 0px 15px 25px, rgba(0, 0, 0, 0.335) 0px 5px 10px;
+}
+
+.orderlink {
+    text-decoration: none;
+}
+
+.startorder:hover {
+    color:#2B2724;
+}
+
+.startorder:active {
+    color:#9c8c71;
+}
+
+.bottomtext {
+    padding: 3vw 4vw 3vw 4vw;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 1400px) { 
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1.7em;
+    }
+
+    .aboutnewlefttop{
+        height: 3.5vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.5vh;
+    }
+
+    .bannertext{
+        font-size: 1.5em;
+    }
+
+    .toptext{
+        font-size: 1.5em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: 1.5em;
+        padding: .75em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: 1em;
+    }
+
+    .startorder {
+        font-size: 1.5em;
+    }
+
+    .responsive {
+        width: 48vw;
+        height: auto;
+        margin: 0 auto;
+    }
+} 
+
+@media screen and (max-width: 1200px) { 
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1.7em;
+    }
+
+    .aboutnewlefttop{
+        height: 3.5vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.5vh;
+    }
+
+    .bannertext{
+        font-size: 1.5em;
+    }
+
+    .toptext{
+        font-size: 1.3em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: 1.em;
+        padding: .7em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .8em;
+    }
+
+    .startorder {
+        font-size: 1.3em;
+    }
+
+    .responsive {
+        width: 48vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) { 
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1.7em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: 1.5em;
+    }
+
+    .toptext{
+        font-size: 1em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: 1.1em;
+        padding: .7em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .77em;
+    }
+
+    .startorder {
+        font-size: 1em;
+    }
+
+    .responsive {
+        width: 48vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 992px) { 
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1.5em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: 1.5em;
+    }
+
+    .toptext{
+        font-size: 1em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .82em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .6em;
+    }
+
+    .startorder {
+        font-size: 1rem;
+    }
+
+    .responsive {
+        width: 48vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 768px) { 
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1.4em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: 1em;
+    }
+
+    .toptext{
+        font-size: .8em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .7em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .65em;
+    }
+
+    .startorder {
+        font-size: .8rem;
+    }
+
+    .responsive {
+        width: 48vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 680px) { 
+
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 4.8em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: 1.2em;
+    }
+
+    .toptext{
+        font-size: .8em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .63em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .64em;
+    }
+
+    .startorder {
+        font-size: .8rem;
+    }
+
+    .responsive {
+        width: 49vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 576px) { 
+
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 5em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: 1.1em;
+    }
+
+    .toptext{
+        font-size: .8em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .56em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .6em;
+    }
+
+    .startorder {
+        font-size: 1.3rem;
+    }
+
+    .responsive {
+        width: 49vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: .8em;
+    }
+
+    .toptext{
+        font-size: .5em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .35em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .38em;
+    }
+
+    .startorder {
+        font-size: .5rem;
+    }
+
+    .responsive {
+        width: 49vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 400px) { 
+
+    .aboutnew{
+        position: relative;
+    }
+
+    .rttext{
+        font-size: 1em;
+        height: 10vh;
+    }
+
+    .aboutnewlefttop{
+        height: 3.3vh;
+    }
+
+    .aboutnewrighttop{
+        height: 3.3vh;
+    }
+
+    .bannertext{
+        font-size: .8em;
+    }
+
+    .toptext{
+        font-size: .5em;
+    }
+
+    .create {
+        font-size: 1em;
+    }
+
+    .boxtext {
+        font-size: .35em;
+        padding: 1em;
+    }
+
+    .bottomtext{
+        padding-top: 1vh;
+        font-size: .3em;
+    }
+
+    .startorder {
+        font-size: .5rem;
+    }
+
+    .responsive {
+        width: 49vw;
+        height: auto;
+        margin: 0 auto;
+    }
+}

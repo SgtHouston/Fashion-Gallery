@@ -13,6 +13,7 @@ import Bridal from "./Pages/Bridal";
 import './App.css';
 import Videos from "./Pages/Videos";
 import Sliders from './Pages/Sliders';
+import AboutNew from './Pages/AboutNew';
 
 
 
@@ -26,7 +27,7 @@ function App() {
           < Route exact path="/" element={<Home/>} />
 
           {/* Page 2  */}
-          < Route exact path="/about" element={<About/>} />
+          < Route exact path="/about" element={<AboutNew/>} />
 
           {/* Page 3  */}
           < Route exact path="/prom" element={<Prom/>} />
@@ -54,6 +55,9 @@ function App() {
 
           {/* Page 11  */}
           < Route exact path="/sliders" element={<Sliders />} />
+
+          {/* Page 12  */}
+          {/* < Route exact path="/aboutnew" element={<AboutNew/>} /> */}
 
           {/* Redirect */}
           <Route exact path="*"  element={<Navigate to="/" />} />
