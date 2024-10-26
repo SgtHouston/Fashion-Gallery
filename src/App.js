@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 // npm install bootstrap
 import "bootstrap/dist/css/bootstrap.min.css";
 import Home from "./Pages/Home";
-import About from "./Pages/About";
+// import About from "./Pages/About";
 import Prom from "./Pages/Prom";
 import Contact from "./Pages/Contact";
 import Clients from "./Pages/Clients";
