@@ -1,14 +1,17 @@
 .consultations-title {
     font-family: SLRScript;
     font-weight: 300;
-    color: #545B5A;
+    /* color: #545B5A; */
+    color:#2B2822;
     padding-top: 8px;
-    background-color: #BCCBC9;
+    /* background-color: #BCCBC9; */
+    background-color: #766E65 ;
 }
-
+/* #766E65  #2B2822 */
 .consultations-body {
     text-align: center;
-    background-color: #BCCBC9;
+    /* background-color: #BCCBC9; */
+    background-color: #766E65;
     padding: 1rem 3rem 1rem 3rem;
     padding-top: 86px;
 }
@@ -20,5 +23,15 @@
 
 .consultations-link {
     text-decoration: none;
-    color: #545B5A;
+    color: #2b2822e7;
 }
+
+/* .process {
+    padding-top: 86px;
+    max-width: 100vw;
+    
+}
+
+.consultations {
+    background-color: #79706A;
+} */

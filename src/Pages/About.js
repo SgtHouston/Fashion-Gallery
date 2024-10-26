@@ -5,6 +5,7 @@ import '../componentcss/About.css'
 import Designer from '../images/Designer.png'
 
 
+
 function About() {
     return (
         <div className ="about">
