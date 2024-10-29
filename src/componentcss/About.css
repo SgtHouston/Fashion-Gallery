@@ -1,11 +1,12 @@
 .about {
     background-color: #BCCBC9;
-    color: #fff;
+    color: #BCCBC9;
     text-align: center;
     font-size: .9rem;
     font-weight: 900;
     flex-grow: 1;
     height: 100%;
+    font-family: Montserrat
 }
 
 .responsive {
@@ -46,7 +47,7 @@
     align-items: center;
     /* background-color: #545B5A; */
     background-image: linear-gradient(90deg, #766E65 10%, #2B2822);
-    background-image:url(../images/Consultation\ Page.jpg);
+    /* background-image:url(../images/Consultation\ Page.jpg); */
     /* border :0px 0px 0px 3px solid #9c8c71; */
 }
 
