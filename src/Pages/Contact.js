@@ -232,7 +232,7 @@ function Contact() {
                         </video>
 
                         <h4 className='contact-text'>Please Fill Out The Form Below <br />To Start Your Order</h4>
-                        < KeyboardDoubleArrowDownIcon />
+                        <  KeyboardDoubleArrowDownIcon className='arrow' />
                     </div>
                     <form ref={form} className="contact-form-inputs" name="Contact" onSubmit={handleSubmit}>
                         <fieldset>
@@ -284,7 +284,7 @@ function Contact() {
                                         <MenuItem value={14} > 14 </MenuItem>
                                         <MenuItem value={16} > 16 </MenuItem>
                                     </CSSSelect>
-                                    <FormHelperText className="text-center"> Select Your Dress Size </FormHelperText>
+                                    <FormHelperText className="text-center" style={{ color: '#BCCBC9' }}> Select Your Dress Size </FormHelperText>
                                 </div>
 
                                 <div className="selector form-check">
@@ -305,7 +305,7 @@ function Contact() {
                                         <MenuItem value='41 - 49' > 41 - 49 </MenuItem>
                                         <MenuItem value='50 +' > 50 + </MenuItem>
                                     </CSSSelect>
-                                    <FormHelperText className="text-center"> Select Your Age Range </FormHelperText>
+                                    <FormHelperText className="text-center" style={{ color: '#BCCBC9' }}> Select Your Age Range </FormHelperText>
 
                                 </div>
 
@@ -328,7 +328,7 @@ function Contact() {
                                         <MenuItem value='$4,000 - $4,999' > $4,000 - $4,999 </MenuItem>
                                         <MenuItem value='$5,000 +' > $5,000 + </MenuItem>
                                     </CSSSelect>
-                                    <FormHelperText className="text-center">Select Dress Budget </FormHelperText>
+                                    <FormHelperText className="text-center " style={{ color: '#BCCBC9' }}>Select Dress Budget </FormHelperText>
 
                                 </div>
 
@@ -364,7 +364,7 @@ function Contact() {
                                         <MenuItem value={' 6\' 4" '}> 6' 4" </MenuItem>
                                         <MenuItem value={' 6\' 5" & Above'}> 6' 5" & Above </MenuItem>
                                     </CSSSelect>
-                                    <FormHelperText className="text-center">Select Your Height</FormHelperText>
+                                    <FormHelperText className="text-center" style={{ color: '#BCCBC9' }}>Select Your Height</FormHelperText>
 
                                 </div>
 
@@ -484,7 +484,7 @@ function Contact() {
                                     <MenuItem value='Stretch Velvet' > Stretch Velvet </MenuItem>
                                     <MenuItem value='Tulle' > Tulle </MenuItem>
                                 </CSSSelect>
-                                <FormHelperText className="text-center">Select Dress Fabric </FormHelperText>
+                                <FormHelperText className="text-center" style={{ color: '#BCCBC9' }}>Select Dress Fabric </FormHelperText>
 
                             </div>
                         </fieldset>
@@ -542,22 +542,23 @@ function Contact() {
                         </fieldset>
 
                         <fieldset>
-                            <label>Upload 1 Full-Body Photo:</label>
-                            <p>(Max Size: 2 MB)</p>
+                            <label>Upload 1 Full-Body Photo *</label>
+                            <p>(Max Size: 3 MB)</p>
                             <div className="inspiration">
                                 <input className="pic-input"
                                     id="fileinput6"
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
                                             setUpload6(null);
                                             document.getElementById('fileinput6').value = ''
                                         } else {
                                             setUpload6(e.target.files[0]);
                                         }
-                                    }} />
+                                        
+                                    }} required />
 
                             </div>
 
@@ -565,42 +566,43 @@ function Contact() {
                         <br />
                         
                         <fieldset>
-                            <label>Upload Up To 5 Garment Inspiration Photos:</label>
-                            <p>(Max Size: 2 MB)</p>
+                            <label>Upload Up To 5 Garment Inspiration Photos *</label>
+                            <p>AT LEAST 2 REQUIRED</p>
+                            <p>(Max Size: 3 MB)</p>
                             <div className="inspiration">
                                 <input className="pic-input"
                                     id="fileinput1"
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
                                             setUpload1(null);
                                             document.getElementById('fileinput1').value = ''
                                         } else {
                                             setUpload1(e.target.files[0]);
                                         }
-                                    }} />
+                                    }} required />
 
                                 <input className="pic-input"
                                     id="fileinput2"
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
                                             setUpload2(null);
                                             document.getElementById('fileinput2').value = ''
                                         } else {
                                             setUpload2(e.target.files[0]);
                                         }
-                                    }} />
+                                    }} required/>
                                 <input className="pic-input"
                                     id="fileinput3"
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
                                             setUpload3(null);
                                             document.getElementById('fileinput3').value = ''
@@ -614,7 +616,7 @@ function Contact() {
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
                                             setUpload4(null);
                                             document.getElementById('fileinput4').value = ''
@@ -627,7 +629,7 @@ function Contact() {
                                     type="file"
                                     alt=''
                                     onChange={e => {
-                                        if (e.target.files[0].size > 2097152) {
+                                        if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Max Size Requirement Before Upload.');
                                             setUpload5(null);
                                             document.getElementById('fileinput5').value = ''
