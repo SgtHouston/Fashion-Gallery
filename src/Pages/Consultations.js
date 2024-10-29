@@ -2,7 +2,7 @@ import React from 'react';
 import Footer from '../components/Footer';
 import Header from '../components/Header';
 import '../componentcss/Consultations.css'
-import ConsultPic from '../images/silhouette.png'
+// import ConsultPic from '../images/silhouette.png'
 // import ConsultPic from '../images/Process.png'
 
 function Consultations() {
