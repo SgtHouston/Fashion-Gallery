@@ -15,7 +15,7 @@
     "axios": "^1.13.2",
     "bootstrap": "^5.3.8",
     "firebase": "^9.6.1",
-    "html-react-parser": "^1.4.5",
+    "html-react-parser": "^5.2.10",
     "react": "^17.0.2",
     "react-bootstrap": "^2.10.10",
     "react-compare-slider": "^2.2.0",
