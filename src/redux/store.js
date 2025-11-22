@@ -2,7 +2,7 @@
 // npm install redux-thunk
 import { createStore, combineReducers, applyMiddleware } from 'redux'
 import { client } from './reducers/client'
-import thunkMiddleware from 'redux-thunk'
+import { thunk } from 'redux-thunk'
 
 
 
@@ -13,5 +13,5 @@ const rootReducer = combineReducers ({
 
 
 // export root reducer, which is all reducers combined
-const store = createStore(rootReducer,applyMiddleware(thunkMiddleware))
+const store = createStore(rootReducer,applyMiddleware(thunk))
 export default store
