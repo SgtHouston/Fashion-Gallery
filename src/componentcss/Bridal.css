@@ -4,11 +4,13 @@
     align-items: center;
     background-image: url('../images/WhiteMarble2.png');
     background-size:cover;
+    min-height: 100vh;
 }
 
 .Carousel {
-    min-width:60vw;
-    max-width:60vw;
+    min-width:90vw;
+    max-width:90vw;
+    min-height: 80vh;
     padding-top: 86px;
     z-index: 1;
 }
@@ -43,16 +45,59 @@
     background-image: url('../images/right-chevron.png');
 }
 
-.carousel-img {
-    max-width: 80%;
-    max-height: 60%;
+.carousel-img.img-fluid {
+    max-width: 100% !important;
+    max-height: 90% !important;
+    width: auto !important;
+    height: auto !important;
+    object-fit: contain;
 }
-
 
 @media screen and (max-width: 768px) { 
     .Carousel {
         min-width:105vw;
         max-width:105vw;
         min-height: 73vh;
+        padding-top: 70px;
+    }
+    
+    .carousel-img {
+        max-width: 95%;
+        max-height: 80%;
+    }
+}
+
+@media screen and (max-width: 625px) {
+    .Carousel {
+        min-height: 50vh;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Carousel {
+        padding-top: 65px;
+        min-height: 40vh;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .Carousel {
+        min-height: 35vh;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .Bridal {
+        min-height: 100vh;
+    }
+    
+    .Carousel {
+        min-width: 50vw;
+        max-width: 50vw;
+    }
+    
+    .carousel-img {
+        max-width: 85%;
+        max-height: 70%;
     }
 }

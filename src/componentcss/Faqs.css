@@ -62,3 +62,16 @@
     color:#2B2724;
     background-color: #B8C2C1;
 }
+
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .faqs-body {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .faqs-body {
+        padding-top: 65px;
+    }
+}

@@ -316,3 +316,16 @@ fieldset {
     margin-top: 5px;
     text-align: center;
 }
+
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .contact-body {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .contact-body {
+        padding-top: 65px;
+    }
+}
