@@ -29,7 +29,15 @@ function ImagePopupComponent({ Img }) {
 
     return (  
         <div className={divClass}>
-            <img className='img-fluid shadow' src={Img} onClick={handleClick} alt=""/>
+            <img 
+                className='img-fluid shadow' 
+                src={Img} 
+                onClick={handleClick} 
+                onKeyDown={(e) => e.key === 'Enter' && handleClick(e)}
+                tabIndex={0}
+                role="button"
+                alt="Fashion gallery item - click to view larger"
+            />
             
             { imgPopupLaunch ? 
                 (

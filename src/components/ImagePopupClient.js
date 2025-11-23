@@ -32,7 +32,15 @@ function ImagePopupClient({ Img }) {
 
     return (  
         <div className ={divClass}>
-            <img className ='client-pic' src={Img} onClick={handleClick} alt=""/>
+            <img 
+                className='client-pic' 
+                src={Img} 
+                onClick={handleClick} 
+                onKeyDown={(e) => e.key === 'Enter' && handleClick(e)}
+                tabIndex={0}
+                role="button"
+                alt="Client work - click to view larger"
+            />
             { imgPopupLaunch ? 
                 (
                     // <div className="dialog-backdrop">
