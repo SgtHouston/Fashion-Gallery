@@ -24,7 +24,7 @@ function ImagePopupComponent({ Img }) {
     if (imgPopupLaunch === true) {
         divClass = 'landing-img-no-opacity'
     } else {
-        divClass = 'landing__img'
+        divClass = 'landing-img'
     }
 
     return (  
