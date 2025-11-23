@@ -139,3 +139,15 @@
 
 
 
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .landingpane {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .landingpane {
+        padding-top: 65px;
+    }
+}
