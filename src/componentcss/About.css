@@ -108,6 +108,7 @@ span.about-right {
         align-items: flex-start;
         padding-top: 40px;
         font-size: 1rem;
+        min-height: auto;
     }
 }
 
