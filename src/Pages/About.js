@@ -12,7 +12,7 @@ const About = () => {
             <div className='about-main'>
                 
                 <div className='about-left'>
-                    <img className=' responsive img-fluid designer-img' src={Designer} alt=""></img>
+                    <img className=' responsive img-fluid designer-img' src={Designer} alt="Stacy Rogers, founder and designer of SLR Couture"></img>
                 </div>
                 <span className='about-right'>
                     Based in Atlanta, GA, SLR Couture is an International design house specializing in the creation of bespoke luxury bridal and formal wear. 

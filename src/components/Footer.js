@@ -33,7 +33,7 @@ const Footer = memo(() => {
                         <a className="footerlink" href="/bridal" aria-label="Navigate to Bridal collection"> BRIDAL </a>
                     </div>
                     <div className="my-3">
-                        <a className="footerlink" href="/prom" alt=''> PROM </a>
+                        <a className="footerlink" href="/prom" aria-label="Navigate to Prom collection"> PROM </a>
                     </div> 
                     <div className="my-3">
                         <a className="footerlink" href="/clients"> GALLERY </a>

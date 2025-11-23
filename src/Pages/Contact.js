@@ -548,7 +548,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput6"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
@@ -573,7 +573,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput1"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
@@ -587,7 +587,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput2"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
@@ -600,7 +600,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput3"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
@@ -614,7 +614,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput4"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Size Requirement Before Upload.');
@@ -627,7 +627,7 @@ function Contact() {
                                 <input className="pic-input"
                                     id="fileinput5"
                                     type="file"
-                                    alt=''
+                                    
                                     onChange={e => {
                                         if (e.target.files[0].size > 3145728) {
                                             alert('Chosen Image File Is Too Large.  Please Select A Different File Or Modify File To Meet 2 MB Max Size Requirement Before Upload.');

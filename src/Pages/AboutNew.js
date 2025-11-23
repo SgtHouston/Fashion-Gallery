@@ -53,7 +53,7 @@ function AboutNew () {
                         
                     </div>
                     <div className='aboutnewbr'>
-                        <img className='designer-img responsive' src={Designer} alt="Designer"></img>
+                        <img className='designer-img responsive' src={Designer} alt="Stacy Rogers, SLR Couture founder and designer"></img>
                         <p className='imglabel'>STACY R.</p>
                     </div>
                 </div>
