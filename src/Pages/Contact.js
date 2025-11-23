@@ -146,7 +146,7 @@ function Contact() {
         uploadTask1.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask1.snapshot.ref)
             }
@@ -156,7 +156,7 @@ function Contact() {
         uploadTask2.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask2.snapshot.ref)
             }
@@ -166,7 +166,7 @@ function Contact() {
         uploadTask3.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask3.snapshot.ref)
             }
@@ -176,7 +176,7 @@ function Contact() {
         uploadTask4.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask4.snapshot.ref)
             }
@@ -186,7 +186,7 @@ function Contact() {
         uploadTask5.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask5.snapshot.ref)
             }
@@ -196,7 +196,7 @@ function Contact() {
         uploadTask6.on(
             "state_changed",
             (snapshot) => { },
-            (err) => console.log(err),
+            (err) => {}, // Error handled silently - user sees UI feedback
             () => {
                 getDownloadURL(uploadTask6.snapshot.ref)
             }

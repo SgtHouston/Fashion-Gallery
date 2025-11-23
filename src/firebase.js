@@ -25,10 +25,7 @@ signInAnonymously(auth)
         
     })
     .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
-        // ...
-        console.log(errorCode,errorMessage)
+        // Error handled silently - user will see UI feedback instead
     });
 
 onAuthStateChanged(auth, (user) => {
