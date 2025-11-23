@@ -1,4 +1,4 @@
-import React, { useState, useTransition, startTransition }  from "react";
+import React, { useState, startTransition }  from "react";
 import '../componentcss/ImagePopupComponent.css'
 import CloseIcon from '@mui/icons-material/Close';
 import Dialog from '@mui/material/Dialog';
@@ -13,7 +13,6 @@ function ImagePopupComponent({ Img }) {
     });
 
     const [imgPopupLaunch, setImgPopupLaunch] = useState(false);
-    const [isPending, startTransitionHook] = useTransition();
 
     const handleClick = () => {
         startTransition(() => {
@@ -39,7 +38,6 @@ function ImagePopupComponent({ Img }) {
                 tabIndex={0}
                 role="button"
                 alt="Fashion gallery item - click to view larger"
-                style={{ opacity: isPending ? 0.7 : 1 }}
             />
             
             { imgPopupLaunch ? 
