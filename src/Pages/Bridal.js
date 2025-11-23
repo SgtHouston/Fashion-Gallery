@@ -18,7 +18,7 @@ function Bridal () {
                         { BridalDB.map((Img, index) => {
                                 return (
                                     < Carousel.Item key={index + 1}>
-                                        <img src={Img} className="img-fluid carousel-img" alt={`Slide ${index + 1}`} key={index + 1} />
+                                        <img src={Img} className="img-fluid carousel-img" alt={`Slide ${index + 1}`} loading="lazy" key={index + 1} />
                                     </Carousel.Item>
                                 );
                             })}
