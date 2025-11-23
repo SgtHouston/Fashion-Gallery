@@ -28,12 +28,12 @@ function Contact() {
     const form = useRef();
     
     // Current Date Formatting
-    var today = new Date();
-    var dd = String(today.getDate()).padStart(2, '0');
-    var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    var yyyy = today.getFullYear();
-    var hrs = String(today.getHours()+ 0).padStart(2, '0');
-    var min = String(today.getMinutes()+ 1).padStart(2, '0');
+    const today = new Date();
+    const dd = String(today.getDate()).padStart(2, '0');
+    const mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    const yyyy = today.getFullYear();
+    const hrs = String(today.getHours()+ 0).padStart(2, '0');
+    const min = String(today.getMinutes()+ 1).padStart(2, '0');
     const Time = yyyy + '/' + mm + '/' + dd + ' ' + hrs+ ':' + min;
 
     
