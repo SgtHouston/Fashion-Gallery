@@ -48,7 +48,7 @@ const Footer = memo(() => {
             </div>
             <div className="footer-contact">
                 {/* Contact Info */}
-                <span > <LocationOnIcon/> Atlanta, GA </span><br/>
+                <span > <LocationOnIcon/> Seattle, WA </span><br/>
                 {/* <span > <PhoneIphoneIcon/> 678-653-3725 </span><br/> */}
                 <span><a className="tiktokicon" title="Follow Us On TikTok!" href="https://www.tiktok.com/@slr.couture?_t=8qdODI2LS5D&_r=1" > <TikTokIcon /> @SLR.COUTURE </a></span> <br/>
                 <span><a className="footer-info" title="E-Mail Us @ SLR Couture!" href="mailto: SLRCouture@gmail.com"> <EmailIcon/> SLRCouture@Gmail.com </a></span> <br/>
