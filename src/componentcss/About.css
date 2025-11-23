@@ -109,6 +109,7 @@ span.about-right {
         padding-top: 40px;
         font-size: 1rem;
         min-height: auto;
+        border-radius: 0;
     }
 }
 
