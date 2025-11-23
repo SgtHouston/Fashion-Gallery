@@ -86,7 +86,9 @@
         max-height: 45px;
         height: auto;
         width: 75px;
-        margin: 5px 10px 5px 0px;
+        margin: 0px 10px 0px 0px;
+        display: flex;
+        align-items: center;
     }
     
     .order-button {
@@ -109,7 +111,9 @@
     
     .button-div {
         width: 70px;
-        margin: 5px 5px 5px 0px;
+        margin: 0px 5px 0px 0px;
+        display: flex;
+        align-items: center;
     }
     
     .order-button {
