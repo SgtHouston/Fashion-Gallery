@@ -61,7 +61,7 @@ const Footer = memo(() => {
                 
             </div>
             
-            <p className="footer-text">&#169; 2024  SLR Couture.  All Rights Reserved </p>
+            <p className="footer-text">&#169; 2025  SLR Couture.  All Rights Reserved </p>
         </nav>
     )
 })
