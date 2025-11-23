@@ -74,10 +74,11 @@
     .header {
         height: 70px;
         padding: 0 10px;
+        align-items: center;
     }
     
     .logo {
-        max-height: 60px;
+        max-height: 65px;
         padding-left: 10px;
     }
     
@@ -98,10 +99,11 @@
 @media screen and (max-width: 480px) {
     .header {
         height: 65px;
+        align-items: center;
     }
     
     .logo {
-        max-height: 55px;
+        max-height: 60px;
         padding-left: 5px;
     }
     
