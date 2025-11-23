@@ -13,10 +13,19 @@
     border: 3px solid #9c8c71;
     padding: 3px;
     border-radius: 10px;
+    transition: transform 0.2s ease;
 }
 
 .landing-img:hover {
     opacity: 0.90;
+    transform: scale(1.01);
+}
+
+.landing-img-no-opacity {
+    border: 3px solid #9c8c71;
+    padding: 3px;
+    border-radius: 10px;
+    opacity: 0.3;
 }
 
 .center {
@@ -58,7 +67,37 @@
 
 .client-image-component {
     border-radius: 10px;
-    
+    transition: none !important;
+}
+
+.client-image-component:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
+
+/* React 18 View Transition Classes */
+::view-transition-old(.gallery-zoom) {
+    animation-duration: 300ms;
+    animation-timing-function: ease-out;
+}
+
+::view-transition-new(.gallery-zoom) {
+    animation-duration: 300ms;
+    animation-timing-function: ease-in;
+}
+
+::view-transition-group(.gallery-zoom) {
+    animation-duration: 300ms;
+}
+
+/* Smooth image transitions */
+.img-fluid {
+    transition: all 0.2s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
 
 

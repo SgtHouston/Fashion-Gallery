@@ -1,4 +1,4 @@
-import React, { useState }  from "react";
+import React, { useState, startTransition }  from "react";
 import '../componentcss/ImagePopupClient.css'
 import CloseIcon from '@mui/icons-material/Close';
 import Dialog from '@mui/material/Dialog';
@@ -16,8 +16,9 @@ function ImagePopupClient({ Img }) {
     const [imgPopupLaunch, setImgPopupLaunch] = useState(false);
 
     const handleClick = () => {
-        // Toggle ImgPopUp
-        setImgPopupLaunch(!imgPopupLaunch)
+        startTransition(() => {
+            setImgPopupLaunch(!imgPopupLaunch);
+        });
     }
 
     let divClass = 'pic-div'
@@ -43,12 +44,6 @@ function ImagePopupClient({ Img }) {
             />
             { imgPopupLaunch ? 
                 (
-                    // <div className="dialog-backdrop">
-                    //     <dialog className="dialog center" open style={{ width: '30rem' }} onClick={handleClick} >
-                    //         <h5 className="dialog-message"><CloseIcon className="dialog-icon"/> </h5>
-                    //         <img className='responsive img-fluid client-image-client' src={Img}  onClick={handleClick} alt="" />
-                    //     </dialog>
-                    // </div>
                     <Dialog
                         className="dialog-backdrop"
                         open={imgPopupLaunch}

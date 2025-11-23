@@ -89,3 +89,30 @@ div::-webkit-scrollbar-thumb {
     justify-content: space-around;
 }
 
+/* React 18 Smooth Transitions */
+.client-pic {
+    transition: all 0.2s ease;
+}
+
+.client-pic:hover {
+    transform: scale(1.01);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.pic-div {
+    transition: opacity 0.2s ease;
+}
+
+.pic-div_no-opacity {
+    opacity: 0.3;
+    transition: opacity 0.2s ease;
+}
+/* Disable hover effects on modal images */
+.client-image-client {
+    transition: none !important;
+}
+
+.client-image-client:hover {
+    transform: none !important;
+    box-shadow: none !important;
+}
