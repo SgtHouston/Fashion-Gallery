@@ -2,7 +2,9 @@ import React from 'react'
 import emailjs from '@emailjs/browser';
 import Footer from '../components/Footer'
 import Header from '../components/Header'
+import LoadingSpinner from '../components/LoadingSpinner'
 import '../componentcss/Contact.css'
+import '../componentcss/LoadingSpinner.css'
 // npm install @mui/icons-material
 // npm install @mui/material
 // npm i @emailjs/browser
@@ -51,6 +53,8 @@ function Contact() {
 
     // useState Hooks to Capture Client Input
     const [show, setShow] = useState(false);
+    const [isLoading, setIsLoading] = useState(false);
+    const [errors, setErrors] = useState({});
     const [fname, setFName] = useState('');
     const [age, setAge] = useState('0 - 15');
     const [lname, setLName] = useState('');
@@ -100,10 +104,37 @@ function Contact() {
         redirect_Main()
     };
 
+    // Validation function
+    const validateForm = () => {
+        const newErrors = {};
+        
+        if (!fname.trim()) newErrors.fname = 'First name is required';
+        if (!lname.trim()) newErrors.lname = 'Last name is required';
+        if (!email.trim()) newErrors.email = 'Email is required';
+        else if (!/\S+@\S+\.\S+/.test(email)) newErrors.email = 'Email is invalid';
+        if (!phone.trim()) newErrors.phone = 'Phone number is required';
+        if (!budget) newErrors.budget = 'Budget selection is required';
+        if (!height) newErrors.height = 'Height selection is required';
+        if (!consultation) newErrors.consultation = 'Consultation preference is required';
+        if (!shipping) newErrors.shipping = 'Shipping preference is required';
+        if (!upload1 || !upload2) newErrors.uploads = 'At least 2 inspiration photos are required';
+        if (!upload6) newErrors.bodyPhoto = 'Full-body photo is required';
+        if (!comments.trim() || comments.length < 5) newErrors.comments = 'Comments must be at least 5 characters';
+        
+        setErrors(newErrors);
+        return Object.keys(newErrors).length === 0;
+    };
+
     // Capture Client Info and Post To Redux & Firebase
     // Notify owner of contact
     const handleSubmit = e => {
         e.preventDefault();
+        
+        if (!validateForm()) {
+            return;
+        }
+
+        setIsLoading(true);
 
         // Capture Info from Contact Local State 
         client.FName = fname;
@@ -206,8 +237,10 @@ function Contact() {
         emailjs.sendForm('service_jp95jt9', 'template_ptgk4z9', form.current, '0GOH6Mh_VqTqgJVB4')
             .then((result) => {
             // console.log(result.text);
+            setIsLoading(false);
         }, (error) => {
             // console.log(error.text);
+            setIsLoading(false);
         });
 
         // Submit info as "client" and dispatch to redux for global state
@@ -650,7 +683,22 @@ function Contact() {
                         <br />
 
                         <div>
-                            <button type="submit" className="contact-button" onSubmit={handleSubmit}>Submit</button>
+                            {isLoading ? (
+                                <LoadingSpinner />
+                            ) : (
+                                <button type="submit" className="contact-button" onSubmit={handleSubmit}>Submit</button>
+                            )}
+                            {errors.fname && <div className="error-message">{errors.fname}</div>}
+                            {errors.lname && <div className="error-message">{errors.lname}</div>}
+                            {errors.email && <div className="error-message">{errors.email}</div>}
+                            {errors.phone && <div className="error-message">{errors.phone}</div>}
+                            {errors.budget && <div className="error-message">{errors.budget}</div>}
+                            {errors.height && <div className="error-message">{errors.height}</div>}
+                            {errors.consultation && <div className="error-message">{errors.consultation}</div>}
+                            {errors.shipping && <div className="error-message">{errors.shipping}</div>}
+                            {errors.uploads && <div className="error-message">{errors.uploads}</div>}
+                            {errors.bodyPhoto && <div className="error-message">{errors.bodyPhoto}</div>}
+                            {errors.comments && <div className="error-message">{errors.comments}</div>}
                         </div>
                         <br />
 
