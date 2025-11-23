@@ -2,7 +2,7 @@ import Header from '../components/Header'
 import LandingPane from '../components/LandingPane'
 import Footer from '../components/Footer'
 
-function Home() {
+const Home = () => {
     const link = 'https://Github.com/SgtHouston 🤓'
     console.log(
         `%c Welcome To SLR Couture!  Gallery made by @ ${link} `, 
