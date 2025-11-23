@@ -1,3 +1,4 @@
+import { memo } from 'react'
 import '../componentcss/Footer.css'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 // import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
@@ -14,7 +15,7 @@ const TikTokIcon = () => {
 }
 
 
-function Footer() {
+const Footer = memo(() => {
 
     return (
         
@@ -63,6 +64,6 @@ function Footer() {
             <p className="footer__text">&#169; 2024  SLR Couture.  All Rights Reserved </p>
         </nav>
     )
-}
+})
 
 export default Footer

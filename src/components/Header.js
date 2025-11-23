@@ -1,5 +1,5 @@
 // npm i react-bootstrap
-
+import { memo } from 'react'
 import Logo from '../images/SLRCoutureTransparentLogoUpdate.png'
 import '../componentcss/Header.css'
 import OffCanvasNav from './OffCanvasNav'
@@ -7,7 +7,7 @@ import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 // npm install @mui/icons-material
 
 
-function Header() {
+const Header = memo(() => {
 
 
     // Navbar header hides on scroll down, show on scroll up
@@ -53,6 +53,6 @@ function Header() {
     
         </div>
     )
-}
+})
 
 export default Header
