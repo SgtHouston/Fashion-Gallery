@@ -35,17 +35,17 @@ const Header = memo(() => {
             {/* Navigation Pane On Every Page Via Header */}
             <OffCanvasNav />
 
-            <a href="/" alt="">
+            <a href="/" aria-label="SLR Couture Home">
                 <img
-                alt="brand logo"
+                alt="SLR Couture Fashion Gallery Logo"
                 src={Logo}
                 className="d-inline-block logo img-fluid"/>
             </a>
 
             <div className="button-div">
-                <a className="order-link" href="/start-order" >
-                    <ArrowForwardIcon className="order-link-arrow"/>
-                    <button className="order-button ">
+                <a className="order-link" href="/start-order" aria-label="Start Your Custom Order">
+                    <ArrowForwardIcon className="order-link-arrow" aria-hidden="true"/>
+                    <button className="order-button">
                         Start Your Order
                     </button>
                 </a>

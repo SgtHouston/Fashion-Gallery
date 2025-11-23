@@ -24,13 +24,13 @@ const Footer = memo(() => {
                 <div className="footerlinks text-center ">
                     {/* Footer Links */}
                     <div className="my-3">
-                        <a className="footerlink" href="/" alt=''> HOME </a>
+                        <a className="footerlink" href="/" aria-label="Navigate to Home page"> HOME </a>
                     </div>
                     <div className="my-3">
-                        <a className="footerlink" href="/about" alt=''> ABOUT </a>
+                        <a className="footerlink" href="/about" aria-label="Navigate to About page"> ABOUT </a>
                     </div>
                     <div className="my-3">
-                        <a className="footerlink" href="/bridal" alt=''> BRIDAL </a>
+                        <a className="footerlink" href="/bridal" aria-label="Navigate to Bridal collection"> BRIDAL </a>
                     </div>
                     <div className="my-3">
                         <a className="footerlink" href="/prom" alt=''> PROM </a>
