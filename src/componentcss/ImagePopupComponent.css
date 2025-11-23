@@ -18,7 +18,7 @@
 
 .landing-img:hover {
     opacity: 0.90;
-    transform: scale(1.02);
+    transform: scale(1.01);
 }
 
 .landing-img-no-opacity {
@@ -96,8 +96,8 @@
 }
 
 .img-fluid:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    transform: scale(1.01);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15);
 }
 
 
