@@ -8,14 +8,14 @@
     border-radius: 10px;
 }
 
-.landing__img{
+.landing-img{
     /* padding and border radius for front page */
     border: 3px solid #9c8c71;
     padding: 3px;
     border-radius: 10px;
 }
 
-.landing__img:hover {
+.landing-img:hover {
     opacity: 0.90;
 }
 

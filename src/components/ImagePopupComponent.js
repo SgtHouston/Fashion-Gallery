@@ -19,10 +19,10 @@ function ImagePopupComponent({ Img }) {
         setImgPopupLaunch(!imgPopupLaunch)
     }
 
-    let divClass = 'landing__img'
+    let divClass = 'landing-img'
     // Turns off opacity of popup background when launched
     if (imgPopupLaunch === true) {
-        divClass = 'landing__img_no-opacity'
+        divClass = 'landing-img-no-opacity'
     } else {
         divClass = 'landing__img'
     }
