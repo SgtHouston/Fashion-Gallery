@@ -16,7 +16,7 @@
 }
 
 
-.about__main {
+.about-main {
     display: flex;
     flex-direction: row;
     min-height: 100vh;
@@ -25,21 +25,21 @@
     /* background-image: linear-gradient(90deg, #2B2724 30%,  #79706A); */
 }
 
-.about__left {
+.about-left {
     padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about__left img {
+.about-left img {
     border :5px solid #79706A;
     justify-content: center;
 }
 
 
 
-.about__right {
+.about-right {
     display: flex;
     text-align: center;
     justify-content: center;

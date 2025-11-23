@@ -9,12 +9,12 @@ const About = () => {
     return (
         <div className ="about">
             < Header />
-            <div className='about__main'>
+            <div className='about-main'>
                 
-                <div className='about__left'>
+                <div className='about-left'>
                     <img className=' responsive img-fluid designer-img' src={Designer} alt=""></img>
                 </div>
-                <span className='about__right'>
+                <span className='about-right'>
                     Based in Atlanta, GA, SLR Couture is an International design house specializing in the creation of bespoke luxury bridal and formal wear. 
                     <br/>
                     <br/>
