@@ -52,19 +52,19 @@
 }
 
 @media screen and (max-width: 1024px) { 
-    .about__main {
+    .about-main {
         display: flex;
         flex-direction: column;
         flex-grow: 1;
     }
 
-    .about__left {
+    .about-left {
         min-height: 100%;
         padding: 20px;
         justify-content: center;
     }
 
-    .about__left > img {
+    .about-left > img {
         max-height: 100%;
         background-position: center;
         background-size:contain;
@@ -75,13 +75,13 @@
 }
 
 @media screen and (min-width: 768px) {
-    .about__left {
+    .about-left {
         min-width: 50%;
         padding: 20px;
         justify-content: center;
     }
 
-    .about__left > img {
+    .about-left > img {
         padding: 20px;
         min-height: 100%
     }
