@@ -352,6 +352,10 @@
 
 
 @media screen and (max-width: 768px) { 
+    .aboutnewtop {
+        padding-top: 70px;
+    }
+
     .aboutnew{
         position: relative;
     }
@@ -507,6 +511,9 @@
 }
 
 @media screen and (max-width: 480px) { 
+    .aboutnewtop {
+        padding-top: 65px;
+    }
 
     .aboutnew{
         position: relative;

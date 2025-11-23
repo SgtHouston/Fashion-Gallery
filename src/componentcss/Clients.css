@@ -45,3 +45,16 @@
     margin: 0px 12px 0px 4px;
     justify-content: space-around;
 }
+
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .clients-body {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .clients-body {
+        padding-top: 65px;
+    }
+}

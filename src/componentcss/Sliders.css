@@ -31,3 +31,16 @@
     font-family: SLRScript;
     font-weight: 300;
 }
+
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .sliders-body {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sliders-body {
+        padding-top: 65px;
+    }
+}

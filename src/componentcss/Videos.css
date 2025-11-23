@@ -46,3 +46,16 @@
     border-radius: 25px;
 }
 
+/* Mobile header adjustments */
+@media screen and (max-width: 768px) {
+    .videos-body {
+        padding-top: 70px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .videos-body {
+        padding-top: 65px;
+    }
+}
+
