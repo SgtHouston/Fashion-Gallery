@@ -25,8 +25,6 @@ signInAnonymously(auth)
         
     })
     .catch((error) => {
-        const errorCode = error.code;
-        const errorMessage = error.message;
         // Error handled silently - user will see UI feedback instead
     });
 
