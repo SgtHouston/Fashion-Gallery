@@ -1,4 +1,3 @@
-import React from 'react'
 // npm i react-bootstrap
 
 import Logo from '../images/SLRCoutureTransparentLogoUpdate.png'

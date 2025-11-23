@@ -1,4 +1,3 @@
-import React from 'react'
 import '../componentcss/Footer.css'
 import LocationOnIcon from '@mui/icons-material/LocationOn';
 // import PhoneIphoneIcon from '@mui/icons-material/PhoneIphone';
