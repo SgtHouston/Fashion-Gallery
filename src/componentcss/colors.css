@@ -1,0 +1,39 @@
+/* Color Variables for Easy Experimentation */
+:root {
+    /* Current Colors */
+    --primary-color: #545B5A;      /* Dark greenish-gray - main text/logo */
+    --accent-color: #9c8c71;       /* Tan/beige - borders/accents */
+    --light-color: #BCCBC9;        /* Light blue-gray - light text/backgrounds */
+    
+    /* New Colors to Test - Uncomment one set at a time */
+    
+    /* Option 1: Cyan dominant */
+    /* --primary-color: #00FFFF;*/
+    /*--accent-color: #F63578;*/
+    /*--light-color: #FA2A2D;*/
+    
+    /* Option 2: Pink dominant */
+    /* --primary-color: #F63578;*/
+    /*--accent-color: #FA2A2D;*/
+    /*--light-color: #00FFFF;*/
+    
+    /* Option 3: Red dominant */
+    /* --primary-color: #FA2A2D;
+    --accent-color: #00FFFF;
+    --light-color: #F63578; */
+    
+    /* Option 4: Cyan accent */
+    /* --primary-color: #F63578;
+    --accent-color: #00FFFF;
+    --light-color: #FA2A2D; */
+    
+    /* Option 5: Pink accent */
+    /* --primary-color: #FA2A2D;
+    --accent-color: #F63578;
+    --light-color: #00FFFF; */
+    
+    /* Option 6: Red accent */
+    /* --primary-color: #00FFFF;
+    --accent-color: #FA2A2D;
+    --light-color: #F63578; */
+}

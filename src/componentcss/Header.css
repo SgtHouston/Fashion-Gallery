@@ -1,3 +1,5 @@
+@import './colors.css';
+
 .header {
     display: flex;
     position:fixed;
@@ -9,7 +11,7 @@
     justify-content:space-between;
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border-bottom: 4px solid #9c8c71;
+    border-bottom: 4px solid var(--accent-color);
     z-index: 2;
 }
 
@@ -18,7 +20,7 @@
     padding-left: 20px;
     height: auto;
     max-height: 76px;
-    filter: brightness(0) saturate(100%) invert(27%) sepia(8%) saturate(1171%) hue-rotate(147deg) brightness(95%) contrast(87%);
+    filter: brightness(0) saturate(100%) invert(27%) sepia(8%) saturate(1171%) hue-rotate(147deg) brightness(95%) contrast(87%) drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .button-div {
@@ -29,24 +31,25 @@
 
 .order-button {
     display: flex;
-    color: #545B5A;
+    color: var(--primary-color);
     background: none;
     font-weight: 900;
-    /* border: 2px solid #545B5A; */
+    /* border: 2px solid var(--primary-color); */
     font-family: Montserrat;
     border: none;
     padding: 3px 2px 2px 2px;
     width: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .order-button:hover {
-    color: #9c8c71;
+    color: var(--accent-color);
 }
 
 .order-button:active {
     color: #838587;
     font-weight: 900;
-    /* border: 3px solid #545B5A; */
+    /* border: 3px solid var(--primary-color); */
     border-radius: 10px;
 }
 
@@ -62,10 +65,11 @@
     display: flex;
     align-self: center;
     flex-direction: row;
-    color:#545B5A;
+    color: var(--primary-color);
     text-decoration: none;
-    border: 2px solid #545B5A;
+    border: 2px solid var(--primary-color);
     border-radius: 7px;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 

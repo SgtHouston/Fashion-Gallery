@@ -15,7 +15,7 @@ const About = () => {
                     <img className=' responsive img-fluid designer-img' src={Designer} alt="Stacy Rogers, founder and designer of SLR Couture"></img>
                 </div>
                 <span className='about-right'>
-                    Based in Atlanta, GA, SLR Couture is an International design house specializing in the creation of bespoke luxury bridal and formal wear. 
+                    Based in Seattle, WA, SLR Couture is an International design house specializing in the creation of bespoke luxury bridal and formal wear. 
                     <br/>
                     <br/>
                     SLR Couture was established by Stacy Rogers in 2008, a native of Chicago, IL. Her mission and passion is to inspire effortless glamor by creating well-fitted, impeccably made clothing with thoughtful attention to detail. 

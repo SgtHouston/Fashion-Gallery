@@ -14,6 +14,7 @@
 .contact-title {
     /* color:black; */
     color: #BCCBC9;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .contact-text {
@@ -290,6 +291,8 @@ fieldset {
     background-color: #fff;
     border: none;
     padding: 5px;
+    min-width: 25px !important;
+    width: auto !important;
 }
 
 .react-calendar {
@@ -321,6 +324,27 @@ fieldset {
 @media screen and (max-width: 768px) {
     .contact-body {
         padding-top: 70px;
+    }
+
+    .form-check-inline {
+        display: flex !important;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .form-check-input {
+        display: inline-block !important;
+        position: static !important;
+        margin-left: 0 !important;
+        margin-right: 8px !important;
+        opacity: 1 !important;
+        visibility: visible !important;
+        flex-shrink: 0;
+    }
+
+    .form-check-label {
+        text-align: left;
     }
 }
 

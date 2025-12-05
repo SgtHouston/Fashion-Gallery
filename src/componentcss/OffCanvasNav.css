@@ -1,16 +1,19 @@
+@import './colors.css';
+
 @font-face {
     font-family: SLRScript;
     src: url('../componentcss/Playfair_Display/static/PlayfairDisplay-Italic.ttf');
 }
 
 .LaunchBtn {
-    color: #545B5A;
+    color: var(--primary-color);
     outline: none;
     border-color: #fff;
     min-width: 40px;
     min-height: 40px;
     margin: 23px 25px 23px 25px;
     align-content: space-around;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.5));
 }
 
 .MenuPlaceholder {
@@ -19,7 +22,7 @@
 }
 
 .LaunchBtn:hover {
-    color: #9c8c71;
+    color: var(--accent-color);
     outline: none;
     /* border-color: #838587;
     border-width: 5px; */
@@ -42,6 +45,7 @@
     text-decoration: none;
     color: black;
     font-size: 1rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .Channel:hover {
@@ -57,14 +61,14 @@
 
 .Channelname:hover {
     color:black;
-    background-color:#9c8c71;
+    background-color: var(--accent-color);
     border-radius: 20px;
     margin-left: 7rem;
     margin-right: 7rem;
 }
 
 .closeBtn:focus {
-    color:#545B5A;
+    color: var(--primary-color);
 }
 
 .btn-close {
@@ -72,18 +76,18 @@
     color: black;
 }
 .btn-close:hover {
-    background-color:#9c8c71
+    background-color: var(--accent-color)
 }
 
 .btn-close:active {
-    background-color: #545B5A;
+    background-color: var(--primary-color);
     outline: 3px solid black !important;
 }
 
 .offcanvas-header {
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border-bottom: 4px solid #9c8c71;
+    border-bottom: 4px solid var(--accent-color);
     max-height: 86px;
     min-height: 86px;
 }
