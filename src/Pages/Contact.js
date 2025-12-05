@@ -61,6 +61,7 @@ function Contact() {
     const [consultation, setConsultation] = useState('');
     const [size, setSize] = useState(0);
     const [eventDate, setEventDate] = useState('');
+    const [isCalendarOpen, setIsCalendarOpen] = useState(false);
     const [email, setEmail] = useState('');
     const [existingnew, setExistingnew] = useState('');
     const [fitting, setFitting] = useState('');
@@ -462,7 +463,17 @@ function Contact() {
                         <fieldset>
                             <label htmlFor="event-date" id="event-date">Event Date </label>
                             <br/>
-                            <DatePicker value={eventDate} className="form-check date-picker" onChange={setEventDate}/>
+                            <DatePicker 
+                                value={eventDate} 
+                                className="form-check date-picker" 
+                                onChange={(date) => {
+                                    setEventDate(date);
+                                    setIsCalendarOpen(false);
+                                }}
+                                isCalendarOpen={isCalendarOpen}
+                                onCalendarClose={() => setIsCalendarOpen(false)}
+                                onCalendarOpen={() => setIsCalendarOpen(true)}
+                            />
                         </fieldset>
 
                         <fieldset>

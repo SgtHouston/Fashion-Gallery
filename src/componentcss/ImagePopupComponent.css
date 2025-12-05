@@ -1,7 +1,9 @@
+@import './colors.css';
+
 .dialog {
     background-image: url('../images/WhiteMarble2.png');
     background-size: cover;
-    border: 4px solid #9c8c71;
+    border: 4px solid var(--accent-color);
     padding: 10px 10px 10px 10px;
     min-width:50%;
     z-index: 1;
@@ -10,7 +12,7 @@
 
 .landing-img{
     /* padding and border radius for front page */
-    border: 3px solid #9c8c71;
+    border: 3px solid var(--primary-color);
     padding: 3px;
     border-radius: 10px;
     transition: transform 0.2s ease;
@@ -22,7 +24,7 @@
 }
 
 .landing-img-no-opacity {
-    border: 3px solid #9c8c71;
+    border: 3px solid var(--primary-color);
     padding: 3px;
     border-radius: 10px;
     opacity: 0.3;
